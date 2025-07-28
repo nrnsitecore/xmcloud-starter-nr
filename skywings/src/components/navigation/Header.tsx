@@ -41,7 +41,7 @@ export type HeaderProps = ComponentProps & {
   };
 };
 
-const Header = (props: HeaderProps): JSX.Element => {
+export const Header = (props: HeaderProps): JSX.Element => {
   const { t } = useI18n();
 
   const sxaStyles = `${props.params?.styles || ''}`;
@@ -77,4 +77,3 @@ const Header = (props: HeaderProps): JSX.Element => {
   );
 };
 
-export const Default = Header;

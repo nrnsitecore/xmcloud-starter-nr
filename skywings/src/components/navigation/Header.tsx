@@ -5,7 +5,6 @@ import { useI18n } from 'next-localization';
 import {
   Plane,
 } from "lucide-react"
-import { ImageField } from '@sitecore-content-sdk/nextjs';
 
 export type HeaderProps = ComponentProps & {
   fields: {
@@ -26,12 +25,10 @@ export type HeaderProps = ComponentProps & {
   };
 };
 
-export const Default = (props: HeaderProps): JSX.Element => {
+export const Header = (props: HeaderProps): JSX.Element => {
   const { t } = useI18n();
 
   const sxaStyles = `${props.params?.styles || ''}`;
-
-  console.log(props);
 
   return (
     <header className={`border-b bg-white sticky top-0 z-50 ${sxaStyles}`}>
@@ -64,4 +61,4 @@ export const Default = (props: HeaderProps): JSX.Element => {
   );
 };
 
-//export const Default = Header;
+export const Default = Header;

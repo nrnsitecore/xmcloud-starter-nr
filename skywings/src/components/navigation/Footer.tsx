@@ -1,8 +1,7 @@
 import React, { JSX } from 'react';
 import Link from 'next/link';
-import { ImageField } from '@sitecore-content-sdk/nextjs';
+import { Field, Text } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
-import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import {
   Plane,
   CreditCard,
@@ -17,28 +16,23 @@ import {
 export type FooterProps = ComponentProps & {
   fields: {
     data: {
-      item: {
-        footerLogo: {
-          jsonValue: ImageField;
-          alt: string;
-        };
-      };
-      links: {
+     links: {
+        Title: Field<string>,
+        Subtitle: Field<string>,
+        ContactHeader: Field<string>,
+        Email: Field<string>,
+        PhoneNumber: Field<string>,
+        Additional: Field<string>,
         children: {
           results: [
             {
               displayName: string;
+              Title: Field<string>;
               children: {
                 results: [
                   {
                     displayName: string;
-                    icon: {
-                      value: IconProp;
-                    };
-                    title: {
-                      value: string;
-                    };
-                    field: {
+                    Link: {
                       jsonValue: {
                         value: {
                           anchor: string;
@@ -63,6 +57,7 @@ export type FooterProps = ComponentProps & {
 
 const Footer = (props: FooterProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
+  console.log(props);
   
   return (
     <footer className={`bg-gray-900 text-white py-12 ${sxaStyles}`}>
@@ -71,9 +66,9 @@ const Footer = (props: FooterProps): JSX.Element => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Plane className="h-8 w-8 text-blue-400" />
-              <span className="text-2xl font-bold">SkyWings</span>
+              <span className="text-2xl font-bold"><Text field={props.fields.data.links.Title} /></span>
             </div>
-            <p className="text-gray-400 mb-4">Your trusted partner for comfortable and safe air travel worldwide.</p>
+            <p className="text-gray-400 mb-4"><Text field={props.fields.data.links.Subtitle} /></p>
             <div className="flex space-x-4">
               <Facebook className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
               <Twitter className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
@@ -82,68 +77,21 @@ const Footer = (props: FooterProps): JSX.Element => {
             </div>
           </div>
 
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Book a Flight
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Manage Booking
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Check-in Online
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Flight Status
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Baggage Info
-                </Link>
-              </li>
-            </ul>
-          </div>
+          {props.fields?.data.links.children.results.map((section, index) => (
+            <div key={index}>
+                <h3 className="text-lg font-semibold mb-4"><Text field={section.Title} /></h3>
+                <ul className="space-y-2">
+                    {section.children.results.map((link, i) => (
+                        <li>
+                            <Link key={i} href={link.Link.jsonValue.value.href} className="text-gray-400 hover:text-white">
+                                {link.displayName}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
 
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Support</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Help Center
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Contact Us
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Travel Guidelines
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Terms & Conditions
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  Privacy Policy
-                </Link>
-              </li>
-            </ul>
-          </div>
-
+            </div>
+            ))}
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <div className="space-y-3">

@@ -9,35 +9,20 @@ import { ImageField } from '@sitecore-content-sdk/nextjs';
 
 export type HeaderProps = ComponentProps & {
   fields: {
-    data: {
-      item: {
-        headerLogo: {
-          jsonValue: ImageField;
-          alt: string;
+    items: [{
+      displayName: string;
+      fields:  {
+        Link: {
+          value: {
+            anchor: string;
+            href: string;
+            linktype: string;
+            target: string;
+            text: string;
+          };
         };
       };
-      links: {
-        children: {
-          results: [
-            {
-              displayName: string;
-              field: {
-                jsonValue: {
-                  value: {
-                    anchor: string;
-                    href: string;
-                    linktype: string;
-                    target: string;
-                    text: string;
-                    url: string;
-                  };
-                };
-              };
-            }
-          ];
-        };
-      };
-    };
+    }];
   };
 };
 
@@ -45,6 +30,8 @@ export const Default = (props: HeaderProps): JSX.Element => {
   const { t } = useI18n();
 
   const sxaStyles = `${props.params?.styles || ''}`;
+
+  console.log(props);
 
   return (
     <header className={`border-b bg-white sticky top-0 z-50 ${sxaStyles}`}>
@@ -56,8 +43,8 @@ export const Default = (props: HeaderProps): JSX.Element => {
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
-            {props.fields?.data?.links?.children?.results?.map((item, index) => (
-                <Link key={index} href={item.field?.jsonValue?.value?.href ?? '#'} prefetch={false} className="text-gray-700 hover:text-blue-600 font-medium">
+            {props.fields?.items?.map((item, index) => (
+                <Link key={index} href={item.fields?.Link?.value?.href ?? '#'} prefetch={false} className="text-gray-700 hover:text-blue-600 font-medium">
                   {item.displayName}
                 </Link>
             ))}

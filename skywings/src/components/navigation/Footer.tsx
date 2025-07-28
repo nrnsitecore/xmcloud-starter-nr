@@ -82,8 +82,8 @@ const Footer = (props: FooterProps): JSX.Element => {
                 <h3 className="text-lg font-semibold mb-4"><Text field={section.Title} /></h3>
                 <ul className="space-y-2">
                     {section.children.results.map((link, i) => (
-                        <li>
-                            <Link key={i} href={link.Link.jsonValue.value.href} className="text-gray-400 hover:text-white">
+                        <li key={i}>
+                            <Link href={link.Link.jsonValue.value.href} className="text-gray-400 hover:text-white">
                                 {link.displayName}
                             </Link>
                         </li>
@@ -93,19 +93,19 @@ const Footer = (props: FooterProps): JSX.Element => {
             </div>
             ))}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
+            <h3 className="text-lg font-semibold mb-4"><Text field={props.fields.data.links.ContactHeader} /></h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400" />
-                <span className="text-gray-400">+1 (555) 123-4567</span>
+                <span className="text-gray-400"><Text field={props.fields.data.links.PhoneNumber} /></span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-blue-400" />
-                <span className="text-gray-400">support@skywings.com</span>
+                <span className="text-gray-400"><Text field={props.fields.data.links.Email} /></span>
               </div>
               <div className="flex items-center space-x-3">
                 <CreditCard className="h-5 w-5 text-blue-400" />
-                <span className="text-gray-400">24/7 Customer Service</span>
+                <span className="text-gray-400"><Text field={props.fields.data.links.Additional} /></span>
               </div>
             </div>
           </div>

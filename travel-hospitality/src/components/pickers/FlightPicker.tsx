@@ -21,11 +21,9 @@ import {
   
   export type FlightPickerProps = ComponentProps & {
     fields: {
-      Hero: ImageField;
-      Slogan: Field<string>;
-      Eyebrow: Field<string>;
       Title: Field<string>;
-      Body: Field<string>;
+      Slogan: Field<string>;
+      ButtonText: Field<string>;
     };
   };
   
@@ -125,7 +123,7 @@ import {
                 <div className="mt-6">
                   <Button size="lg" className="w-full md:w-auto bg-blue-600 hover:bg-blue-700">
                     <Plane className="mr-2 h-5 w-5" />
-                    <Text field={props.fields.Eyebrow} />
+                    <Text field={props.fields.ButtonText} />
                   </Button>
                 </div>
               </CardContent>

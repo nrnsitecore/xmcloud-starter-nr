@@ -16,9 +16,10 @@ import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-
 import * as SkywingsServices from 'src/components/page-content/SkywingsServices';
 import * as SkywingsFleet from 'src/components/page-content/SkywingsFleet';
 import * as OfferBlock from 'src/components/page-content/OfferBlock';
+import * as BlogDetail from 'src/components/page-content/BlogDetail';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
-import * as LatestBlogGrid from '@/components/listers/LatestBlogGrid';
+import * as LatestBlogGrid from 'src/components/listers/LatestBlogGrid';
 import * as utils from 'src/components/lib/utils';
 import * as PopularDestinations from 'src/components/destinations/PopularDestinations';
 
@@ -40,6 +41,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['SkywingsServices', SkywingsServices],
   ['SkywingsFleet', SkywingsFleet],
   ['OfferBlock', OfferBlock],
+  ['BlogDetail', BlogDetail],
   ['Header', Header],
   ['Footer', Footer],
   ['LatestBlogGrid', LatestBlogGrid],

@@ -13,8 +13,9 @@ import * as button from 'src/components/ui/button';
 import * as badge from 'src/components/ui/badge';
 import * as FlightPicker from 'src/components/pickers/FlightPicker';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
-import * as SkywingsServices from 'src/components/page-content/SkywingsServices';
+import * as SkywingsServices from '@/components/page-content/SkywingsServices';
 import * as SkywingsFleet from 'src/components/page-content/SkywingsFleet';
+import * as OfferBlock from 'src/components/page-content/OfferBlock';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as utils from 'src/components/lib/utils';
@@ -37,6 +38,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
   ['SkywingsServices', SkywingsServices],
   ['SkywingsFleet', SkywingsFleet],
+  ['OfferBlock', OfferBlock],
   ['Header', Header],
   ['Footer', Footer],
   ['utils', utils],

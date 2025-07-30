@@ -22,6 +22,7 @@ import * as Author from 'src/components/page-content/Author';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as LatestBlogGrid from 'src/components/listers/LatestBlogGrid';
+import * as AllBlogs from 'src/components/listers/AllBlogs';
 import * as utils from 'src/components/lib/utils';
 import * as PopularDestinations from 'src/components/destinations/PopularDestinations';
 
@@ -49,6 +50,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Header', Header],
   ['Footer', Footer],
   ['LatestBlogGrid', LatestBlogGrid],
+  ['AllBlogs', AllBlogs],
   ['utils', utils],
   ['PopularDestinations', PopularDestinations],
 ]);

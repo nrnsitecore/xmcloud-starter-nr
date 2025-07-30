@@ -17,6 +17,7 @@ import * as SkywingsServices from 'src/components/page-content/SkywingsServices'
 import * as SkywingsFleet from 'src/components/page-content/SkywingsFleet';
 import * as OfferBlock from 'src/components/page-content/OfferBlock';
 import * as BlogDetail from 'src/components/page-content/BlogDetail';
+import * as Author from 'src/components/page-content/Author';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as LatestBlogGrid from 'src/components/listers/LatestBlogGrid';
@@ -42,6 +43,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['SkywingsFleet', SkywingsFleet],
   ['OfferBlock', OfferBlock],
   ['BlogDetail', BlogDetail],
+  ['Author', Author],
   ['Header', Header],
   ['Footer', Footer],
   ['LatestBlogGrid', LatestBlogGrid],

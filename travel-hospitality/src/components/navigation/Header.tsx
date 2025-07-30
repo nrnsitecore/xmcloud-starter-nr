@@ -27,7 +27,6 @@ export type HeaderProps = ComponentProps & {
 
 export const Header = (props: HeaderProps): JSX.Element => {
   const { t } = useI18n();
-
   const sxaStyles = `${props.params?.styles || ''}`;
 
   return (

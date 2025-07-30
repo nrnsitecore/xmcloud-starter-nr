@@ -57,7 +57,6 @@ export type FooterProps = ComponentProps & {
 
 const Footer = (props: FooterProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
-  console.log(props);
   
   return (
     <footer className={`bg-gray-900 text-white py-12 ${sxaStyles}`}>

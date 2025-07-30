@@ -15,7 +15,7 @@ import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as utils from 'src/components/lib/utils';
-import * as PopularDestinations from 'src/components/banners/PopularDestinations';
+import * as PopularDestinations from '@/components/destinations/PopularDestinations';
 
 
 // Components must be registered within the map to match the string key with component name in Sitecore

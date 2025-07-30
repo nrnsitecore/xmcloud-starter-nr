@@ -1,7 +1,6 @@
 import React, { JSX } from 'react';
 import {
     Field,
-    ImageField,
     Text,
     withDatasourceCheck,
   } from '@sitecore-content-sdk/nextjs';

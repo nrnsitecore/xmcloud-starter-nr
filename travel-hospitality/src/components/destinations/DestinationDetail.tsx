@@ -1,4 +1,5 @@
 import React, { JSX } from 'react';
+import Link from 'next/link'
 import {
   RichText,
   Text,
@@ -15,29 +16,37 @@ import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Separator } from "@/components/ui/separator"
 import {
-Plane,
-Camera,
-Bed,
-Phone,
-Navigation,
-Sun,
-Cloud,
+  Plane,
+  Camera,
+  Bed,
+  Phone,
+  Navigation,
+  Sun,
+  Cloud,
+  ArrowLeft,
+  Star,
+  Heart,
+  Share2
 } from "lucide-react"
 
 type DestinationDetailProps = ComponentProps & {
   fields: {
-      Title: Field<string>;
-      Country: Field<string>;
-      Continent: Field<string>;
-      Content: Field<string>;
-      Image: ImageField;
-      Price: Field<string>;
-      Type: Field<string>;
-      Rating: Field<string>;
-      SuggestedDuration: Field<string>;
-      ExpectedTemps: Field<string>;
-      BestMonths: Field<string>;
-      Description: Field<string>;
+    Title: Field<string>;
+    Country: {
+      fields: {
+        Name: Field<string>;
+      }
+    }
+    Continent: Field<string>;
+    Content: Field<string>;
+    Image: ImageField;
+    Price: Field<string>;
+    Type: Field<string>;
+    Rating: Field<string>;
+    SuggestedDuration: Field<string>;
+    ExpectedTemps: Field<string>;
+    BestMonths: Field<string>;
+    Description: Field<string>;
   };
 };
 
@@ -232,25 +241,66 @@ const DestinationDetail = (props: DestinationDetailProps): JSX.Element => {
   console.log(props);
 
   return (
-      <>
-          <Head>
-              <meta property="og:description" content={removeTags(props.fields?.Title?.value)} />
-              <meta property="og:title" content={props.fields?.Title?.value} />
-              <meta property="og:image" content={props.fields?.Image?.value?.src} />
-              <meta property="og:type" content="destination" />
-          </Head>
-          <div className={`container mx-auto px-4 py-12 ${sxaStyles}`}>
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-                  {/* Main Content */}
-                  <div className="lg:col-span-2">
-                      {/* Description */}
-                      <section className="mb-12">
-                          <h2 className="text-2xl font-bold text-gray-900 mb-4">About <Text field={props.fields.Title} /></h2>
-                          <div className="text-gray-700 text-lg leading-relaxed"><RichText field={props.fields.Description} /></div>
-                      </section>
+    <>
+      <Head>
+        <meta property="og:description" content={removeTags(props.fields?.Title?.value)} />
+        <meta property="og:title" content={props.fields?.Title?.value} />
+        <meta property="og:image" content={props.fields?.Image?.value?.src} />
+        <meta property="og:type" content="destination" />
+      </Head>
+      <div className="container mx-auto px-4 py-4">
+        <Link href="/destinations" className="inline-flex items-center text-blue-600 hover:text-blue-800">
+          <ArrowLeft className="mr-2 h-4 w-4" />
+          Back to Destinations
+        </Link>
+      </div>
 
-                      {/* Photo Gallery */}
-                      {/* <section className="mb-12">
+      {/* Hero Section */}
+      <section className="relative">
+        <div className="relative h-96 md:h-[500px]">
+          <Image
+            field={props.fields.Image}
+            height={500}
+            width={1200}
+            className="object-cover h-[500px]"
+          />
+          <div className="absolute bottom-8 left-8 text-white">
+            <div className="flex items-center space-x-2 mb-2">
+              <Badge className="bg-blue-600"><Text field={props.fields.Continent} /></Badge>
+              <div className="flex items-center space-x-1">
+                <Star className="h-4 w-4 text-yellow-400 fill-current" />
+                <span className="font-medium"><Text field={props.fields.Rating} /></span>
+                <span className="text-blue-100">34 reviews</span>
+              </div>
+            </div>
+            <h1 className="text-4xl md:text-5xl font-bold mb-2"><Text field={props.fields.Title} /></h1>
+            <p className="text-xl text-blue-100"><Text field={props.fields.Country.fields.Name} /></p>
+          </div>
+
+          <div className="absolute top-8 right-8 flex space-x-2">
+            <Button variant="secondary" size="sm">
+              <Heart className="h-4 w-4 mr-2" />
+              Save
+            </Button>
+            <Button variant="secondary" size="sm">
+              <Share2 className="h-4 w-4 mr-2" />
+              Share
+            </Button>
+          </div>
+        </div>
+      </section>
+      <div className={`container mx-auto px-4 py-12 ${sxaStyles}`}>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+          {/* Main Content */}
+          <div className="lg:col-span-2">
+            {/* Description */}
+            <section className="mb-12">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">About <Text field={props.fields.Title} /></h2>
+              <div className="text-gray-700 text-lg leading-relaxed"><RichText field={props.fields.Description} /></div>
+            </section>
+
+            {/* Photo Gallery */}
+            {/* <section className="mb-12">
                           <h2 className="text-2xl font-bold text-gray-900 mb-6">Photo Gallery</h2>
                           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                               {destination.gallery.map((image, index) => (
@@ -266,236 +316,236 @@ const DestinationDetail = (props: DestinationDetailProps): JSX.Element => {
                           </div>
                       </section> */}
 
-                      {/* Top Highlights */}
-                      <section className="mb-12">
-                          <h2 className="text-2xl font-bold text-gray-900 mb-6">Top Highlights</h2>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                              {destination.highlights.map((highlight, index) => (
-                                  <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
-                                      <div className="relative h-40">
-                                          <Image
-                                              src={highlight.image || "/placeholder.svg"}
-                                              alt={highlight.name}
-                                              fill
-                                              className="object-cover"
-                                          />
-                                          <Badge className="absolute top-2 left-2 bg-blue-600">{highlight.category}</Badge>
-                                      </div>
-                                      <CardContent className="p-4">
-                                          <h3 className="font-semibold text-gray-900 mb-2">{highlight.name}</h3>
-                                          <p className="text-gray-600 text-sm">{highlight.description}</p>
-                                      </CardContent>
-                                  </Card>
-                              ))}
-                          </div>
-                      </section>
-
-                      {/* Detailed Information Tabs */}
-                      <section className="mb-12">
-                          <Tabs defaultValue="activities" className="w-full">
-                              <TabsList className="grid w-full grid-cols-4">
-                                  <TabsTrigger value="activities">Activities</TabsTrigger>
-                                  <TabsTrigger value="weather">Weather</TabsTrigger>
-                                  <TabsTrigger value="tips">Travel Tips</TabsTrigger>
-                                  <TabsTrigger value="accommodation">Hotels</TabsTrigger>
-                              </TabsList>
-
-                              <TabsContent value="activities" className="mt-6">
-                                  <div className="space-y-6">
-                                      {destination.activities.map((category, index) => (
-                                          <Card key={index}>
-                                              <CardHeader>
-                                                  <CardTitle className="flex items-center space-x-2">
-                                                      <Camera className="h-5 w-5 text-blue-600" />
-                                                      <span>{category.category}</span>
-                                                  </CardTitle>
-                                              </CardHeader>
-                                              <CardContent>
-                                                  <ul className="space-y-2">
-                                                      {category.items.map((item, itemIndex) => (
-                                                          <li key={itemIndex} className="flex items-start space-x-2">
-                                                              <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
-                                                              <span className="text-gray-700">{item}</span>
-                                                          </li>
-                                                      ))}
-                                                  </ul>
-                                              </CardContent>
-                                          </Card>
-                                      ))}
-                                  </div>
-                              </TabsContent>
-
-                              <TabsContent value="weather" className="mt-6">
-                                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                      {destination.weather.map((season, index) => (
-                                          <Card key={index}>
-                                              <CardContent className="p-6">
-                                                  <div className="flex items-center space-x-3 mb-4">
-                                                      {season.icon}
-                                                      <div>
-                                                          <h3 className="font-semibold text-gray-900">{season.season}</h3>
-                                                          <p className="text-sm text-gray-600">{season.months}</p>
-                                                      </div>
-                                                  </div>
-                                                  <div className="space-y-2">
-                                                      <div className="flex justify-between">
-                                                          <span className="text-gray-600">Temperature:</span>
-                                                          <span className="font-medium">{season.temp}</span>
-                                                      </div>
-                                                      <p className="text-sm text-gray-600">{season.description}</p>
-                                                  </div>
-                                              </CardContent>
-                                          </Card>
-                                      ))}
-                                  </div>
-                              </TabsContent>
-
-                              <TabsContent value="tips" className="mt-6">
-                                  <div className="space-y-6">
-                                      {destination.travelTips.map((category, index) => (
-                                          <Card key={index}>
-                                              <CardHeader>
-                                                  <CardTitle className="flex items-center space-x-2">
-                                                      <Navigation className="h-5 w-5 text-blue-600" />
-                                                      <span>{category.category}</span>
-                                                  </CardTitle>
-                                              </CardHeader>
-                                              <CardContent>
-                                                  <ul className="space-y-3">
-                                                      {category.tips.map((tip, tipIndex) => (
-                                                          <li key={tipIndex} className="flex items-start space-x-3">
-                                                              <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                                                              <span className="text-gray-700">{tip}</span>
-                                                          </li>
-                                                      ))}
-                                                  </ul>
-                                              </CardContent>
-                                          </Card>
-                                      ))}
-                                  </div>
-                              </TabsContent>
-
-                              <TabsContent value="accommodation" className="mt-6">
-                                  <div className="space-y-6">
-                                      {destination.accommodation.map((type, index) => (
-                                          <Card key={index}>
-                                              <CardHeader>
-                                                  <CardTitle className="flex items-center justify-between">
-                                                      <div className="flex items-center space-x-2">
-                                                          <Bed className="h-5 w-5 text-blue-600" />
-                                                          <span>{type.type}</span>
-                                                      </div>
-                                                      <Badge variant="outline">{type.priceRange}</Badge>
-                                                  </CardTitle>
-                                              </CardHeader>
-                                              <CardContent>
-                                                  <p className="text-gray-600 mb-4">{type.description}</p>
-                                                  <div className="space-y-2">
-                                                      <h4 className="font-medium text-gray-900">Popular Options:</h4>
-                                                      <ul className="space-y-1">
-                                                          {type.examples.map((example, exampleIndex) => (
-                                                              <li key={exampleIndex} className="text-gray-700 text-sm">
-                                                                  • {example}
-                                                              </li>
-                                                          ))}
-                                                      </ul>
-                                                  </div>
-                                              </CardContent>
-                                          </Card>
-                                      ))}
-                                  </div>
-                              </TabsContent>
-                          </Tabs>
-                      </section>
-                  </div>
-
-                  {/* Sidebar */}
-                  <div className="lg:col-span-1">
-                      {/* Flight Booking Card */}
-                      <Card className="mb-8 sticky top-24">
-                          <CardHeader>
-                              <CardTitle className="flex items-center space-x-2">
-                                  <Plane className="h-5 w-5 text-blue-600" />
-                                  <span>Book Your Flight</span>
-                              </CardTitle>
-                          </CardHeader>
-                          <CardContent className="space-y-4">
-                              <div className="text-center">
-                                  <div className="text-3xl font-bold text-blue-600 mb-2">{destination.flightPrice}</div>
-                                  <p className="text-gray-600 text-sm">Round trip per person</p>
-                              </div>
-
-                              <Separator />
-
-                              <div className="space-y-3">
-                                  <div className="flex items-center justify-between text-sm">
-                                      <span className="text-gray-600">Flight Time:</span>
-                                      <span className="font-medium">{destination.flightInfo.flightTime}</span>
-                                  </div>
-                                  <div className="flex items-center justify-between text-sm">
-                                      <span className="text-gray-600">Airports:</span>
-                                      <span className="font-medium">{destination.flightInfo.airports.join(", ")}</span>
-                                  </div>
-                              </div>
-
-                              <Button className="w-full" size="lg">
-                                  Search Flights
-                              </Button>
-
-                              <div className="text-center">
-                                  <p className="text-xs text-gray-500">
-                                      Direct flights available from {destination.flightInfo.directFlights.join(", ")}
-                                  </p>
-                              </div>
-                          </CardContent>
-                      </Card>
-
-                      {/* Quick Facts */}
-                      <Card className="mb-8">
-                          <CardHeader>
-                              <CardTitle>Quick Facts</CardTitle>
-                          </CardHeader>
-                          <CardContent className="space-y-3">
-                              <div className="flex items-center justify-between">
-                                  <span className="text-gray-600">Language:</span>
-                                  <span className="font-medium">{destination.language}</span>
-                              </div>
-                              <div className="flex items-center justify-between">
-                                  <span className="text-gray-600">Currency:</span>
-                                  <span className="font-medium">{destination.currency}</span>
-                              </div>
-                              <div className="flex items-center justify-between">
-                                  <span className="text-gray-600">Time Zone:</span>
-                                  <span className="font-medium">{destination.timeZone}</span>
-                              </div>
-                              <div className="flex items-start justify-between">
-                                  <span className="text-gray-600">Visa:</span>
-                                  <span className="font-medium text-right">{destination.visaRequired}</span>
-                              </div>
-                          </CardContent>
-                      </Card>
-
-                      {/* Contact Support */}
-                      <Card>
-                          <CardHeader>
-                              <CardTitle className="flex items-center space-x-2">
-                                  <Phone className="h-5 w-5 text-blue-600" />
-                                  <span>Need Help?</span>
-                              </CardTitle>
-                          </CardHeader>
-                          <CardContent>
-                              <p className="text-gray-600 text-sm mb-4">
-                                  Our travel experts are here to help you plan the perfect trip to {destination.name}.
-                              </p>
-                              <Button variant="outline" className="w-full">
-                                  Contact Support
-                              </Button>
-                          </CardContent>
-                      </Card>
-                  </div>
+            {/* Top Highlights */}
+            <section className="mb-12">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Top Highlights</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {destination.highlights.map((highlight, index) => (
+                  <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
+                    <div className="relative h-40">
+                      <Image
+                        src={highlight.image || "/placeholder.svg"}
+                        alt={highlight.name}
+                        fill
+                        className="object-cover"
+                      />
+                      <Badge className="absolute top-2 left-2 bg-blue-600">{highlight.category}</Badge>
+                    </div>
+                    <CardContent className="p-4">
+                      <h3 className="font-semibold text-gray-900 mb-2">{highlight.name}</h3>
+                      <p className="text-gray-600 text-sm">{highlight.description}</p>
+                    </CardContent>
+                  </Card>
+                ))}
               </div>
+            </section>
+
+            {/* Detailed Information Tabs */}
+            <section className="mb-12">
+              <Tabs defaultValue="activities" className="w-full">
+                <TabsList className="grid w-full grid-cols-4">
+                  <TabsTrigger value="activities">Activities</TabsTrigger>
+                  <TabsTrigger value="weather">Weather</TabsTrigger>
+                  <TabsTrigger value="tips">Travel Tips</TabsTrigger>
+                  <TabsTrigger value="accommodation">Hotels</TabsTrigger>
+                </TabsList>
+
+                <TabsContent value="activities" className="mt-6">
+                  <div className="space-y-6">
+                    {destination.activities.map((category, index) => (
+                      <Card key={index}>
+                        <CardHeader>
+                          <CardTitle className="flex items-center space-x-2">
+                            <Camera className="h-5 w-5 text-blue-600" />
+                            <span>{category.category}</span>
+                          </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                          <ul className="space-y-2">
+                            {category.items.map((item, itemIndex) => (
+                              <li key={itemIndex} className="flex items-start space-x-2">
+                                <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <span className="text-gray-700">{item}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
+                </TabsContent>
+
+                <TabsContent value="weather" className="mt-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {destination.weather.map((season, index) => (
+                      <Card key={index}>
+                        <CardContent className="p-6">
+                          <div className="flex items-center space-x-3 mb-4">
+                            {season.icon}
+                            <div>
+                              <h3 className="font-semibold text-gray-900">{season.season}</h3>
+                              <p className="text-sm text-gray-600">{season.months}</p>
+                            </div>
+                          </div>
+                          <div className="space-y-2">
+                            <div className="flex justify-between">
+                              <span className="text-gray-600">Temperature:</span>
+                              <span className="font-medium">{season.temp}</span>
+                            </div>
+                            <p className="text-sm text-gray-600">{season.description}</p>
+                          </div>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
+                </TabsContent>
+
+                <TabsContent value="tips" className="mt-6">
+                  <div className="space-y-6">
+                    {destination.travelTips.map((category, index) => (
+                      <Card key={index}>
+                        <CardHeader>
+                          <CardTitle className="flex items-center space-x-2">
+                            <Navigation className="h-5 w-5 text-blue-600" />
+                            <span>{category.category}</span>
+                          </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                          <ul className="space-y-3">
+                            {category.tips.map((tip, tipIndex) => (
+                              <li key={tipIndex} className="flex items-start space-x-3">
+                                <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                                <span className="text-gray-700">{tip}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
+                </TabsContent>
+
+                <TabsContent value="accommodation" className="mt-6">
+                  <div className="space-y-6">
+                    {destination.accommodation.map((type, index) => (
+                      <Card key={index}>
+                        <CardHeader>
+                          <CardTitle className="flex items-center justify-between">
+                            <div className="flex items-center space-x-2">
+                              <Bed className="h-5 w-5 text-blue-600" />
+                              <span>{type.type}</span>
+                            </div>
+                            <Badge variant="outline">{type.priceRange}</Badge>
+                          </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                          <p className="text-gray-600 mb-4">{type.description}</p>
+                          <div className="space-y-2">
+                            <h4 className="font-medium text-gray-900">Popular Options:</h4>
+                            <ul className="space-y-1">
+                              {type.examples.map((example, exampleIndex) => (
+                                <li key={exampleIndex} className="text-gray-700 text-sm">
+                                  • {example}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
+                </TabsContent>
+              </Tabs>
+            </section>
           </div>
-      </>
+
+          {/* Sidebar */}
+          <div className="lg:col-span-1">
+            {/* Flight Booking Card */}
+            <Card className="mb-8 sticky top-24">
+              <CardHeader>
+                <CardTitle className="flex items-center space-x-2">
+                  <Plane className="h-5 w-5 text-blue-600" />
+                  <span>Book Your Flight</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">{destination.flightPrice}</div>
+                  <p className="text-gray-600 text-sm">Round trip per person</p>
+                </div>
+
+                <Separator />
+
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between text-sm">
+                    <span className="text-gray-600">Flight Time:</span>
+                    <span className="font-medium">{destination.flightInfo.flightTime}</span>
+                  </div>
+                  <div className="flex items-center justify-between text-sm">
+                    <span className="text-gray-600">Airports:</span>
+                    <span className="font-medium">{destination.flightInfo.airports.join(", ")}</span>
+                  </div>
+                </div>
+
+                <Button className="w-full" size="lg">
+                  Search Flights
+                </Button>
+
+                <div className="text-center">
+                  <p className="text-xs text-gray-500">
+                    Direct flights available from {destination.flightInfo.directFlights.join(", ")}
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Quick Facts */}
+            <Card className="mb-8">
+              <CardHeader>
+                <CardTitle>Quick Facts</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-600">Language:</span>
+                  <span className="font-medium">{destination.language}</span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-600">Currency:</span>
+                  <span className="font-medium">{destination.currency}</span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-600">Time Zone:</span>
+                  <span className="font-medium">{destination.timeZone}</span>
+                </div>
+                <div className="flex items-start justify-between">
+                  <span className="text-gray-600">Visa:</span>
+                  <span className="font-medium text-right">{destination.visaRequired}</span>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Contact Support */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center space-x-2">
+                  <Phone className="h-5 w-5 text-blue-600" />
+                  <span>Need Help?</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 text-sm mb-4">
+                  Our travel experts are here to help you plan the perfect trip to {destination.name}.
+                </p>
+                <Button variant="outline" className="w-full">
+                  Contact Support
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

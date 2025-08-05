@@ -9,6 +9,11 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
+        "name": "TravelHospitalityRenderingHost",
+        "path": "/sitecore/system/Settings/Services/Rendering Hosts/travel-hospitality",
+        "scope": "singleItem"
+      },
+      {
         "name": "templates",
         "path": "/sitecore/templates/Project/travel-hospitality",
         "allowedPushOperations": "CreateUpdateAndDelete"

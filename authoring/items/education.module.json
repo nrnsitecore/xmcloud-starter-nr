@@ -4,26 +4,26 @@
   "items": {
     "includes": [
       {
-        "name": "global-templates",
-        "path": "/sitecore/templates/Project/global",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "templates",
+        "name": "education-templates",
         "path": "/sitecore/templates/Project/education",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name": "layout",
+        "name": "EducationRenderingHost",
+        "path": "/sitecore/system/Settings/Services/Rendering Hosts/education",
+        "scope": "singleItem"
+      },
+      {
+        "name": "education-layout",
         "path": "/sitecore/layout/Renderings/Project/education",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name": "content",
+        "name": "education-content",
         "path": "/sitecore/content/education"
       },
       {
-        "name": "media",
+        "name": "education-media",
         "path": "/sitecore/media library/Project/education",
         "allowedPushOperations": "CreateUpdateAndDelete"
       }

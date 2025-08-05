@@ -6,6 +6,7 @@
       {
         "name": "global-templates",
         "path": "/sitecore/templates/Project/global",
+        "scope": "ItemAndDescendants", 
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
@@ -16,20 +17,25 @@
       {
         "name": "templates",
         "path": "/sitecore/templates/Project/travel-hospitality",
+        "scope": "ItemAndDescendants", 
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "layout",
         "path": "/sitecore/layout/Renderings/Project/travel-hospitality",
+        "scope": "ItemAndDescendants", 
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "content",
-        "path": "/sitecore/content/travel-hospitality"
+        "path": "/sitecore/content/travel-hospitality",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "media",
         "path": "/sitecore/media library/Project/travel-hospitality",
+        "scope": "ItemAndDescendants", 
         "allowedPushOperations": "CreateUpdateAndDelete"
       }
     ]

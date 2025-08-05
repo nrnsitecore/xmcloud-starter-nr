@@ -9,7 +9,7 @@ SharedFields:
   Value: People/32x32/cube_molecule.png
 - ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
   Hint: Blob
-  BlobID: "3362d114-3344-4398-b313-ff63d0ca64d0"
+  BlobID: "b08cfef5-7717-49f6-9d9f-f154b8851ee7"
   Value: 
 - ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
   Hint: Size
@@ -25,19 +25,15 @@ SharedFields:
   Value: xml
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "77682e78-9b6f-430f-9f8c-e233408d971d"
+  Value: "c5dbfbd7-6156-41a5-8c43-6f143642a426"
 Languages:
 - Language: en
-  Fields:
-  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
-    Hint: __Unversioned revision
-    Value: "5674b150-8293-4340-9e73-ca3c11a98c9d"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250805T162810Z
+      Value: 20250805T195338Z
     - ID: "2fafe7cb-2691-4800-8848-255efa1d31aa"
       Hint: Keywords
       Value: |
@@ -56,7 +52,7 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "69385c6c-b5b2-4fdb-815d-2a0a7c33ea70"
+      Value: "b0d61364-edee-4890-8468-3e3e3b976fc8"
     - ID: "ba8341a1-ff30-47b8-ae6a-f4947e4113f0"
       Hint: Description
       Value: Sitecore Experience Accelelator sitemap file
@@ -66,4 +62,4 @@ Languages:
         sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250805T162810Z
+      Value: 20250805T195338Z

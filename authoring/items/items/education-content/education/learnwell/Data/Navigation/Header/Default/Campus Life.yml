@@ -1,0 +1,35 @@
+﻿---
+ID: "4253f8f8-61e4-4ed2-b829-98b38d305409"
+Parent: "c7244c56-d0cb-4fe2-b758-e5a9ae85d557"
+Template: "58c335eb-251b-4ee5-bc3f-11d8f4c41240"
+Path: /sitecore/content/education/learnwell/Data/Navigation/Header/Default/Campus Life
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T153854Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
+      Hint: Link
+      Value: |
+        <link text="My Trips" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{AB51B777-0D29-4D25-BBF4-8A0A96218A55}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "66e13e95-b0e1-467e-86c8-c35f1c642158"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T194716Z

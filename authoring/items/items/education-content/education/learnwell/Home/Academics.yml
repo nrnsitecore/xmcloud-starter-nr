@@ -1,0 +1,34 @@
+﻿---
+ID: "da2c2738-8f2e-4af5-9a10-f3a09080c336"
+Parent: "119641f4-c8aa-4dce-8204-7cedf95df9d6"
+Template: "2fb0e797-6cfd-4ec1-a248-07d6482b47fb"
+Path: /sitecore/content/education/learnwell/Home/Academics
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{292524A4-9FA9-4B22-B2A3-B965D80C654A}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250805T190437Z
+    - ID: "327ccd84-0180-440a-a36c-760cfb8ff9f5"
+      Hint: Title
+      Value: Academics
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Academics
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "65eee175-a3b0-412f-a95f-68da11ef9e8f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T190437Z

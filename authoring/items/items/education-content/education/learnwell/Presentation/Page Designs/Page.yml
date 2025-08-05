@@ -1,19 +1,19 @@
 ﻿---
-ID: "480c61c7-b666-49d8-b74b-f57dca74bff6"
-Parent: "fad2280c-45e0-4e81-8e9c-ac62acac702c"
-Template: "6b3a44bf-ff59-4955-b2c2-0f2260bf9bd0"
-Path: /sitecore/content/education/learnwell/Presentation/Page Designs
-BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+ID: "798ba9bc-6f32-4651-83b5-6e86adba514c"
+Parent: "480c61c7-b666-49d8-b74b-f57dca74bff6"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: /sitecore/content/education/learnwell/Presentation/Page Designs/Page
 SharedFields:
-- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
-  Hint: TemplatesMapping
-  Value: "%7b2FB0E797-6CFD-4EC1-A248-07D6482B47FB%7d%3d%257B798BA9BC-6F32-4651-83B5-6E86ADBA514C%257D"
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{C4B2BE55-C560-4539-B27E-32EFE1116722}|{A6D92C9C-7AD6-4670-8801-CF67B260B0DE}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9AE6161D-3A51-4BD3-9AB4-B7907363E0EC}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ba1635fc-38fe-4bdc-98e7-bcacca970c28"
-- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
-  Hint: __Originator
-  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+  Value: "e8937356-50e3-4617-b04c-1771f2874186"
 Languages:
 - Language: en
   Versions:
@@ -21,7 +21,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250805T162734Z
+      Value: 20250805T194815Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -32,11 +32,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "df9de817-afab-46ee-a4f4-5309c1d597a6"
+      Value: "c3f8fbec-027b-4fb7-91fc-a4c2bcce06f5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250805T194845Z
+      Value: 20250805T194839Z

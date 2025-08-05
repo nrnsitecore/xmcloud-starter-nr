@@ -6,6 +6,7 @@
       {
         "name": "education-templates",
         "path": "/sitecore/templates/Project/education",
+        "scope": "ItemAndDescendants",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
@@ -16,15 +17,18 @@
       {
         "name": "education-layout",
         "path": "/sitecore/layout/Renderings/Project/education",
+        "scope": "ItemAndDescendants",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "education-content",
-        "path": "/sitecore/content/education"
+        "path": "/sitecore/content/education",
+        "scope": "ItemAndDescendants"
       },
       {
         "name": "education-media",
         "path": "/sitecore/media library/Project/education",
+        "scope": "ItemAndDescendants",
         "allowedPushOperations": "CreateUpdateAndDelete"
       }
     ]

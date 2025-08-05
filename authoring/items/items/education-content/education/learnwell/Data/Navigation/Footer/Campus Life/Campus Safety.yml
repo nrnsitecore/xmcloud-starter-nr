@@ -1,15 +1,15 @@
 ﻿---
-ID: "4296f27c-1831-4f99-8bf4-dd2b98e12c8e"
-Parent: "42cb3a61-9a76-4229-830b-82ceba58a3a2"
+ID: "de14b97b-c69a-48e0-9638-90d3ff393cc7"
+Parent: "80dcabc8-86a2-4583-afde-d6038925c3c5"
 Template: "58c335eb-251b-4ee5-bc3f-11d8f4c41240"
-Path: /sitecore/content/education/learnwell/Data/Navigation/Footer/Support/Contact Us
+Path: /sitecore/content/education/learnwell/Data/Navigation/Footer/Campus Life/Campus Safety
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 400
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "90637dc0-466d-48f2-a4b6-bc0b7b845d6e"
+  Value: "d50049a0-5d63-434e-b719-cff156e63112"
 Languages:
 - Language: en
   Versions:
@@ -17,18 +17,18 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250728T215824Z
+      Value: 20250728T215626Z
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{57FDF201-2D56-4F6E-9085-6056C5F1F8F5}" />
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{119641F4-C8AA-4DCE-8204-7CEDF95DF9D6}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "be5d1c2c-2aa3-49a1-80d9-4f04fd105f11"
+      Value: "d98954bb-d907-4efa-b808-76e794e91fa5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250728T215954Z
+      Value: 20250805T211312Z

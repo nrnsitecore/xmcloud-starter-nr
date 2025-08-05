@@ -1,15 +1,15 @@
 ﻿---
-ID: "b07bb938-bc3c-4f30-801f-43cb81602787"
-Parent: "80dcabc8-86a2-4583-afde-d6038925c3c5"
+ID: "49432896-0aae-45a0-b7ee-629c3ab0e315"
+Parent: "3c23c972-4689-423e-ad5b-e038890e11c5"
 Template: "58c335eb-251b-4ee5-bc3f-11d8f4c41240"
-Path: "/sitecore/content/education/learnwell/Data/Navigation/Footer/Quick Links/Check-in Online"
+Path: /sitecore/content/education/learnwell/Data/Navigation/Footer/Academics/Online Learning
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 300
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f032fe57-0782-48a5-9078-27a238abf61a"
+  Value: "429a432f-ecab-4f60-8ef5-1e63789fc09c"
 Languages:
 - Language: en
   Versions:
@@ -17,18 +17,18 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250728T215601Z
+      Value: 20250805T211014Z
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{921C9DCF-F537-49F8-976D-56AC34BB058B}" />
+        <link text="" anchor="" linktype="internal" class="" title="" target="|Custom" querystring="" id="{DA2C2738-8F2E-4AF5-9A10-F3A09080C336}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "93dfe6a1-3177-44fc-9677-3ae50cd27797"
+      Value: "6297754c-8531-4e81-be50-aa97075c7feb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250728T215723Z
+      Value: 20250805T211114Z

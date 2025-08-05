@@ -1,8 +1,8 @@
 ﻿---
-ID: "67b9e986-8ffd-4ad9-a4c4-4ffbd7e33bd1"
+ID: "102cb9be-73ce-4484-bc67-86964c838ea8"
 Parent: "80dcabc8-86a2-4583-afde-d6038925c3c5"
 Template: "58c335eb-251b-4ee5-bc3f-11d8f4c41240"
-Path: /sitecore/content/education/learnwell/Data/Navigation/Footer/Quick Links/Manage Booking
+Path: /sitecore/content/education/learnwell/Data/Navigation/Footer/Campus Life/Book a Flight
 Languages:
 - Language: en
   Versions:
@@ -10,18 +10,18 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250728T215546Z
+      Value: 20250728T215539Z
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FF50A06F-45FD-4831-BC38-717AD0D396CF}" />
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8D33026D-A6AE-4417-AE52-8A821FF856F9}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f7563269-c8ff-4634-9d56-6ee8aaf13f9d"
+      Value: "80560c1a-857f-4e70-ba8f-de45efd089d2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250728T215709Z
+      Value: 20250728T215652Z

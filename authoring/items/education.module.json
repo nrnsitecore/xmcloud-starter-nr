@@ -1,0 +1,32 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "travel-hospitality",
+  "items": {
+    "includes": [
+      {
+        "name": "global-templates",
+        "path": "/sitecore/templates/Project/global",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/education",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "layout",
+        "path": "/sitecore/layout/Renderings/Project/education",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "content",
+        "path": "/sitecore/content/education"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Project/education",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

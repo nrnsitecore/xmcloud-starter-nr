@@ -33,12 +33,12 @@ const HeroBanner = (props: HeroBannerProps): JSX.Element => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-lg px-8 py-3">
-                Start Your Application
+                <Link field={props.fields.CTA1}/>
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-3 bg-transparent">
                 <Play className="mr-2 h-5 w-5" />
-                Take a Virtual Tour
+                <Link field={props.fields.CTA2}/>
               </Button>
             </div>
 
@@ -47,7 +47,7 @@ const HeroBanner = (props: HeroBannerProps): JSX.Element => {
                 <div className="font-semibold text-2xl text-gray-900">25,000+</div>
                 <div>Students</div>
               </div>
-              <div>
+              <div> 
                 <div className="font-semibold text-2xl text-gray-900">200+</div>
                 <div>Programs</div>
               </div>

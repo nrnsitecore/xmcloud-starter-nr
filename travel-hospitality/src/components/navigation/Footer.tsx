@@ -16,7 +16,7 @@ import {
 export type FooterProps = ComponentProps & {
   fields: {
     data: {
-     links: {
+      links: {
         Title: Field<string>,
         Subtitle: Field<string>,
         ContactHeader: Field<string>,
@@ -57,7 +57,7 @@ export type FooterProps = ComponentProps & {
 
 const Footer = (props: FooterProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
-  
+
   return (
     <footer className={`bg-gray-900 text-white py-12 ${sxaStyles}`}>
       <div className="container mx-auto px-4">
@@ -78,19 +78,19 @@ const Footer = (props: FooterProps): JSX.Element => {
 
           {props.fields?.data.links.children.results.map((section, index) => (
             <div key={index}>
-                <h3 className="text-lg font-semibold mb-4"><Text field={section.Title} /></h3>
-                <ul className="space-y-2">
-                    {section.children.results.map((link, i) => (
-                        <li key={i}>
-                            <Link href={link.Link.jsonValue.value.href} className="text-gray-400 hover:text-white">
-                                {link.displayName}
-                            </Link>
-                        </li>
-                    ))}
-                </ul>
+              <h3 className="text-lg font-semibold mb-4"><Text field={section.Title} /></h3>
+              <ul className="space-y-2">
+                {section.children.results.map((link, i) => (
+                  <li key={i}>
+                    <Link href={link.Link.jsonValue.value.href} className="text-gray-400 hover:text-white">
+                      {link.displayName}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
 
             </div>
-            ))}
+          ))}
           <div>
             <h3 className="text-lg font-semibold mb-4"><Text field={props.fields.data.links.ContactHeader} /></h3>
             <div className="space-y-3">

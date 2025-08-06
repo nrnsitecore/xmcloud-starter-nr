@@ -1,0 +1,45 @@
+﻿---
+ID: "59ea2abe-cb86-4897-8ca6-cb3a14dbac74"
+Parent: "2122ad0e-83d5-48d7-bd18-65d615fd8458"
+Template: "7fdbd007-deb1-41dd-bee6-c511e768238f"
+Path: /sitecore/content/education/learnwell/Data/Banners/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250806T010824Z
+    - ID: "49b519f2-741d-4966-9703-5080f27b571e"
+      Hint: CTA2
+      Value: |
+        <link text="Take a Virtual Tour" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{AB51B777-0D29-4D25-BBF4-8A0A96218A55}" />
+    - ID: "49f49560-bef9-470e-b095-24e01f76d73a"
+      Hint: Title
+      Value: Shape Your Future at Learnwell
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "6f59eb06-3281-4c90-8cdb-d7ad52e4d2d3"
+      Hint: CTA1
+      Value: |
+        <link text="Start your Application" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{F995FD37-8491-47F5-8D31-F648FB56D975}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "56616975-35e3-48f3-8a2b-c6c06ddfdf7f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250806T011047Z
+    - ID: "f2f1b6ae-a665-4285-9604-ce8e0a8e9b63"
+      Hint: Text
+      Value: "<p>Join a community of innovators, researchers, and leaders. Discover world-class education, cutting-edge research opportunities, and a vibrant campus life that will transform your potential into success.</p>"

@@ -9,6 +9,7 @@ import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as utils from 'src/components/lib/utils';
+import * as HeroBanner from 'src/components/banners/HeroBanner';
 
 
 // Components must be registered within the map to match the string key with component name in Sitecore
@@ -21,6 +22,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Header', Header],
   ['Footer', Footer],
   ['utils', utils],
+  ['HeroBanner', HeroBanner],
 ]);
 
 export default componentMap;

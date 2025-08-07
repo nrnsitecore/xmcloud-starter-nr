@@ -4,12 +4,6 @@
   "items": {
     "includes": [
       {
-        "name": "global-templates",
-        "path": "/sitecore/templates/Project/global",
-        "scope": "ItemAndDescendants", 
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
         "name": "TravelHospitalityRenderingHost",
         "path": "/sitecore/system/Settings/Services/Rendering Hosts/travel-hospitality",
         "scope": "singleItem"

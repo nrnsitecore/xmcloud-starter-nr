@@ -1,0 +1,20 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "global",
+  "items": {
+    "includes": [
+      {
+        "name": "global-templates",
+        "path": "/sitecore/templates/Project/global",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "global-layout",
+        "path": "/sitecore/layout/Renderings/Project/global",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

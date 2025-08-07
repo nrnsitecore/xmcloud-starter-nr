@@ -6,8 +6,10 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 // Components imported from the app itself
 import * as sheet from 'src/components/ui/sheet';
 import * as select from 'src/components/ui/select';
+import * as input from 'src/components/ui/input';
 import * as button from 'src/components/ui/button';
 import * as badge from 'src/components/ui/badge';
+import * as Tracking from 'src/components/search/Tracking';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
@@ -21,8 +23,10 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Form', Form],
   ['sheet', sheet],
   ['select', select],
+  ['input', input],
   ['button', button],
   ['badge', badge],
+  ['Tracking', Tracking],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
   ['Header', Header],
   ['Footer', Footer],

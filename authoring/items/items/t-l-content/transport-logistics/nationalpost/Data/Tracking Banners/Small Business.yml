@@ -1,0 +1,40 @@
+﻿---
+ID: "5f9b0e57-344d-46d3-b1cb-14a01af5fd2c"
+Parent: "ae2cfa68-3e2c-4e68-bfae-ce3d573fe7d1"
+Template: "af38d0eb-1a0c-49bf-9332-d63c429a953d"
+Path: "/sitecore/content/transport-logistics/nationalpost/Data/Tracking Banners/Small Business"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250807T210533Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "76827290-015d-430c-9369-d3a2b5332f1c"
+      Hint: Placeholder Text
+      Value: Enter tracking number
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d6a0af63-40e0-4bc3-a73d-c1e977119fa1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c36847a3-9497-4733-aa16-f5878b8b97a0"
+      Hint: Subtitle
+      Value: "Professional shipping solutions, marketing tools, and e-commerce support to help your small business thrive"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250807T210547Z
+    - ID: "e1beb923-9496-40a6-9aab-87d864b3dea8"
+      Hint: Title
+      Value: Grow Your Business with National Post

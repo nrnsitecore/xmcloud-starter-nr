@@ -3,6 +3,13 @@ ID: "63cfe60c-3dc6-4f09-bb45-f17da67b33e9"
 Parent: "dfdce767-8f1f-4682-b9ee-90f994e69cf0"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: "/sitecore/content/transport-logistics/nationalpost/Data/Navigation/Footers"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{4DC88D14-F1CA-48BD-808B-94A69555A9FF}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c0ea1e9e-6a62-46d2-af44-34c2a90f249d"
 Languages:
 - Language: en
   Versions:
@@ -21,11 +28,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "01b9a004-75c2-4abf-9e48-910f45cbd18d"
+      Value: "270419b5-0a02-4735-9dc7-855e3b509b65"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T163720Z
+      Value: 20250807T190044Z

@@ -24,7 +24,19 @@ Languages:
       Value: <r />
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
-      Value: 
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E45DAE7A-937A-4281-BD14-F8A89C89CCBB}"
+              s:ds="c6d8050c-ab1d-4a6a-9111-6c887df450ad"
+              s:id="{2715AF11-F3FE-4B7D-BE27-62213B20D520}"
+              s:par="CSSStyles"
+              s:ph="headless-footer" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250807T151857Z
@@ -38,11 +50,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "50b5a5a4-8e3c-41b1-90cf-cf97dc0c6e9b"
+      Value: "d2069037-7262-4bd3-b13d-e45f4702a8f9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T163347Z
+      Value: 20250807T190907Z

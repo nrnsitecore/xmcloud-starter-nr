@@ -14,10 +14,10 @@ SharedFields:
       links : item(path: $datasource, language: $language) {
         displayName
         Title: field(name: "Title") {
-            value
+            jsonValue
         }
         Subtitle: field(name: "Subtitle") {
-            value
+            jsonValue
         }
         ContactHeader: field(name: "Contact Header") {
             value
@@ -51,9 +51,15 @@ SharedFields:
         }
       }
     }
+- ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
+  Hint: Rendering Contents Resolver
+  Value: 
+- ID: "b4bbc0be-7619-4678-b2f7-947d84aa77a9"
+  Hint: Content Dependencies
+  Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "78ddc82c-120f-4c22-8257-5fb8cd50371c"
+  Value: "e2e1fc93-fc42-48d5-8bf6-c373cad18c71"
 Languages:
 - Language: en
   Versions:
@@ -72,11 +78,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5633d5f2-e88d-485c-a7c8-f6d3f82440da"
+      Value: "3b566b96-644a-49be-95f2-a72601ebae91"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250728T225619Z
+      Value: 20250807T193134Z

@@ -19,6 +19,24 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{36460A23-6E84-49D1-9D82-098ED17ED8B2}"
+              s:ds="c6d8050c-ab1d-4a6a-9111-6c887df450ad"
+              s:id="{2715AF11-F3FE-4B7D-BE27-62213B20D520}"
+              s:par="CSSStyles"
+              s:ph="headless-footer" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250807T151849Z
@@ -32,11 +50,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "65fcbc42-2e1c-469f-a9a9-2bb3efa46d62"
+      Value: "2ae3ca0b-050a-4f66-801e-91ff7efcf643"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T151849Z
+      Value: 20250807T190933Z

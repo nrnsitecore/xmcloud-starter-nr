@@ -1,0 +1,26 @@
+﻿---
+ID: "afee5aaa-e6c6-4e00-9ae8-5f75ade0854d"
+Parent: "c6d8050c-ab1d-4a6a-9111-6c887df450ad"
+Template: "4dc88d14-f1ca-48bd-808b-94a69555a9ff"
+Path: "/sitecore/content/transport-logistics/nationalpost/Data/Navigation/Footers/Default/Support"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "204c21db-d29a-4108-9322-62a2cf5a4145"
+      Hint: Title
+      Value: Support
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250807T190132Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9b029b1f-7153-48b2-9b10-63b71f8cd578"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250807T190132Z

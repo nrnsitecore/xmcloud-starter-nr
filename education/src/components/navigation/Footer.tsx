@@ -8,8 +8,16 @@ export type FooterProps = ComponentProps & {
   fields: {
     data: {
       links: {
-        Title: Field<string>,
-        Subtitle: Field<string>,
+        Title: {
+          jsonValue: {
+            value: string;
+          }
+        },
+        Subtitle: {
+          jsonValue: {
+            value: string;
+          }
+        },
         ContactHeader: Field<string>,
         Email: Field<string>,
         PhoneNumber: Field<string>,
@@ -56,10 +64,10 @@ const Footer = (props: FooterProps): JSX.Element => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <GraduationCap className="h-8 w-8 text-emerald-400" />
-              <span className="text-xl font-bold"><Text field={props.fields.data.links.Title} /></span>
+              <span className="text-xl font-bold"><Text field={props.fields.data.links.Title.jsonValue} /></span>
             </div>
             <p className="text-gray-300">
-              <Text field={props.fields.data.links.Subtitle} />
+              <Text field={props.fields.data.links.Subtitle.jsonValue} />
             </p>
             <div className="flex space-x-4">
               <Facebook className="h-5 w-5 text-gray-400 hover:text-emerald-400 cursor-pointer" />
@@ -84,8 +92,8 @@ const Footer = (props: FooterProps): JSX.Element => {
               </ul>
             </div>
           ))}
-
-          <div className="border-t border-gray-800 mt-12 pt-8">
+        </div>
+        <div className="border-t border-gray-800 mt-12 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-gray-400 text-sm">© 2024 Learnwell. All rights reserved.</div>
               <div className="flex space-x-6 mt-4 md:mt-0">
@@ -104,7 +112,6 @@ const Footer = (props: FooterProps): JSX.Element => {
               </div>
             </div>
           </div>
-        </div>
       </div>
     </footer>
   );

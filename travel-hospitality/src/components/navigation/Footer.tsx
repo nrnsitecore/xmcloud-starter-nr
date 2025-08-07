@@ -17,8 +17,16 @@ export type FooterProps = ComponentProps & {
   fields: {
     data: {
       links: {
-        Title: Field<string>,
-        Subtitle: Field<string>,
+        Title: {
+          jsonValue: {
+            value: string;
+          }
+        },
+        Subtitle: {
+          jsonValue: {
+            value: string;
+          }
+        },
         ContactHeader: Field<string>,
         Email: Field<string>,
         PhoneNumber: Field<string>,
@@ -65,9 +73,9 @@ const Footer = (props: FooterProps): JSX.Element => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Plane className="h-8 w-8 text-blue-400" />
-              <span className="text-2xl font-bold"><Text field={props.fields.data.links.Title} /></span>
+              <span className="text-2xl font-bold"><Text field={props.fields.data.links.Title.jsonValue} /></span>
             </div>
-            <p className="text-gray-400 mb-4"><Text field={props.fields.data.links.Subtitle} /></p>
+            <p className="text-gray-400 mb-4"><Text field={props.fields.data.links.Subtitle.jsonValue} /></p>
             <div className="flex space-x-4">
               <Facebook className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
               <Twitter className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />

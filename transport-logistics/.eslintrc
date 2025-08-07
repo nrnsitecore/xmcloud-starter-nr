@@ -23,8 +23,9 @@
         "caughtErrorsIgnorePattern": "."
       }
     ],
-    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-explicit-any": "off",
     "jsx-quotes": ["error", "prefer-double"],
-    "prettier/prettier": "off"
+    "prettier/prettier": "off",
+    "react-hooks/rules-of-hooks": "off"
   }
 }

@@ -10,6 +10,13 @@ SharedFields:
     <image mediaid="{C35F2B42-1962-47BD-B4C7-BD36E3A49F46}" />
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "a12ad594-f366-411c-a997-286667c9a48d"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Small Business
   Versions:
   - Version: 1
     Fields:
@@ -24,11 +31,11 @@ Languages:
       Value: Small Business
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e44a918b-57cf-4128-b42e-2b09929c103a"
+      Value: "05bdce94-fb07-4038-b26b-75fdcc9d554b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T145959Z
+      Value: 20250807T205024Z

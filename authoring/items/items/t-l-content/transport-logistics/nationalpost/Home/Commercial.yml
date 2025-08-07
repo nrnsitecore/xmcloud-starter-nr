@@ -16,6 +16,13 @@ SharedFields:
   Value: "934dee2b-9b12-4e53-932b-8ad51a7dc57b"
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "92b1a194-45cf-4d11-85fb-a6164cb034a0"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Commercial
   Versions:
   - Version: 1
     Fields:
@@ -30,11 +37,11 @@ Languages:
       Value: Commercial
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c5effe2f-6085-4fc7-a93d-e54c5c511689"
+      Value: "990540df-2431-4e65-957a-d5d4532f3c0f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T150008Z
+      Value: 20250807T205019Z

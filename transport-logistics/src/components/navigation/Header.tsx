@@ -1,16 +1,13 @@
 "use client"
 
 import React, { JSX } from "react"
-import Link from "next/link"
 import { usePathname } from "next/navigation"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Menu, Package, User, Building, Briefcase, Globe } from 'lucide-react'
+import { Menu, Package } from 'lucide-react'
 import { ComponentProps } from 'lib/component-props';
 import { withDatasourceCheck } from "@sitecore-content-sdk/nextjs"
-import { useLanguage } from "../../contexts/language-context"
-import { useUserType } from "../../contexts/user-type-context"
 
 export type HeaderProps = ComponentProps & {
   fields: {
@@ -31,57 +28,9 @@ export type HeaderProps = ComponentProps & {
   };
 };
 
-const { language, setLanguage, t } = useLanguage()
-const { userType, setUserType } = useUserType()
-const pathname = usePathname()
-
-const userTypes = [
-  { value: "personal", label: t.userTypes.personal, icon: User },
-  { value: "small-business", label: t.userTypes.smallBusiness, icon: Building },
-  { value: "commercial", label: t.userTypes.commercial, icon: Briefcase }
-]
-
-const getCurrentUserType = () => {
-  return userTypes.find(type => type.value === userType)
-}
-
-const getNavigation = () => {
-  switch (userType) {
-    case "small-business":
-      return [
-        { name: t.nav.home, href: "/" },
-        { name: t.nav.shipping, href: "/shipping" },
-        { name: t.nav.returns, href: "/returns" },
-        { name: t.nav.sellOnline, href: "/sell-online" },
-        { name: t.nav.marketing, href: "/marketing" },
-        { name: t.nav.postalServices, href: "/postal-services" }
-      ]
-    case "commercial":
-      return [
-        { name: t.nav.home, href: "/" },
-        { name: t.nav.shipping, href: "/shipping" },
-        { name: t.nav.returns, href: "/returns" },
-        { name: t.nav.marketing, href: "/marketing" },
-        { name: t.nav.ecommerce, href: "/ecommerce" },
-        { name: t.nav.identityServices, href: "/identity-services" },
-        { name: t.nav.postalServices, href: "/postal-services" }
-      ]
-    default: // personal
-      return [
-        { name: t.nav.home, href: "/" },
-        { name: t.nav.shipping, href: "/shipping" },
-        { name: t.nav.returns, href: "/returns" },
-        { name: t.nav.services, href: "/services" },
-        { name: t.nav.shopping, href: "/shopping" }
-      ]
-  }
-}
-
-const navigation = getNavigation()
-
 export const Header = (props: HeaderProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
-
+  const pathname = usePathname();
 
   return (
     <header className={`border-b bg-white sticky top-0 z-50 ${sxaStyles}`}>
@@ -89,7 +38,8 @@ export const Header = (props: HeaderProps): JSX.Element => {
         {/* Top Bar */}
         <div className="flex items-center justify-between py-2 text-sm border-b">
           <div className="flex items-center gap-4">
-            <Select value={userType} onValueChange={setUserType}>
+            User type selector here
+            {/* <Select value={userType} onValueChange={setUserType}>
               <SelectTrigger className="w-48 h-8">
                 <div className="flex items-center gap-2">
                   {(() => {
@@ -110,11 +60,12 @@ export const Header = (props: HeaderProps): JSX.Element => {
                   </SelectItem>
                 ))}
               </SelectContent>
-            </Select>
+            </Select> */}
           </div>
 
           <div className="flex items-center gap-4">
-            <Select value={language} onValueChange={setLanguage}>
+            Language Selector here
+            {/* <Select value={language} onValueChange={setLanguage}>
               <SelectTrigger className="w-32 h-8">
                 <div className="flex items-center gap-2">
                   <Globe className="h-3 w-3" />
@@ -128,7 +79,7 @@ export const Header = (props: HeaderProps): JSX.Element => {
             </Select>
             <Link href="/login" className="text-blue-600 hover:underline">
               {t.nav.signIn}
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -141,14 +92,14 @@ export const Header = (props: HeaderProps): JSX.Element => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            {navigation.map((item) => (
+            {props.fields.items.map((item) => (
               <Link
-                key={item.name}
-                href={item.href}
-                className={`text-gray-700 hover:text-blue-600 font-medium transition-colors ${pathname === item.href ? 'text-blue-600 border-b-2 border-blue-600 pb-1' : ''
+                key={item.displayName}
+                href={item.fields.Link.value.href}
+                className={`text-gray-700 hover:text-blue-600 font-medium transition-colors ${pathname === item.fields.Link.value.href ? 'text-blue-600 border-b-2 border-blue-600 pb-1' : ''
                   }`}
               >
-                {item.name}
+                {item.displayName}
               </Link>
             ))}
           </nav>
@@ -162,14 +113,14 @@ export const Header = (props: HeaderProps): JSX.Element => {
             </SheetTrigger>
             <SheetContent side="right">
               <div className="flex flex-col space-y-4 mt-8">
-                {navigation.map((item) => (
+                {props.fields.items.map((item) => (
                   <Link
-                    key={item.name}
-                    href={item.href}
-                    className={`text-lg font-medium ${pathname === item.href ? 'text-blue-600' : 'text-gray-700'
+                    key={item.displayName}
+                    href={item.fields.Link.value.href}
+                    className={`text-lg font-medium ${pathname === item.fields.Link.value.href ? 'text-blue-600' : 'text-gray-700'
                       }`}
                   >
-                    {item.name}
+                    {item.displayName}
                   </Link>
                 ))}
               </div>

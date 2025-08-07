@@ -6,8 +6,6 @@ import Head from 'next/head';
 import { Placeholder, Field, DesignLibrary, Page } from '@sitecore-content-sdk/nextjs';
 import Scripts from 'src/Scripts';
 import SitecoreStyles from 'src/components/content-sdk/SitecoreStyles';
-import { LanguageProvider } from "./contexts/language-context"
-import { UserTypeProvider } from "./contexts/user-type-context"
 
 interface LayoutProps {
   page: Page;
@@ -39,25 +37,21 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
           <DesignLibrary />
         ) : (
           <>
-            <UserTypeProvider>
-              <LanguageProvider>
-                <header>
-                  <div id="header">
-                    {route && <Placeholder name="headless-header" rendering={route} />}
-                  </div>
-                </header>
-                <main>
-                  <div id="content">
-                    {route && <Placeholder name="headless-main" rendering={route} />}
-                  </div>
-                </main>
-                <footer>
-                  <div id="footer">
-                    {route && <Placeholder name="headless-footer" rendering={route} />}
-                  </div>
-                </footer>
-              </LanguageProvider>
-            </UserTypeProvider>
+            <header>
+              <div id="header">
+                {route && <Placeholder name="headless-header" rendering={route} />}
+              </div>
+            </header>
+            <main>
+              <div id="content">
+                {route && <Placeholder name="headless-main" rendering={route} />}
+              </div>
+            </main>
+            <footer>
+              <div id="footer">
+                {route && <Placeholder name="headless-footer" rendering={route} />}
+              </div>
+            </footer>
           </>
         )}
       </div>

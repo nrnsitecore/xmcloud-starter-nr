@@ -1,0 +1,34 @@
+﻿---
+ID: "7e8bc04b-9f99-402a-a398-36685966778f"
+Parent: "3b23bd66-1722-407d-b8de-4236524a64e2"
+Template: "ea5ef5dc-7348-48b2-bfa5-c4e3300e14cb"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/Commercial/Ecommerce"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B123429C-8D90-42E5-B777-8C308F3908E8}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250807T150612Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Ecommerce
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Ecommerce
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3fe4b16c-1c59-48d9-bcc9-7d15177ef25a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250807T150612Z

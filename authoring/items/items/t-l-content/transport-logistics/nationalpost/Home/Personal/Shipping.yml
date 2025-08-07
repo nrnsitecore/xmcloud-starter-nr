@@ -1,0 +1,34 @@
+﻿---
+ID: "f65595ad-98ee-4630-b55a-79db9719cd65"
+Parent: "8e88e14f-16cf-40e8-b30a-233ef25c725c"
+Template: "ea5ef5dc-7348-48b2-bfa5-c4e3300e14cb"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/Personal/Shipping"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{70A75516-F868-4AEF-917D-83AE375E1905}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250807T150038Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Shipping
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Shipping
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d75021e-e6dd-4a94-9e52-b9c13f4c8ecd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250807T150038Z

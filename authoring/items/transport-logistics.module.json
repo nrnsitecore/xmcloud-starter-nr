@@ -10,11 +10,6 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name": "TLRenderingHost",
-        "path": "/sitecore/system/Settings/Services/Rendering Hosts/transport-logistics",
-        "scope": "singleItem"
-      },
-      {
         "name": "t-l-layout",
         "path": "/sitecore/layout/Renderings/Project/transport-logistics",
         "scope": "ItemAndDescendants",

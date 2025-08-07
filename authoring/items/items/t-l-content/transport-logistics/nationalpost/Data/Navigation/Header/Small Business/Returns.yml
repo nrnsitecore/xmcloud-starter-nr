@@ -1,0 +1,42 @@
+﻿---
+ID: "67a55431-3838-42a8-9984-1f5064cecc57"
+Parent: "441bbca2-355b-4c2d-951c-829ce72d62ad"
+Template: "58c335eb-251b-4ee5-bc3f-11d8f4c41240"
+Path: "/sitecore/content/transport-logistics/nationalpost/Data/Navigation/Header/Small Business/Returns"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d668b394-0336-4231-a8e0-9eeddaa47442"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T153854Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
+      Hint: Link
+      Value: |
+        <link text="My Trips" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{5EEEC26C-DA72-4FA2-8787-C8F871203204}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c455fd4f-7c6f-482a-a8cc-3ffd342c9259"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250807T150446Z

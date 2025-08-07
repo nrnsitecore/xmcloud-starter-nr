@@ -1,0 +1,89 @@
+﻿---
+ID: "1fffd58a-5107-4fc5-bfcc-60ccb5bc2fe3"
+Parent: "b055e046-d7d2-4e79-a09a-8b1ef9767a92"
+Template: "74d2e081-b936-4fca-8e2a-0a6f1a2f0313"
+Path: "/sitecore/content/transport-logistics/nationalpost/Presentation/Page Designs"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "23c23f7b-2c76-4d3c-9b88-16b7a6d52d89"
+  Hint: DesignRules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{6F8616AC-5FBF-495E-A4CA-444DC05D35F1}">
+        <conditions>
+          <condition
+            id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+            uid="3A8A565154B646D8B285CE2E316C00BB"
+            itemid="{8E88E14F-16CF-40E8-B30A-233EF25C725C}" />
+        </conditions>
+        <actions>
+          <action
+            id="{5DC0A863-11FE-4A26-9F09-D8EADEA81E9A}"
+            uid="7E0C0F50DFC440F893E866239D31F73C"
+            pagedesignid="{485E906C-B3F5-4B70-B824-8B762B8E5FE2}" />
+        </actions>
+      </rule>
+      <rule
+        uid="{3DFB7E3A-4E38-413F-9990-26FE4FFD45F0}">
+        <conditions>
+          <condition
+            id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+            uid="B2B8B298A6CA46AF80CCA889E9F7DA40"
+            itemid="{DBE786A1-DEC2-4BB4-9C54-C620591521D4}" />
+        </conditions>
+        <actions>
+          <action
+            id="{5DC0A863-11FE-4A26-9F09-D8EADEA81E9A}"
+            uid="43057112C4CF431DAD488529FD426E4D"
+            pagedesignid="{F6135842-8A32-4B01-B611-8C044B18BBE0}" />
+        </actions>
+      </rule>
+      <rule
+        uid="{57784984-480D-491E-B4FC-50735E8CA80D}">
+        <conditions>
+          <condition
+            id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+            uid="215265240E954FBAA8F4D16D23EE305D"
+            itemid="{3B23BD66-1722-407D-B8DE-4236524A64E2}" />
+        </conditions>
+        <actions>
+          <action
+            id="{5DC0A863-11FE-4A26-9F09-D8EADEA81E9A}"
+            uid="5CE2EB44B83642C99DE12E745764826B"
+            pagedesignid="{F6C49B5F-994B-43CD-A557-782E2828EE4F}" />
+        </actions>
+      </rule>
+    </ruleset>
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d0f95982-30f3-4688-a7e9-06d40096fb5f"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250807T135623Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "67c3b8ea-5836-4c24-a111-18ba4f653681"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250807T152251Z

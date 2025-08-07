@@ -1,0 +1,40 @@
+﻿---
+ID: "b7de41b6-9aa6-449f-8ee2-5b86ac463868"
+Parent: "9239de33-406e-4c9d-a961-1a39a44f0452"
+Template: "9239de33-406e-4c9d-a961-1a39a44f0452"
+Path: "/sitecore/templates/Project/transport-logistics/Partial Designs/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {49D5D6DF-E930-4E6E-B5EA-4E68C90A1D4B}
+    {FD2059FD-6043-4DFE-8C04-E2437CE87634}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "779f8531-9ee7-4925-aa7b-25b61d41ef0a"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250807T135506Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "370b1b24-7c72-4e9b-9ff4-8307b0caa472"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250807T135510Z

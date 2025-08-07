@@ -1,0 +1,34 @@
+﻿---
+ID: "84d3d60a-f1b5-46de-9b0c-bb83e72b3b64"
+Parent: "3b23bd66-1722-407d-b8de-4236524a64e2"
+Template: "ea5ef5dc-7348-48b2-bfa5-c4e3300e14cb"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/Commercial/Returns"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4048F45C-F8F6-460D-92AC-A051E83D0F47}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250807T150555Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Returns
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Returns
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b135a5d3-1eb0-43cd-a0c7-82991367af68"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250807T150555Z

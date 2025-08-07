@@ -1,0 +1,23 @@
+﻿---
+ID: "4fe6ab21-5deb-4558-962e-5efa4f28a244"
+Parent: "1fffd58a-5107-4fc5-bfcc-60ccb5bc2fe3"
+Template: "86ec0616-207e-42dd-aac9-83eaf85b0ddf"
+Path: "/sitecore/content/transport-logistics/nationalpost/Presentation/Page Designs/Small Business"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250807T152030Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "938a39f6-7d77-4084-8869-5f3df063f264"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250807T152030Z

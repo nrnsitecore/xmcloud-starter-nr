@@ -1,0 +1,36 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "transport-logistics",
+  "items": {
+    "includes": [
+      {
+        "name": "t-l-templates",
+        "path": "/sitecore/templates/Project/transport-logistics",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "TLRenderingHost",
+        "path": "/sitecore/system/Settings/Services/Rendering Hosts/transport-logistics",
+        "scope": "singleItem"
+      },
+      {
+        "name": "t-l-layout",
+        "path": "/sitecore/layout/Renderings/Project/transport-logistics",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "t-l-content",
+        "path": "/sitecore/content/transport-logistics",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "t-l-media",
+        "path": "/sitecore/media library/Project/transport-logistics",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

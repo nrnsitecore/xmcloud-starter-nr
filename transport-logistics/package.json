@@ -22,6 +22,9 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@radix-ui/react-select": "^2.2.5",
+    "@radix-ui/react-slot": "^1.2.3",
     "@sitecore-cloudsdk/core": "^0.5.1",
     "@sitecore-cloudsdk/events": "^0.5.1",
     "@sitecore-content-sdk/nextjs": "~1.0.0",

@@ -1,13 +1,15 @@
 "use client"
 
 import React, { JSX } from "react"
-import { usePathname } from "next/navigation"
+import { usePathname, useRouter } from "next/navigation"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu, Package } from 'lucide-react'
 import { ComponentProps } from 'lib/component-props';
 import { withDatasourceCheck } from "@sitecore-content-sdk/nextjs"
+import { useVisitor } from "@/context/VisitorContext"
+import { VisitorType } from "@/lib/visitorCookie"
 
 export type HeaderProps = ComponentProps & {
   fields: {
@@ -31,36 +33,25 @@ export type HeaderProps = ComponentProps & {
 export const Header = (props: HeaderProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
   const pathname = usePathname();
+  const { visitorType, setType } = useVisitor();
+  const router = useRouter();
+
+  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const selected = e.target.value as VisitorType;
+    setType(selected); // updates state and cookie
+    router.push(`/${selected}`);
+  };
 
   return (
     <header className={`border-b bg-white sticky top-0 z-50 ${sxaStyles}`}>
       <div className="container mx-auto px-4">
-        {/* Top Bar */}
         <div className="flex items-center justify-between py-2 text-sm border-b">
           <div className="flex items-center gap-4">
-            User type selector here
-            {/* <Select value={userType} onValueChange={setUserType}>
-              <SelectTrigger className="w-48 h-8">
-                <div className="flex items-center gap-2">
-                  {(() => {
-                    const currentType = getCurrentUserType()
-                    const IconComponent = currentType?.icon
-                    return IconComponent ? <IconComponent className="h-3 w-3" /> : null
-                  })()}
-                  <SelectValue />
-                </div>
-              </SelectTrigger>
-              <SelectContent>
-                {userTypes.map((type) => (
-                  <SelectItem key={type.value} value={type.value}>
-                    <div className="flex items-center gap-2">
-                      <type.icon className="h-3 w-3" />
-                      {type.label}
-                    </div>
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select> */}
+            <select onChange={handleChange} value={visitorType}>
+              <option value="personal">Personal</option>
+              <option value="small-business">Small Business</option>
+              <option value="commercial">Commercial</option>
+            </select>
           </div>
 
           <div className="flex items-center gap-4">

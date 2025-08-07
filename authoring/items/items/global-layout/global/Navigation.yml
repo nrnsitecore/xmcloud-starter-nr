@@ -1,8 +1,8 @@
 ﻿---
 ID: "52686231-dc43-4a89-b205-152a8d719465"
-Parent: "54d869d5-8c22-4b06-b480-e019b20e9d56"
+Parent: "77f2631e-497d-4e31-97f1-d72b0691254d"
 Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
-Path: "/sitecore/layout/Renderings/Project/travel-hospitality/Navigation"
+Path: /sitecore/layout/Renderings/Project/global/Navigation
 Languages:
 - Language: en
   Versions:
@@ -21,11 +21,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6c6b4571-88b4-45fa-8800-170bfa108086"
+      Value: "6f359712-2b98-4e84-9dfb-d0dbcaa3991d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250728T150636Z
+      Value: 20250807T193912Z

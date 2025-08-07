@@ -21,14 +21,14 @@ Languages:
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{A7BA5A5D-2D5C-4EA4-90F0-63CCC770C4E5}" />
+        <link class="" id="{A7BA5A5D-2D5C-4EA4-90F0-63CCC770C4E5}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/transport-logistics/nationalpost/Home/commercial/Postal Services" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f0457dd3-869d-4159-a0b8-100c0c8c6ffd"
+      Value: "1a41e468-8a4e-422b-b1dd-96225eeed820"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T150847Z
+      Value: 20250807T202845Z

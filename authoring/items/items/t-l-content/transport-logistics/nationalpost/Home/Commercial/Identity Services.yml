@@ -2,7 +2,7 @@
 ID: "49a1770c-e837-4a1a-83b0-117aa926ea16"
 Parent: "3b23bd66-1722-407d-b8de-4236524a64e2"
 Template: "ea5ef5dc-7348-48b2-bfa5-c4e3300e14cb"
-Path: "/sitecore/content/transport-logistics/nationalpost/Home/Commercial/Identity Services"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/commercial/Identity Services"
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail

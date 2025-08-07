@@ -2,7 +2,7 @@
 ID: "9cf23fdf-90bb-4c5c-b58e-cff2f5cb8c6a"
 Parent: "8e88e14f-16cf-40e8-b30a-233ef25c725c"
 Template: "ea5ef5dc-7348-48b2-bfa5-c4e3300e14cb"
-Path: "/sitecore/content/transport-logistics/nationalpost/Home/Personal/Returns"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/personal/Returns"
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail

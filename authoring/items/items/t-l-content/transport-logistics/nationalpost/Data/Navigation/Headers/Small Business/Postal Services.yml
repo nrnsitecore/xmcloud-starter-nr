@@ -21,14 +21,14 @@ Languages:
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FF429474-A2B1-4888-A3E7-4CF80BCCB0D2}" />
+        <link class="" id="{FF429474-A2B1-4888-A3E7-4CF80BCCB0D2}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/transport-logistics/nationalpost/Home/small-business/Postal Services" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7de8d6b0-e108-4c88-8aa6-16b2580afaa7"
+      Value: "248fad2c-b4ed-44b9-a1e1-4f4b11883af4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T150522Z
+      Value: 20250807T202840Z

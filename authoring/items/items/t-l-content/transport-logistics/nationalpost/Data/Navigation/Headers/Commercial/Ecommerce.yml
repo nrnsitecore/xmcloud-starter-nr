@@ -25,18 +25,18 @@ Languages:
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{7E8BC04B-9F99-402A-A398-36685966778F}" />
+        <link class="" id="{7E8BC04B-9F99-402A-A398-36685966778F}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/transport-logistics/nationalpost/Home/commercial/Ecommerce" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9bacacb6-7774-4fae-bfa8-45c963aa6c0b"
+      Value: "3f178b9f-9ba4-491b-8ca1-b066f268cb0d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T150754Z
+      Value: 20250807T202845Z

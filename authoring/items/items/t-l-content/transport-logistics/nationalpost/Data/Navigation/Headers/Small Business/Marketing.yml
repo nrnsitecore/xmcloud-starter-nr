@@ -25,18 +25,18 @@ Languages:
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="Destinations" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{5BB00BB6-5BE6-4253-A357-00A86202F977}" />
+        <link class="" id="{5BB00BB6-5BE6-4253-A357-00A86202F977}" querystring="" anchor="" target="" title="" linktype="internal" text="Destinations" url="/transport-logistics/nationalpost/Home/small-business/Marketing" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d55ff09d-8008-4955-89f0-3c2da5b783bd"
+      Value: "f6a57470-648b-4101-b06c-695573682702"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T150505Z
+      Value: 20250807T202840Z

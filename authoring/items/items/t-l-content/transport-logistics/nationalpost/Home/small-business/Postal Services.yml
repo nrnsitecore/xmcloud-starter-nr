@@ -1,13 +1,13 @@
 ﻿---
-ID: "5eeec26c-da72-4fa2-8787-c8f871203204"
+ID: "ff429474-a2b1-4888-a3e7-4cf80bccb0d2"
 Parent: "dbe786a1-dec2-4bb4-9c54-c620591521d4"
 Template: "ea5ef5dc-7348-48b2-bfa5-c4e3300e14cb"
-Path: "/sitecore/content/transport-logistics/nationalpost/Home/Small Business/Returns"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/small-business/Postal Services"
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{D1E8D093-E6C2-4123-82E3-E2882B39ACD7}" />
+    <image mediaid="{3FBECB26-9BDC-4B0F-B888-D60A3FE6D83C}" />
 Languages:
 - Language: en
   Versions:
@@ -15,20 +15,20 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250807T150405Z
+      Value: 20250807T150423Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Returns
+      Value: Postal Services
     - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
       Hint: Title
-      Value: Returns
+      Value: Postal Services
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5ad434bb-76ee-4486-82a0-950595d3cf13"
+      Value: "70712183-3348-48e5-aca7-3e1d7e349987"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T150405Z
+      Value: 20250807T150423Z

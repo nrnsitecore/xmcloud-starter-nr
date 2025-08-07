@@ -25,18 +25,18 @@ Languages:
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="Check In" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{076F52F5-9223-4A46-A122-AAD6FDDADC0F}" />
+        <link class="" id="{076F52F5-9223-4A46-A122-AAD6FDDADC0F}" querystring="" anchor="" target="" title="" linktype="internal" text="Check In" url="/transport-logistics/nationalpost/Home/small-business/Shipping" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a5361e91-c6ec-48f1-a7f2-7b8aec5a4a17"
+      Value: "f6bc1230-124a-4bdc-b54a-444f82213c85"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T150435Z
+      Value: 20250807T202841Z

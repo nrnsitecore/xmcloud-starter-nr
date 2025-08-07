@@ -15,12 +15,24 @@ import { isDesignLibraryPreviewData } from '@sitecore-content-sdk/nextjs/editing
 import client from 'lib/sitecore-client';
 import components from '.sitecore/component-map';
 import scConfig from 'sitecore.config';
+import { useVisitor } from '@/context/VisitorContext';
+import { useRouter } from 'next/router';
 
 const SitecorePage = ({ page, notFound, componentProps }: SitecorePageProps): JSX.Element => {
+  const { visitorType } = useVisitor();
+  const router = useRouter();
+  
   useEffect(() => {
     // Since Sitecore Editor does not support Fast Refresh, need to refresh editor chromes after Fast Refresh finished
     handleEditorFastRefresh();
-  }, []);
+
+    const currentPath = window.location.pathname.toLowerCase();
+
+    if (currentPath === '/home') {
+      // Redirect based on context
+      router.replace(`/home/${visitorType}`);
+    }
+  }, [visitorType]);
 
   if (notFound || !page) {
     // Shouldn't hit this (as long as 'notFound' is being returned below), but just to be safe

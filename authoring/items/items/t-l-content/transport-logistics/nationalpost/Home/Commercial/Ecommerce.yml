@@ -2,7 +2,7 @@
 ID: "7e8bc04b-9f99-402a-a398-36685966778f"
 Parent: "3b23bd66-1722-407d-b8de-4236524a64e2"
 Template: "ea5ef5dc-7348-48b2-bfa5-c4e3300e14cb"
-Path: "/sitecore/content/transport-logistics/nationalpost/Home/Commercial/Ecommerce"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/commercial/Ecommerce"
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail

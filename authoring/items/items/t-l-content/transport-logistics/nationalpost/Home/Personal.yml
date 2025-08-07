@@ -2,7 +2,7 @@
 ID: "8e88e14f-16cf-40e8-b30a-233ef25c725c"
 Parent: "2e3d26d6-16d3-44a7-8f7f-44b1aa00c46a"
 Template: "ea5ef5dc-7348-48b2-bfa5-c4e3300e14cb"
-Path: "/sitecore/content/transport-logistics/nationalpost/Home/Personal"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/personal"
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail

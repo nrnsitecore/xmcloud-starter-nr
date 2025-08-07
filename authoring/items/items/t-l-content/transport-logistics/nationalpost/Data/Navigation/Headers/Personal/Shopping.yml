@@ -25,18 +25,18 @@ Languages:
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="Destinations" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{A702801D-14F7-4968-99C4-27A0ECDD5386}" />
+        <link class="" id="{A702801D-14F7-4968-99C4-27A0ECDD5386}" querystring="" anchor="" target="" title="" linktype="internal" text="Destinations" url="/transport-logistics/nationalpost/Home/personal/Shopping" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c3a8f5f3-a301-4eaa-a3b3-a8cbb45c9396"
+      Value: "18b2e450-407a-4da4-b52f-702f5f97dadb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T150256Z
+      Value: 20250807T202835Z

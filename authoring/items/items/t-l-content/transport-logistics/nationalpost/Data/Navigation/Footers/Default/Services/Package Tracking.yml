@@ -21,14 +21,14 @@ Languages:
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8E88E14F-16CF-40E8-B30A-233EF25C725C}" />
+        <link class="" id="{8E88E14F-16CF-40E8-B30A-233EF25C725C}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/transport-logistics/nationalpost/Home/personal" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d32daef6-e216-42d5-8a9e-f85503e3f2ff"
+      Value: "a84e96a8-51a6-46c6-9cab-c70f48d2e37a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T190408Z
+      Value: 20250807T202835Z

@@ -25,18 +25,18 @@ Languages:
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FBD0712A-BF0A-4BD7-8257-3F9FED620F94}" />
+        <link class="" id="{FBD0712A-BF0A-4BD7-8257-3F9FED620F94}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/transport-logistics/nationalpost/Home/commercial/Marketing" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "69ee20e0-4605-41a8-bd06-f7183e2c36b7"
+      Value: "3cb32d4c-9f00-4b03-bd3e-c12378c6db74"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T150805Z
+      Value: 20250807T202845Z

@@ -25,18 +25,18 @@ Languages:
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="My Trips" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9CF23FDF-90BB-4C5C-B58E-CFF2F5CB8C6A}" />
+        <link class="" id="{9CF23FDF-90BB-4C5C-B58E-CFF2F5CB8C6A}" querystring="" anchor="" target="" title="" linktype="internal" text="My Trips" url="/transport-logistics/nationalpost/Home/personal/Returns" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8539e88d-3edc-4d58-a8ba-fee46895d65e"
+      Value: "8419607d-ba48-443b-8b08-2be6cc0641ad"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T150256Z
+      Value: 20250807T202835Z

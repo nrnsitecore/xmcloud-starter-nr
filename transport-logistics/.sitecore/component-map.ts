@@ -11,6 +11,7 @@ import * as card from 'src/components/ui/card';
 import * as button from 'src/components/ui/button';
 import * as badge from 'src/components/ui/badge';
 import * as ToolsSelector from 'src/components/tools/ToolsSelector';
+import * as ServicesOverview from 'src/components/services/ServicesOverview';
 import * as Tracking from 'src/components/search/Tracking';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as Header from 'src/components/navigation/Header';
@@ -30,6 +31,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['button', button],
   ['badge', badge],
   ['ToolsSelector', ToolsSelector],
+  ['ServicesOverview', ServicesOverview],
   ['Tracking', Tracking],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
   ['Header', Header],

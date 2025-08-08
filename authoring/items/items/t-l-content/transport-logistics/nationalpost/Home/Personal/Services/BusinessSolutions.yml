@@ -1,0 +1,45 @@
+﻿---
+ID: "24d65102-a069-43ca-ae62-bba30ba33237"
+Parent: "77a91927-6863-43d6-b339-ee670e9894de"
+Template: "063ad036-ae13-4d50-b4ec-a600fe356e96"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/personal/Services/BusinessSolutions"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B011C160-E36A-4243-9A3A-667612F84CD6}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250808T155901Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: BusinessSolutions
+    - ID: "6f4e97de-9ca7-4fdc-be1e-605101b4409d"
+      Hint: Content
+      Value: |
+        <ul>
+            <li>Volume discounts</li>
+            <li>Account management</li>
+            <li>API integration</li>
+        </ul>
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Business Solutions
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "54e4430c-7b44-4b64-882f-ad341fceea9c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c25dd107-cffd-4439-bec0-dbff866d42c7"
+      Hint: Subtitle
+      Value: Tailored services for businesses of all sizes
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250808T171123Z

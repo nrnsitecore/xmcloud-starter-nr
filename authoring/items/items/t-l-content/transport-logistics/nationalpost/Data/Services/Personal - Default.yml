@@ -1,0 +1,32 @@
+﻿---
+ID: "56a4d4c5-6291-48b8-a16a-f1d175cbfeee"
+Parent: "213ec116-7728-4710-b0fd-4821bb17ac27"
+Template: "341c050b-f031-4bd4-a78d-7a43def63beb"
+Path: "/sitecore/content/transport-logistics/nationalpost/Data/Services/Personal - Default"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250808T170407Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1cdfd7e-f64f-4cae-8702-64cf907d355a"
+    - ID: "b14cc411-a06d-4076-bc45-6f60e7e85991"
+      Hint: Title
+      Value: "Personal - Default"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "cade7b9e-c86b-4438-9aa5-affdc93060da"
+      Hint: SelectedServices
+      Value: |
+        {D40D719F-AA49-4B00-A6B8-34E99DD27733}
+        {1F7C2AB6-F833-4226-9574-C2638EE8B13D}
+        {24D65102-A069-43CA-AE62-BBA30BA33237}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250808T170416Z

@@ -4,10 +4,16 @@ Parent: "8e88e14f-16cf-40e8-b30a-233ef25c725c"
 Template: "ea5ef5dc-7348-48b2-bfa5-c4e3300e14cb"
 Path: "/sitecore/content/transport-logistics/nationalpost/Home/personal/Services"
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{063AD036-AE13-4D50-B4EC-A600FE356E96}"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{76B64728-3246-4335-AF48-E2C732A74944}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8f923104-7530-469e-9e8b-e5d74d822710"
 Languages:
 - Language: en
   Versions:
@@ -24,11 +30,11 @@ Languages:
       Value: Services
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bf3dedf3-8f64-4973-a26b-a74e2f72b4bb"
+      Value: "f1e6e6de-f518-480b-acf2-99eb13b6b816"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T150044Z
+      Value: 20250808T171059Z

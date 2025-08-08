@@ -14,6 +14,7 @@ import * as ToolsSelector from 'src/components/tools/ToolsSelector';
 import * as ServicesOverview from 'src/components/services/ServicesOverview';
 import * as Tracking from 'src/components/search/Tracking';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
+import * as Testimonials from 'src/components/pagecontent/Testimonials';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as utils from 'src/components/lib/utils';
@@ -34,6 +35,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ServicesOverview', ServicesOverview],
   ['Tracking', Tracking],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
+  ['Testimonials', Testimonials],
   ['Header', Header],
   ['Footer', Footer],
   ['utils', utils],

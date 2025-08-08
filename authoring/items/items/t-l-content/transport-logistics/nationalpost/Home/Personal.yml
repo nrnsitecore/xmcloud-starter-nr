@@ -46,9 +46,15 @@ Languages:
               s:ph="headless-main" />
             <r
               uid="{6919D04F-2638-4654-8CB5-87CAC2EEFEE2}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{16D4F0FB-CC10-4665-AAE1-7A5725007C58}']"
               s:ds="56a4d4c5-6291-48b8-a16a-f1d175cbfeee"
               s:id="{89B831F6-449B-473C-AC6C-31927AA66F23}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{8197C947-B5B1-4909-B007-3A72C7097EA6}"
+              p:after="*[1=2]"
+              s:id="{9975B6EF-5B09-4C6A-BE82-0E9EDD347687}"
               s:par="CSSStyles"
               s:ph="headless-main" />
           </d>
@@ -64,11 +70,11 @@ Languages:
       Value: Personal
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7398a527-08e7-4fc0-9be1-b9a45bdbab62"
+      Value: "80c3a376-6117-4ee4-b6e5-618b0c6c1634"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250808T170512Z
+      Value: 20250808T173506Z

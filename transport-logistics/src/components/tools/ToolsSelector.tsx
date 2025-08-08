@@ -1,5 +1,5 @@
 import React, { JSX } from 'react'
-import { Field, Text, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
+import { Field, Text, withDatasourceCheck, RichText } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
 import IconRenderer from '@/helpers/IconRenderer';
@@ -37,7 +37,7 @@ const ToolsSelector = (props: ToolsSelectorProps): JSX.Element => {
                   <CardTitle><Text field={tool.fields.Title} /></CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600"><Text field={tool.fields.Content} /></p>
+                  <RichText field={tool.fields.Content} />
                 </CardContent>
               </Card>
             )

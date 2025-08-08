@@ -1,16 +1,13 @@
 ﻿---
-ID: "56a4d4c5-6291-48b8-a16a-f1d175cbfeee"
+ID: "75a80492-455c-469f-a332-270ac53d62b7"
 Parent: "213ec116-7728-4710-b0fd-4821bb17ac27"
 Template: "341c050b-f031-4bd4-a78d-7a43def63beb"
-Path: "/sitecore/content/transport-logistics/nationalpost/Data/Services/Personal - Default"
+Path: "/sitecore/content/transport-logistics/nationalpost/Data/Services/Commercial - Default"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250808T170407Z

@@ -1,0 +1,40 @@
+﻿---
+ID: "31eb81dc-d0af-451b-8a41-23379e920996"
+Parent: "45fbfaac-0b1f-43f3-a495-538ed0790eb9"
+Template: "bc377a92-c7ba-4c33-b563-b4e9171b130a"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/commercial/Tools/Commercial Shipping Manager"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1E63D5BF-7966-4550-9ACD-569BB8619C66}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250808T131710Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Shipping Manager
+    - ID: "6f4e97de-9ca7-4fdc-be1e-605101b4409d"
+      Hint: Content
+      Value: Enterprise shipping management platform
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Shipping Manager
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "66c724d1-c059-4518-9d58-8047fe0e2e17"
+    - ID: "a4431bdf-a381-4ba1-a6da-99962254bc74"
+      Hint: Icon
+      Value: "{BC2A4202-3484-4AFA-BD71-D19020E85D29}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250808T135557Z

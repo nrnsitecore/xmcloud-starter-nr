@@ -1,0 +1,40 @@
+﻿---
+ID: "19beb7f1-7fc3-4a34-b175-9a5043ad6413"
+Parent: "91a51193-725c-4a01-bbcb-87fde5df1dd4"
+Template: "bc377a92-c7ba-4c33-b563-b4e9171b130a"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/small-business/Tools/SB Snap Admail"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{71D79EA7-ADAD-4369-BA29-F340831CE421}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250808T132031Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Snap Admail
+    - ID: "6f4e97de-9ca7-4fdc-be1e-605101b4409d"
+      Hint: Content
+      Value: Direct mail marketing campaigns
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Snap Admail
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "39a2adb9-61db-4e55-b231-a597efbf7cdc"
+    - ID: "a4431bdf-a381-4ba1-a6da-99962254bc74"
+      Hint: Icon
+      Value: "{EC522E7B-FE68-4D56-BE8F-D955C91CE3C0}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250808T135528Z

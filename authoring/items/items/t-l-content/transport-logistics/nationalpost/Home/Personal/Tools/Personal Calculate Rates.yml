@@ -1,0 +1,40 @@
+﻿---
+ID: "511d0ce9-a911-4af2-a2d2-3ab7f0828d3d"
+Parent: "31466d39-876d-41a2-83b6-1386836644a4"
+Template: "bc377a92-c7ba-4c33-b563-b4e9171b130a"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/personal/Tools/Personal Calculate Rates"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B1EEEF1A-6683-480C-82F0-809B65299285}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250808T130339Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Calculate Rates
+    - ID: "6f4e97de-9ca7-4fdc-be1e-605101b4409d"
+      Hint: Content
+      Value: Get instant shipping quotes
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Calculate Rates
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7f050fe9-be25-4e78-a399-2c951ee7a456"
+    - ID: "a4431bdf-a381-4ba1-a6da-99962254bc74"
+      Hint: Icon
+      Value: "{F3E60B6D-9961-4B81-80FA-C269E860DD81}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250808T135440Z

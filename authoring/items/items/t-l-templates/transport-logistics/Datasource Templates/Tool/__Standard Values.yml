@@ -1,0 +1,34 @@
+﻿---
+ID: "2ecae0e6-c457-4f71-889c-3d1c68a7f485"
+Parent: "a916c593-a507-4f3c-8573-44ab8b4d7c2d"
+Template: "a916c593-a507-4f3c-8573-44ab8b4d7c2d"
+Path: "/sitecore/templates/Project/transport-logistics/Datasource Templates/Tool/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250808T130927Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6d4db331-2dc9-4f82-8e41-2332c2ca7143"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250808T131000Z
+    - ID: "e04110de-e86d-480f-b705-acf1cf28ce19"
+      Hint: Title
+      Value: $name

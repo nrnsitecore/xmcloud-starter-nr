@@ -1,18 +1,8 @@
 ﻿---
-ID: "76827290-015d-430c-9369-d3a2b5332f1c"
-Parent: "b6f85ac8-8070-44d2-9c8f-e454112b13f1"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/transport-logistics/Datasource Templates/Tracking/Data/Placeholder Text"
-SharedFields:
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: "Single-Line Text"
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 300
-- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
-  Hint: __Shared revision
-  Value: "52cf6a9e-1219-4928-801d-4542350bd6ec"
+ID: "f69ec903-e884-4d15-99ad-ba1deef8eab6"
+Parent: "893a2df4-0365-47bb-aa1a-c39416cf8471"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Project/transport-logistics/nationalpost/System/8/E/B"
 Languages:
 - Language: en
   Versions:
@@ -20,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250807T210425Z
+      Value: 20250808T130312Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +21,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f5fb12f7-705e-41a1-9d05-ce3436763f9b"
+      Value: "7ae661ae-96bf-45e9-9c2c-e1d2516b2a6c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T210426Z
+      Value: 20250808T130312Z

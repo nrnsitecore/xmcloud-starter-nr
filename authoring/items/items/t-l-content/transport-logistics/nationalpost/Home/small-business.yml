@@ -32,8 +32,16 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{645631B5-16B0-4E6F-97F0-FA6A87E2AFD2}"
+              p:before="*"
               s:ds="5f9b0e57-344d-46d3-b1cb-14a01af5fd2c"
               s:id="{E11F72F2-3EF2-467E-905B-74A90401B9BA}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{D55FB735-B82F-46D0-ADF4-E7863C782C09}"
+              p:after="*[1=2]"
+              s:ds="a741ff15-49bb-44b9-a875-40405a0f9c23"
+              s:id="{8735C8FC-3865-4D65-BC75-9A7885E38E29}"
               s:par="CSSStyles"
               s:ph="headless-main" />
           </d>
@@ -49,11 +57,11 @@ Languages:
       Value: Small Business
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a17f115f-ccdc-4970-ae0a-2cba338da549"
+      Value: "c6c30015-93ad-4087-aa47-c61fc42bb161"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250807T210844Z
+      Value: 20250808T143308Z

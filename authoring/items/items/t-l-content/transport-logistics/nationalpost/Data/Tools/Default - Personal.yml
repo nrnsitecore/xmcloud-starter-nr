@@ -1,0 +1,38 @@
+﻿---
+ID: "7c96f44c-6049-485f-9818-75a319b0fc20"
+Parent: "c4e8332e-bef3-42ad-a06b-c8bbd9f66cbd"
+Template: "a916c593-a507-4f3c-8573-44ab8b4d7c2d"
+Path: "/sitecore/content/transport-logistics/nationalpost/Data/Tools/Default - Personal"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{3E7481F5-794F-41DE-A199-7A50EFDA8AA7}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250808T132738Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "57bb6058-4383-4aca-8f6d-0a7a2cce4245"
+    - ID: "902991bd-761f-4b6a-8fec-fd6c219e6b68"
+      Hint: SelectedTools
+      Value: |
+        {F50924E1-DE5A-4189-B55A-BFB7E9A8B71A}
+        {DE0BE335-3134-4493-8954-E60AE4B7FCB0}
+        {8EB1EC3C-69F7-4B63-9B76-DD3FC2483028}
+        {511D0CE9-A911-4AF2-A2D2-3AB7F0828D3D}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250808T132844Z
+    - ID: "e04110de-e86d-480f-b705-acf1cf28ce19"
+      Hint: Title
+      Value: Tools

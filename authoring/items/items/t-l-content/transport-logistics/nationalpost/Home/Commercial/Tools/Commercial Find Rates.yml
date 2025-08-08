@@ -1,0 +1,40 @@
+﻿---
+ID: "daa23ac4-dad8-46fb-8e28-d95b936aaf98"
+Parent: "45fbfaac-0b1f-43f3-a495-538ed0790eb9"
+Template: "bc377a92-c7ba-4c33-b563-b4e9171b130a"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/commercial/Tools/Commercial Find Rates"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{355594C2-8B23-49B9-B04C-A84649D72A0E}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250808T131820Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Find Rates
+    - ID: "6f4e97de-9ca7-4fdc-be1e-605101b4409d"
+      Hint: Content
+      Value: Commercial pricing and volume discounts
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Find Rates
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e366b60b-ae27-43d3-b0aa-e22ed53946ae"
+    - ID: "a4431bdf-a381-4ba1-a6da-99962254bc74"
+      Hint: Icon
+      Value: "{F3E60B6D-9961-4B81-80FA-C269E860DD81}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250808T135543Z

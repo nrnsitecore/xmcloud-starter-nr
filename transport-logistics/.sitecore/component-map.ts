@@ -7,8 +7,10 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 import * as sheet from 'src/components/ui/sheet';
 import * as select from 'src/components/ui/select';
 import * as input from 'src/components/ui/input';
+import * as card from 'src/components/ui/card';
 import * as button from 'src/components/ui/button';
 import * as badge from 'src/components/ui/badge';
+import * as ToolsSelector from 'src/components/tools/ToolsSelector';
 import * as Tracking from 'src/components/search/Tracking';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as Header from 'src/components/navigation/Header';
@@ -24,8 +26,10 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['sheet', sheet],
   ['select', select],
   ['input', input],
+  ['card', card],
   ['button', button],
   ['badge', badge],
+  ['ToolsSelector', ToolsSelector],
   ['Tracking', Tracking],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
   ['Header', Header],

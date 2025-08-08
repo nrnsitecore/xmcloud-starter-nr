@@ -43,7 +43,7 @@ const Testimonials = (props: TestimonialsProps): JSX.Element => {
                     <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <p className="text-gray-600 mb-4">"{testimonial.text}"</p>
+                <p className="text-gray-600 mb-4">{testimonial.text}</p>
                 <div className="font-semibold">{testimonial.author}</div>
                 <div className="text-sm text-gray-500">{testimonial.role}</div>
               </CardContent>

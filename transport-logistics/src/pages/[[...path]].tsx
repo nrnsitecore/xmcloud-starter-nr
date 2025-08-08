@@ -32,7 +32,7 @@ const SitecorePage = ({ page, notFound, componentProps }: SitecorePageProps): JS
       // Redirect based on context
       router.replace(`/home/${visitorType}`);
     }
-  }, [visitorType]);
+  }, [visitorType, router]);
 
   if (notFound || !page) {
     // Shouldn't hit this (as long as 'notFound' is being returned below), but just to be safe

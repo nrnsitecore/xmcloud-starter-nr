@@ -49,7 +49,6 @@ export type ProductListerProps = ComponentProps & {
 
 export const ProductLister = (props: ProductListerProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
-  const [cart, setCart] = useState([])
   const [searchTerm, setSearchTerm] = useState("")
   const [sortBy, setSortBy] = useState("featured")
 
@@ -64,11 +63,11 @@ export const ProductLister = (props: ProductListerProps): JSX.Element => {
           <Button variant="outline" className="relative">
             <ShoppingCart className="h-4 w-4 mr-2" />
             {/* {t.shopping.cart} */}
-            {cart.length > 0 && (
+            {/* {cart.length > 0 && (
               <Badge className="absolute -top-2 -right-2 h-5 w-5 rounded-full p-0 flex items-center justify-center">
                 {cart.length}
               </Badge>
-            )}
+            )} */}
           </Button>
         </div>
       </div>

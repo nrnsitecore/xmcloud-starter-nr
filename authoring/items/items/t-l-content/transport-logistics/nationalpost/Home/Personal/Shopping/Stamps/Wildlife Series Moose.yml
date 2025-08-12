@@ -1,0 +1,46 @@
+﻿---
+ID: "c393f2be-8bbe-4976-b7ae-037412b32b8d"
+Parent: "e7bc060e-71f5-414e-b53b-82ae950b8502"
+Template: "a6a1432e-dbde-43c6-bf0f-7942b46b063f"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/personal/Shopping/Stamps/Wildlife Series Moose"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{73273DB5-B9C8-4A1D-93B9-94143A6EC3D3}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250812T174025Z
+    - ID: "2d5a97d7-8544-4316-8568-fa6eb299cb57"
+      Hint: Type
+      Value: "{63F0695B-5125-431C-97C2-E20CFD269435}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Wildlife Series Moose
+    - ID: "51d5a680-d2d0-4c98-a4e0-69f03e248417"
+      Hint: Price
+      Value: $2.71
+    - ID: "6f4e97de-9ca7-4fdc-be1e-605101b4409d"
+      Hint: Content
+      Value: <span>Part of our popular Canadian wildlife stamp collection</span>
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Wildlife Series Moose
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "82406590-d165-48a9-945d-b00997cb2d45"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c58f3d12-400c-4b53-8e09-b89366ea7cf4"
+      Hint: Rating
+      Value: 4.7
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250812T180703Z

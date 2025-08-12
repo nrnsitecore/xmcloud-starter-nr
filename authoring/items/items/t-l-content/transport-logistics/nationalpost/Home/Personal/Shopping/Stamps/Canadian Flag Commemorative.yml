@@ -1,0 +1,46 @@
+﻿---
+ID: "bca5f4e6-9c1d-421d-8330-0c173c7a5f87"
+Parent: "e7bc060e-71f5-414e-b53b-82ae950b8502"
+Template: "a6a1432e-dbde-43c6-bf0f-7942b46b063f"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/personal/Shopping/Stamps/Canadian Flag Commemorative"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{AC250601-B280-4CB4-8954-40A7511DD7A8}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250812T174009Z
+    - ID: "2d5a97d7-8544-4316-8568-fa6eb299cb57"
+      Hint: Type
+      Value: "{26CAF673-61A3-47AF-BAA3-BCEE02FAB1E1}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Canadian Flag Commemorative
+    - ID: "51d5a680-d2d0-4c98-a4e0-69f03e248417"
+      Hint: Price
+      Value: $1.07
+    - ID: "6f4e97de-9ca7-4fdc-be1e-605101b4409d"
+      Hint: Content
+      Value: <span>Beautiful commemorative stamp featuring the Canadian flag</span>
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Canadian Flag Commemorative
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "48e7fb68-553a-4d5c-a5bd-235aab63e7d8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c58f3d12-400c-4b53-8e09-b89366ea7cf4"
+      Hint: Rating
+      Value: 4.8
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250812T180638Z

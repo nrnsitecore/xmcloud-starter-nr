@@ -10,7 +10,7 @@ import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { ShoppingCart, Star, Filter, Search } from 'lucide-react'
-import { Field, Text, RichText, ImageField, Image } from '@sitecore-content-sdk/nextjs';
+import { Field, Text, RichText, ImageField, Image, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
 
 export type ProductListerProps = ComponentProps & {
   fields: {
@@ -57,7 +57,7 @@ export const ProductLister = (props: ProductListerProps): JSX.Element => {
       <div className="flex justify-between items-center mb-8">
         <div>
           <h1 className="text-4xl font-bold mb-2"><Text field={props.fields.Title} /></h1>
-          <p className="text-xl text-gray-600"><RichText field={props.fields.Subtitle} /></p>
+          <div className="text-xl text-gray-600"><RichText field={props.fields.Subtitle} /></div>
         </div>
         <div className="flex items-center gap-2">
           <Button variant="outline" className="relative">
@@ -180,4 +180,4 @@ export const ProductLister = (props: ProductListerProps): JSX.Element => {
 }
 
 
-export const Default = ProductLister;
+export const Default = withDatasourceCheck()<ProductListerProps>(ProductLister);

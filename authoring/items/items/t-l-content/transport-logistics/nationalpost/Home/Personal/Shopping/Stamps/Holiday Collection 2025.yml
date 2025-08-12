@@ -1,0 +1,46 @@
+﻿---
+ID: "326bb9a9-1c6d-4c3f-9f85-ecebbd7baf0d"
+Parent: "e7bc060e-71f5-414e-b53b-82ae950b8502"
+Template: "a6a1432e-dbde-43c6-bf0f-7942b46b063f"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/personal/Shopping/Stamps/Holiday Collection 2025"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{61298E3A-5838-4F2C-B78A-B85B8E1FDF3C}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250812T174040Z
+    - ID: "2d5a97d7-8544-4316-8568-fa6eb299cb57"
+      Hint: Type
+      Value: "{D9ED6B41-110F-4050-8E0D-6FCC183B4A52}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Holiday Collection 2025
+    - ID: "51d5a680-d2d0-4c98-a4e0-69f03e248417"
+      Hint: Price
+      Value: $1.30
+    - ID: "6f4e97de-9ca7-4fdc-be1e-605101b4409d"
+      Hint: Content
+      Value: "<span>Limited edition holiday-themed stamps</span>"
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Holiday Collection 2025
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "32b676db-06aa-4e88-b79b-9f3d4711791e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c58f3d12-400c-4b53-8e09-b89366ea7cf4"
+      Hint: Rating
+      Value: 4.9
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250812T180650Z

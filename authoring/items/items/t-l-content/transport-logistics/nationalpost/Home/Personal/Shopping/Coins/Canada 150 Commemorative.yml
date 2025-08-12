@@ -1,0 +1,46 @@
+﻿---
+ID: "0829737d-2f6c-45a3-810d-27191ea8e812"
+Parent: "4b0d1545-cc19-45e0-b79c-b04295fa675c"
+Template: "2fe49f3f-5c54-41c6-b3aa-cb41de3cb88c"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/personal/Shopping/Coins/Canada 150 Commemorative"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{2A83EBFF-EC40-46E8-9410-DF44899E2DBC}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250812T174246Z
+    - ID: "2d5a97d7-8544-4316-8568-fa6eb299cb57"
+      Hint: Type
+      Value: "{26CAF673-61A3-47AF-BAA3-BCEE02FAB1E1}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Canada 150 Commemorative
+    - ID: "51d5a680-d2d0-4c98-a4e0-69f03e248417"
+      Hint: Price
+      Value: $29.95
+    - ID: "6f4e97de-9ca7-4fdc-be1e-605101b4409d"
+      Hint: Content
+      Value: <span>Special edition coin celebrating Canada's 150th anniversary</span>
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Canada 150 Commemorative
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8b3bc472-88b7-4596-9c0f-25a573bc65a1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c58f3d12-400c-4b53-8e09-b89366ea7cf4"
+      Hint: Rating
+      Value: 4.9
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250812T180549Z

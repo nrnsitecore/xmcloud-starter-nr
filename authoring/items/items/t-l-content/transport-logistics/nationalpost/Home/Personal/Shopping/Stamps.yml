@@ -1,0 +1,34 @@
+﻿---
+ID: "e7bc060e-71f5-414e-b53b-82ae950b8502"
+Parent: "a702801d-14f7-4968-99c4-27a0ecdd5386"
+Template: "ea5ef5dc-7348-48b2-bfa5-c4e3300e14cb"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/personal/Shopping/Stamps"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{BC366655-1711-43A5-B84B-7D3D3C6AEE4B}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250812T173931Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Stamps
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Stamps
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed7e93a5-b1c9-4920-869e-fce690b3409a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250812T173931Z

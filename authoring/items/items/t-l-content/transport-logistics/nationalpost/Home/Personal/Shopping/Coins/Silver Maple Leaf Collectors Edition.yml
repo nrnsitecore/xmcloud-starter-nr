@@ -1,0 +1,46 @@
+﻿---
+ID: "dcc4e110-e710-4aae-84b8-2878996b3773"
+Parent: "4b0d1545-cc19-45e0-b79c-b04295fa675c"
+Template: "2fe49f3f-5c54-41c6-b3aa-cb41de3cb88c"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/personal/Shopping/Coins/Silver Maple Leaf Collectors Edition"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4AA69A24-9C73-4274-9571-E55B8440FE50}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250812T174328Z
+    - ID: "2d5a97d7-8544-4316-8568-fa6eb299cb57"
+      Hint: Type
+      Value: "{6AE01294-BAFD-4627-90F6-2BA2094BDFCF}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Silver Maple Leaf Collectors Edition
+    - ID: "51d5a680-d2d0-4c98-a4e0-69f03e248417"
+      Hint: Price
+      Value: $149.95
+    - ID: "6f4e97de-9ca7-4fdc-be1e-605101b4409d"
+      Hint: Content
+      Value: <span>Premium silver coin with detailed maple leaf design</span>
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: Silver Maple Leaf Collectors Edition
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "513896aa-ac91-4fc1-9650-3c823be29c15"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c58f3d12-400c-4b53-8e09-b89366ea7cf4"
+      Hint: Rating
+      Value: 4.9
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250812T180603Z

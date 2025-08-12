@@ -18,6 +18,7 @@ import * as Testimonials from 'src/components/pagecontent/Testimonials';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as utils from 'src/components/lib/utils';
+import * as ProductLister from 'src/components/listers/ProductLister'
 
 
 // Components must be registered within the map to match the string key with component name in Sitecore
@@ -33,6 +34,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['badge', badge],
   ['ToolsSelector', ToolsSelector],
   ['ServicesOverview', ServicesOverview],
+  ['ProductLister', ProductLister],
   ['Tracking', Tracking],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
   ['Testimonials', Testimonials],

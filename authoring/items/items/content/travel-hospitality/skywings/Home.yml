@@ -32,7 +32,7 @@ Languages:
               p:before="*"
               s:ds="8700c7d7-b539-4aca-af0e-9abadb7ab2ec"
               s:id="{0E1C0E59-8430-4FE9-8ECF-624BAB2DBFAF}"
-              s:par="CSSStyles"
+              s:par="CSSStyles&amp;Styles"
               s:ph="headless-main" />
             <r
               uid="{BCC6AD9D-B29B-4780-87CE-6006A67054FE}"
@@ -87,14 +87,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1704dfc2-f42d-4ca7-ab3f-35080bdf3e2f"
+      Value: "d02ab6ee-f2c1-4c09-8f1b-abddecc55927"
     - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
       Hint: Title
       Value: skywings
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250730T183232Z
+      Value: 20250812T230357Z

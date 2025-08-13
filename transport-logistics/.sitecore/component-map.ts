@@ -4,6 +4,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 // end of built-in components
 
 // Components imported from the app itself
+import * as tabs from 'src/components/ui/tabs';
 import * as sheet from 'src/components/ui/sheet';
 import * as select from 'src/components/ui/select';
 import * as input from 'src/components/ui/input';
@@ -17,8 +18,9 @@ import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-
 import * as Testimonials from 'src/components/pagecontent/Testimonials';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
+import * as ProductLister from 'src/components/listers/ProductLister';
 import * as utils from 'src/components/lib/utils';
-import * as ProductLister from 'src/components/listers/ProductLister'
+import * as GEOProduct from 'src/components/geo/GEOProduct';
 
 
 // Components must be registered within the map to match the string key with component name in Sitecore
@@ -26,6 +28,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],
   ['FEaaSWrapper', FEaaSWrapper],
   ['Form', Form],
+  ['tabs', tabs],
   ['sheet', sheet],
   ['select', select],
   ['input', input],
@@ -34,13 +37,14 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['badge', badge],
   ['ToolsSelector', ToolsSelector],
   ['ServicesOverview', ServicesOverview],
-  ['ProductLister', ProductLister],
   ['Tracking', Tracking],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
   ['Testimonials', Testimonials],
   ['Header', Header],
   ['Footer', Footer],
+  ['ProductLister', ProductLister],
   ['utils', utils],
+  ['GEOProduct', GEOProduct],
 ]);
 
 export default componentMap;

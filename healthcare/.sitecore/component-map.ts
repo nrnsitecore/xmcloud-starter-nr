@@ -6,6 +6,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 // Components imported from the app itself
 import * as card from 'src/components/ui/card';
 import * as button from 'src/components/ui/button';
+import * as Testimonials from 'src/components/quickinfocomponents/Testimonials';
 import * as Stats from 'src/components/quickinfocomponents/Stats';
 import * as Services from 'src/components/quickinfocomponents/Services';
 import * as QuickActions from 'src/components/quickinfocomponents/QuickActions';
@@ -23,6 +24,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Form', Form],
   ['card', card],
   ['button', button],
+  ['Testimonials', Testimonials],
   ['Stats', Stats],
   ['Services', Services],
   ['QuickActions', QuickActions],

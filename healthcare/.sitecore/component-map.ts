@@ -6,6 +6,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 // Components imported from the app itself
 import * as card from 'src/components/ui/card';
 import * as button from 'src/components/ui/button';
+import * as Stats from 'src/components/quickinfocomponents/Stats';
 import * as Services from 'src/components/quickinfocomponents/Services';
 import * as QuickActions from 'src/components/quickinfocomponents/QuickActions';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
@@ -22,6 +23,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Form', Form],
   ['card', card],
   ['button', button],
+  ['Stats', Stats],
   ['Services', Services],
   ['QuickActions', QuickActions],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],

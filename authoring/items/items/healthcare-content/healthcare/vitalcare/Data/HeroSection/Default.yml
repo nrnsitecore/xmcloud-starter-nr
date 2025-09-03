@@ -1,0 +1,37 @@
+﻿---
+ID: "7215bbbb-bc64-46ac-86ec-f9223aeeb256"
+Parent: "0ab5bf87-5841-45eb-8c1b-260462cc6e4c"
+Template: "abf010be-b629-464b-9bea-18be46097a56"
+Path: /sitecore/content/healthcare/vitalcare/Data/HeroSection/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250903T175820Z
+    - ID: "30a24ebd-461d-4015-a9c2-3c8e2af9e547"
+      Hint: Title
+      Value: Your Health, Our Priority
+    - ID: "387fbefd-776f-490e-b9eb-9d4945d3c4f0"
+      Hint: Description
+      Value: "<p>Experience exceptional healthcare with our team of dedicated professionals. We provide comprehensive medical services with compassion and cutting-edge technology.</p>"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\brad.thomsen@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brad.thomsen@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "805bfeb2-9e7d-4d8e-842c-8e75ac06b6fc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brad.thomsen@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250903T175948Z

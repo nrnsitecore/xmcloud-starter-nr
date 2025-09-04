@@ -10,6 +10,7 @@ import * as Testimonials from 'src/components/quickinfocomponents/Testimonials';
 import * as Stats from 'src/components/quickinfocomponents/Stats';
 import * as Services from 'src/components/quickinfocomponents/Services';
 import * as QuickActions from 'src/components/quickinfocomponents/QuickActions';
+import * as Mission from 'src/components/quickinfocomponents/Mission';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
@@ -28,6 +29,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Stats', Stats],
   ['Services', Services],
   ['QuickActions', QuickActions],
+  ['Mission', Mission],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
   ['Header', Header],
   ['Footer', Footer],

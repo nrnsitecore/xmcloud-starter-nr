@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import React, { JSX } from 'react'
 import { ComponentProps } from 'lib/component-props'
 import { Field, ImageField } from '@sitecore-content-sdk/nextjs'
@@ -19,8 +18,8 @@ const GEOProduct = (props: GEOProductProps): JSX.Element => {
     "@context": "https://schema.org/",
     "@type": "Product",
     "name": props.fields.metaTitle.value,
-    "image": "https://example.com/images/xm-cloud.jpg", // props.fields.Image.value.src,
-    "description":  props.fields.metaDescription.value,
+    "image": props.fields.Image.value?.src,
+    "description": props.fields.metaDescription.value,
     "brand": {
       "@type": "Organization",
       "name": props.fields.Brand.value
@@ -33,16 +32,18 @@ const GEOProduct = (props: GEOProductProps): JSX.Element => {
       "availability": "https://schema.org/InStock"
     }
   };
-console.log (props);
-console.log ("hello");
+
+  // logging for demo purposes if needed to show
+  console.log(JSON.stringify(productJsonLd));
   return (
-      <Head>
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
-          />
-      </Head>
+    <>
+      <script
+        key="product-jsonld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
+      />
+    </>
   )
 }
- 
+
 export const Default = GEOProduct;

@@ -12,10 +12,17 @@ SharedFields:
       <rule
         uid="{6F8616AC-5FBF-495E-A4CA-444DC05D35F1}">
         <conditions>
-          <condition
-            id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
-            uid="3A8A565154B646D8B285CE2E316C00BB"
-            itemid="{8E88E14F-16CF-40E8-B30A-233EF25C725C}" />
+          <and
+            uid="3A2DC1D892B6407DAF086CBDB4A9268C">
+            <condition
+              id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+              uid="3A8A565154B646D8B285CE2E316C00BB"
+              itemid="{8E88E14F-16CF-40E8-B30A-233EF25C725C}" />
+            <condition
+              id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}"
+              uid="2172B319C7A144C588BEE5C3392DEF6E"
+              templateid="{EA5EF5DC-7348-48B2-BFA5-C4E3300E14CB}" />
+          </and>
         </conditions>
         <actions>
           <action
@@ -27,10 +34,17 @@ SharedFields:
       <rule
         uid="{3DFB7E3A-4E38-413F-9990-26FE4FFD45F0}">
         <conditions>
-          <condition
-            id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
-            uid="B2B8B298A6CA46AF80CCA889E9F7DA40"
-            itemid="{DBE786A1-DEC2-4BB4-9C54-C620591521D4}" />
+          <and
+            uid="A419F08506CD42FEBA0ED535F3FB18E4">
+            <condition
+              id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+              uid="B2B8B298A6CA46AF80CCA889E9F7DA40"
+              itemid="{DBE786A1-DEC2-4BB4-9C54-C620591521D4}" />
+            <condition
+              id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}"
+              uid="57409EE79F904FBFB43371FD332700EE"
+              templateid="{EA5EF5DC-7348-48B2-BFA5-C4E3300E14CB}" />
+          </and>
         </conditions>
         <actions>
           <action
@@ -42,10 +56,17 @@ SharedFields:
       <rule
         uid="{57784984-480D-491E-B4FC-50735E8CA80D}">
         <conditions>
-          <condition
-            id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
-            uid="215265240E954FBAA8F4D16D23EE305D"
-            itemid="{3B23BD66-1722-407D-B8DE-4236524A64E2}" />
+          <and
+            uid="26237E0770A54009B231EED9111BEF08">
+            <condition
+              id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+              uid="215265240E954FBAA8F4D16D23EE305D"
+              itemid="{3B23BD66-1722-407D-B8DE-4236524A64E2}" />
+            <condition
+              id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}"
+              uid="2DC1225BE4E44B6FB2BCB0714C64B595"
+              templateid="{F5C0AD80-AA00-4C73-AF31-2029B45EDCFD}" />
+          </and>
         </conditions>
         <actions>
           <action
@@ -60,7 +81,7 @@ SharedFields:
   Value: "%7bBC1B05F7-D17B-40B2-8527-DB64C93F6108%7d%3d%257B48BA95D1-8127-45BC-90D6-8279A779E78A%257D%26%7b2FE49F3F-5C54-41C6-B3AA-CB41DE3CB88C%7d%3d%257B48BA95D1-8127-45BC-90D6-8279A779E78A%257D%26%7bA6A1432E-DBDE-43C6-BF0F-7942B46B063F%7d%3d%257B48BA95D1-8127-45BC-90D6-8279A779E78A%257D"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0a63c776-6f0f-4be4-a44d-8a1190d5f84d"
+  Value: "83db778a-81aa-40f6-b508-6249495da5c6"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
@@ -82,11 +103,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5f6ea375-e79a-47a2-bd4c-7d497953ee2b"
+      Value: "22b9dc0e-c7f3-466c-8938-a0080e755502"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250812T231746Z
+      Value: 20250904T210437Z

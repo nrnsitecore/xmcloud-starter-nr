@@ -13,6 +13,15 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: 
+    - ID: "05513e2d-22eb-491a-889b-71e99393138e"
+      Hint: metaTitle
+      Value: meta title
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250812T174246Z
@@ -33,7 +42,10 @@ Languages:
       Value: Canada 150 Commemorative
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8b3bc472-88b7-4596-9c0f-25a573bc65a1"
+      Value: "a4472faa-26d5-46f3-b48e-f734adabf21d"
+    - ID: "b7dfe207-22a4-4766-bca0-be0d2a73f1da"
+      Hint: metaDescription
+      Value: meta description
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -41,6 +53,9 @@ Languages:
     - ID: "c58f3d12-400c-4b53-8e09-b89366ea7cf4"
       Hint: Rating
       Value: 4.9
+    - ID: "ceb75eb8-29e9-4102-8256-586fca1c4dff"
+      Hint: SKU
+      Value: 123
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250812T180549Z
+      Value: 20250904T203225Z

@@ -29,8 +29,33 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{BD3C5AAB-3CF2-45B9-9835-17CB7B3EECA1}"
+              p:before="*"
               s:ds="{7215BBBB-BC64-46AC-86EC-F9223AEEB256}"
               s:id="{4822E944-EEF0-45E9-8329-FC0A6BA81750}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{F7439C46-68F5-4A3E-86DF-BB558D696CD9}"
+              p:after="r[@uid='{BD3C5AAB-3CF2-45B9-9835-17CB7B3EECA1}']"
+              s:id="{BE69A4A5-B77F-4F61-936E-C98AC6011534}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{B563DC07-BEBC-4131-B43B-145AE65B60B2}"
+              p:after="r[@uid='{F7439C46-68F5-4A3E-86DF-BB558D696CD9}']"
+              s:id="{E44DD28D-D6EF-4EB2-894A-0D9EEC30E0E4}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{86638D45-648A-4287-9988-904ACFF3A056}"
+              p:after="r[@uid='{B563DC07-BEBC-4131-B43B-145AE65B60B2}']"
+              s:id="{261C2A08-7BC9-4A36-B034-2286C211BC43}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{D230D5CF-3A5A-4A1D-AF50-63C7975ED921}"
+              p:after="*[1=2]"
+              s:id="{9EF92CE1-F0AD-4E3D-B852-04753D5BC98A}"
               s:par="CSSStyles"
               s:ph="headless-main" />
           </d>
@@ -54,11 +79,11 @@ Languages:
         sitecore\brad.thomsen@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d0e400c6-132c-46c4-b36b-a1da8cb9701a"
+      Value: "e0225eee-cc9c-41b2-8500-42bc44b46ab0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brad.thomsen@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250903T183605Z
+      Value: 20250903T222203Z

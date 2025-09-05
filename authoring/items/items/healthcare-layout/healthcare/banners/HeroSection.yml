@@ -10,6 +10,9 @@ SharedFields:
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Project/healthcare/datasources/HeroSection
+- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
+  Hint: Parameters Template
+  Value: "{FD466FAD-C06C-4532-8C8F-FFDC218F35F0}"
 - ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
   Hint: Rendering Contents Resolver
   Value: "{3DF775BF-3F56-446F-9D81-43DE64DA4DDA}"
@@ -18,7 +21,7 @@ SharedFields:
   Value: /sitecore/content/healthcare/vitalcare/Data/HeroSection
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "268e822c-2640-4bcf-a86b-6cba8a9ad08e"
+  Value: "472f7f40-c8a9-485f-8423-20ca78e617a4"
 Languages:
 - Language: en
   Fields:
@@ -41,11 +44,11 @@ Languages:
         sitecore\brad.thomsen@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8c51e80d-3395-4678-af8d-c8ea719db698"
+      Value: "a9011e15-3bf6-4dcb-8fd5-7a1ba558f19d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brad.thomsen@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250903T183437Z
+      Value: 20250904T175252Z

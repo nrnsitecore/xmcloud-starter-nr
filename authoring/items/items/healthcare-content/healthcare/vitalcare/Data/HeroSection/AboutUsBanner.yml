@@ -1,0 +1,52 @@
+﻿---
+ID: "4a0ca76e-93b8-4c87-a3c2-4aa6480821d5"
+Parent: "0ab5bf87-5841-45eb-8c1b-260462cc6e4c"
+Template: "abf010be-b629-464b-9bea-18be46097a56"
+Path: /sitecore/content/healthcare/vitalcare/Data/HeroSection/AboutUsBanner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250903T175820Z
+    - ID: "30a24ebd-461d-4015-a9c2-3c8e2af9e547"
+      Hint: Title
+      Value: Caring for Our Community Since 1985
+    - ID: "387fbefd-776f-490e-b9eb-9d4945d3c4f0"
+      Hint: Description
+      Value: "<p>At HealthCare Plus, we believe that exceptional healthcare goes beyond treating illness. We focus on building lasting relationships with our patients and their families, providing compassionate care that addresses both physical and emotional well-being.</p>"
+    - ID: "3b337b1f-1c3a-4306-8575-1483d9fee129"
+      Hint: CTA1
+      Value: |
+        <link linktype="internal" id="05d30044-6c3a-4982-8613-ce0de4206f18" anchor="" querystring="" target="" class="" text="Meet Our Team" title=""/>
+    - ID: "3dc94576-0f63-4001-89a6-4375fd40491e"
+      Hint: CTA2
+      Value: |
+        <link linktype="internal" id="05d30044-6c3a-4982-8613-ce0de4206f18" anchor="" querystring="" target="" class="" text="Contact Us" title=""/>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\brad.thomsen@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brad.thomsen@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f34e3902-20ab-4997-87aa-596181eda580"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brad.thomsen@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250904T181436Z
+    - ID: "f52a5220-50c9-4f4d-8c9c-b8a49e7df351"
+      Hint: Image
+      Value: |
+        <image mediaid="{D0C55B72-1807-4F10-B8D8-5CFC83E680F0}" />

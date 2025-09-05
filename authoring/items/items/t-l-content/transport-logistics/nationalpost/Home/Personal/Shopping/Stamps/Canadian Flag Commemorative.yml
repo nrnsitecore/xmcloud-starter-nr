@@ -25,15 +25,12 @@ Languages:
     - ID: "51d5a680-d2d0-4c98-a4e0-69f03e248417"
       Hint: Price
       Value: $1.07
-    - ID: "6f4e97de-9ca7-4fdc-be1e-605101b4409d"
-      Hint: Content
-      Value: <span>Beautiful commemorative stamp featuring the Canadian flag</span>
-    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
-      Hint: Title
-      Value: Canadian Flag Commemorative
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "48e7fb68-553a-4d5c-a5bd-235aab63e7d8"
+      Value: "9ab9cbff-79bf-4634-bb27-3d76146ada1c"
+    - ID: "a3af7f17-3094-4f00-8ae5-1e98028c5608"
+      Hint: Title
+      Value: Canadian Flag Commemorative
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -43,4 +40,4 @@ Languages:
       Value: 4.8
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250812T180638Z
+      Value: 20250905T133843Z

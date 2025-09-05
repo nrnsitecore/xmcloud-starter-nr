@@ -1,0 +1,43 @@
+﻿---
+ID: "e90b4c33-b6ec-4310-bd3d-5657db515327"
+Parent: "d1098d51-61b0-4f72-9e02-4e45c41f79dd"
+Template: "f5c0ad80-aa00-4c73-af31-2029b45edcfd"
+Path: /sitecore/content/healthcare/vitalcare/Home/Our Team
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {F5C0AD80-AA00-4C73-AF31-2029B45EDCFD}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {B877726A-16EF-479E-A1FC-1AE191F33AC8}
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{70B0D399-B674-4716-AD82-EE06841B860B}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c254f226-bb4f-400e-893b-0106e736d387"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T184117Z
+    - ID: "386190f1-8414-45fe-aef7-0400eae6335e"
+      Hint: Title
+      Value: Our Team
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Our Team
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "19389783-e353-4b2d-8508-a4d2808f9e2e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brad.thomsen@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250904T184816Z

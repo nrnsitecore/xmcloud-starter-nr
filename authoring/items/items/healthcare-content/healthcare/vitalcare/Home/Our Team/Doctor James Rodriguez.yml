@@ -1,0 +1,48 @@
+﻿---
+ID: "68d11c67-19d4-48f8-9f22-27ea9277ad86"
+Parent: "e90b4c33-b6ec-4310-bd3d-5657db515327"
+Template: "b877726a-16ef-479e-a1fc-1ae191f33ac8"
+Path: /sitecore/content/healthcare/vitalcare/Home/Our Team/Doctor James Rodriguez
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{2E3831AF-41E3-43AA-81C6-B81841AC40CB}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T184949Z
+    - ID: "386190f1-8414-45fe-aef7-0400eae6335e"
+      Hint: Title
+      Value: Director of Operations
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Doctor James Rodriguez
+    - ID: "776fc853-71e6-49d3-b2b2-3c9fbc15def3"
+      Hint: Image
+      Value: |
+        <image mediaid="43aaaacd-ba03-4964-b64c-9b159110f1b1" />
+    - ID: "82653039-b036-4634-b794-aa38e0bb4ce7"
+      Hint: Name
+      Value: Doctor James Rodriguez
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e15ad893-4781-4a55-b77d-1be2fc3851b4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brad.thomsen@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250904T194708Z
+    - ID: "e2d33dfe-89af-4929-82b9-90010dd5ba9d"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p style="text-align:center;"><span style="background-color:oklch(0.980.02200);color:oklch(0.40.02240);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:GeistSans, &quot;GeistSans Fallback&quot;;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:center;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Healthcare executive focused on operational excellence and quality improvement initiatives.</span></span></p></div>

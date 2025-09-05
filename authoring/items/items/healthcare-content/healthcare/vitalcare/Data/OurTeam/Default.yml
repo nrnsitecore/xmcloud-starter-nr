@@ -1,0 +1,47 @@
+﻿---
+ID: "c32a9c4a-51a4-41ea-ab53-8059757e7ccf"
+Parent: "f6b4b153-80f4-49d2-a6f8-90e26a1fdd17"
+Template: "72ad3587-01aa-4efb-97f7-e68b884a533f"
+Path: /sitecore/content/healthcare/vitalcare/Data/OurTeam/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T185540Z
+    - ID: "37c9d139-d1fe-43a4-8d48-c0c8fbd261af"
+      Hint: Link
+      Value: |
+        <link text="Meet Our Full Team" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{E90B4C33-B6EC-4310-BD3D-5657DB515327}" />
+    - ID: "45e7a3ef-0c55-40bd-b5e0-34f968f3909e"
+      Hint: Doctors
+      Value: |
+        {56FCF91E-DCF0-4D30-A484-46C0E59E00D0}
+        {68D11C67-19D4-48F8-9F22-27EA9277AD86}
+        {1CBF8D4B-5BD4-40DF-8A62-C099D4E3C0D5}
+    - ID: "490d7cf4-c5ec-47b9-8833-133a19fa48e5"
+      Hint: Subtitle
+      Value: Our experienced leadership team brings together decades of medical expertise and healthcare administration to guide our organization.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\brad.thomsen@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brad.thomsen@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f6be119-a222-4b43-bfc5-591a4aee79cc"
+    - ID: "aee54d83-1296-4f40-8d87-cfcffef4927a"
+      Hint: Title
+      Value: Leadership Team
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brad.thomsen@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250904T185654Z

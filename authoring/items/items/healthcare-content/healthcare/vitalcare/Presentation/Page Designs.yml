@@ -5,6 +5,12 @@ Template: "fc5dd702-95ea-4c33-9123-2a882d1cdd26"
 Path: /sitecore/content/healthcare/vitalcare/Presentation/Page Designs
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7bF5C0AD80-AA00-4C73-AF31-2029B45EDCFD%7d%3d%257BCA2DD0C8-2B13-442F-842A-625588D4A0C4%257D%26%7bB877726A-16EF-479E-A1FC-1AE191F33AC8%7d%3d%257B13A6C3C4-1FE9-4BC2-8F41-5D9EB80096E1%257D"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8a43558e-4479-4803-b65b-041685021fb3"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
@@ -26,11 +32,11 @@ Languages:
         sitecore\brad.thomsen@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0ee8d81d-adc3-4ddf-b4bf-00d6cd18c468"
+      Value: "14a0c3f5-df6b-485f-bda6-e8360d50ecee"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brad.thomsen@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250902T175857Z
+      Value: 20250904T193808Z

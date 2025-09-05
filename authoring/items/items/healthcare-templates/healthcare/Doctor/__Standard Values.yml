@@ -1,0 +1,26 @@
+﻿---
+ID: "0ae43872-bb7f-4851-a7c8-ab1c87dfbe50"
+Parent: "b877726a-16ef-479e-a1fc-1ae191f33ac8"
+Template: "b877726a-16ef-479e-a1fc-1ae191f33ac8"
+Path: /sitecore/templates/Project/healthcare/Doctor/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T184707Z
+    - ID: "82653039-b036-4634-b794-aa38e0bb4ce7"
+      Hint: Name
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "212c20a0-e6a4-428d-89ac-160da35e0763"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brad.thomsen@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250904T184739Z

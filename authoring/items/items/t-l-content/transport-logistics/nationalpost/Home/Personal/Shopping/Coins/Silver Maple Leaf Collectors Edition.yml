@@ -25,15 +25,12 @@ Languages:
     - ID: "51d5a680-d2d0-4c98-a4e0-69f03e248417"
       Hint: Price
       Value: $149.95
-    - ID: "6f4e97de-9ca7-4fdc-be1e-605101b4409d"
-      Hint: Content
-      Value: <span>Premium silver coin with detailed maple leaf design</span>
-    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
-      Hint: Title
-      Value: Silver Maple Leaf Collectors Edition
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "513896aa-ac91-4fc1-9650-3c823be29c15"
+      Value: "5b3f3801-a312-461e-9b30-3083d62c682c"
+    - ID: "a3af7f17-3094-4f00-8ae5-1e98028c5608"
+      Hint: Title
+      Value: Silver Maple Leaf Collectors Edition
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -43,4 +40,4 @@ Languages:
       Value: 4.9
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250812T180603Z
+      Value: 20250905T133834Z

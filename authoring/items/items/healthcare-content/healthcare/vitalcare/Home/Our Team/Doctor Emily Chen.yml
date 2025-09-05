@@ -1,0 +1,48 @@
+﻿---
+ID: "1cbf8d4b-5bd4-40df-8a62-c099d4e3c0d5"
+Parent: "e90b4c33-b6ec-4310-bd3d-5657db515327"
+Template: "b877726a-16ef-479e-a1fc-1ae191f33ac8"
+Path: /sitecore/content/healthcare/vitalcare/Home/Our Team/Doctor Emily Chen
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{26C1D432-2737-496A-8288-264732F6643E}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250904T185006Z
+    - ID: "386190f1-8414-45fe-aef7-0400eae6335e"
+      Hint: Title
+      Value: Chief of Staff
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Doctor Emily Chen
+    - ID: "776fc853-71e6-49d3-b2b2-3c9fbc15def3"
+      Hint: Image
+      Value: |
+        <image mediaid="15e72c60-38b0-4633-a70e-e39a05d39ba7" />
+    - ID: "82653039-b036-4634-b794-aa38e0bb4ce7"
+      Hint: Name
+      Value: Doctor Emily Chen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9189c78-df61-4b08-8593-84440cffe26b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brad.thomsen@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250904T194800Z
+    - ID: "e2d33dfe-89af-4929-82b9-90010dd5ba9d"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p style="text-align:center;"><span style="background-color:oklch(0.980.02200);color:oklch(0.40.02240);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:GeistSans, &quot;GeistSans Fallback&quot;;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:center;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Experienced physician leader dedicated to clinical excellence and staff development.</span></span></p></div>

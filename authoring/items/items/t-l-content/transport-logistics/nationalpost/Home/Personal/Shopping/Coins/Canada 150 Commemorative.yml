@@ -34,15 +34,12 @@ Languages:
     - ID: "51d5a680-d2d0-4c98-a4e0-69f03e248417"
       Hint: Price
       Value: $29.95
-    - ID: "6f4e97de-9ca7-4fdc-be1e-605101b4409d"
-      Hint: Content
-      Value: <span>Special edition coin celebrating Canada's 150th anniversary</span>
-    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
-      Hint: Title
-      Value: Canada 150 Commemorative
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a4472faa-26d5-46f3-b48e-f734adabf21d"
+      Value: "239bd349-f2ba-4a3c-8112-64844da3c547"
+    - ID: "a3af7f17-3094-4f00-8ae5-1e98028c5608"
+      Hint: Title
+      Value: Canada 150 Commemorative
     - ID: "b7dfe207-22a4-4766-bca0-be0d2a73f1da"
       Hint: metaDescription
       Value: meta description
@@ -58,4 +55,4 @@ Languages:
       Value: 123
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250904T203225Z
+      Value: 20250905T133828Z

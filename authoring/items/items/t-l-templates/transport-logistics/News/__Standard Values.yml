@@ -1,0 +1,23 @@
+﻿---
+ID: "8a8fddeb-de33-4389-bad4-c1660e3a9a4c"
+Parent: "6b1331e0-331a-4ca7-940a-3ffb316f3204"
+Template: "6b1331e0-331a-4ca7-940a-3ffb316f3204"
+Path: "/sitecore/templates/Project/transport-logistics/News/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250905T200850Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "edf6d6b9-4e5b-4970-a021-569362ebf42d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250905T200850Z

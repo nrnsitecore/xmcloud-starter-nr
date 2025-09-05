@@ -1,0 +1,69 @@
+﻿---
+ID: "d43f9392-1f68-4cab-98ec-aa548c5b4e1a"
+Parent: "8e88e14f-16cf-40e8-b30a-233ef25c725c"
+Template: "ea5ef5dc-7348-48b2-bfa5-c4e3300e14cb"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/personal/News"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {EA5EF5DC-7348-48B2-BFA5-C4E3300E14CB}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {6B1331E0-331A-4CA7-940A-3FFB316F3204}
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{226E8963-979C-4F28-B6AF-820B5EF65E32}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4bc6ad08-09ef-40c6-92cd-9312e1b8e8af"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{675DC6EB-4A02-4ADB-9C68-2F963DDA2D52}"
+              p:before="*"
+              s:ds="2c6c3fdd-5bcd-40c1-9351-5595caf63328"
+              s:id="{1CAF1E0E-57BF-4CA0-BC12-3D71A5FCC15E}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{E876C3DF-DB91-4F75-95AA-8A7FA7801F9D}"
+              p:after="*[1=2]"
+              s:ds="d12de8b0-48df-481e-b513-2c2399f4ae2d"
+              s:id="{6B8111C0-398F-4961-AA04-93A66BA377FE}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250905T191149Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: News
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: News
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90aa6dd9-779f-4eea-bbd4-f8aaebdc121e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250905T202432Z

@@ -1,0 +1,43 @@
+﻿---
+ID: "69d5144c-8668-45de-a523-e981b495dd54"
+Parent: "d43f9392-1f68-4cab-98ec-aa548c5b4e1a"
+Template: "6b1331e0-331a-4ca7-940a-3ffb316f3204"
+Path: "/sitecore/content/transport-logistics/nationalpost/Home/personal/News/National Post Commits to Carbon Neutral Delivery by 2030"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{7E603572-779E-41D4-A3B1-86040946A515}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2010dbf1-59b1-4397-97f0-6bb680ab473f"
+      Hint: Excerpt
+      Value: Comprehensive sustainability initiative includes electric vehicles and renewable energy investments.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250905T201418Z
+    - ID: "387c87ad-20cf-4c97-8045-9049016b5acf"
+      Hint: PublishDate
+      Value: 20250915T000000Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: National Post Commits to Carbon Neutral Delivery by 2030
+    - ID: "55a6c105-7444-4a54-b6da-e04f64cf4b94"
+      Hint: Category
+      Value: sustainability
+    - ID: "762d4fec-aae0-4bfc-ad90-45471f1b9fbd"
+      Hint: Title
+      Value: National Post Commits to Carbon Neutral Delivery by 2030
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7e3262c7-99a9-49eb-841a-02835d74d2d2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250905T201452Z

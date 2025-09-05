@@ -1,0 +1,40 @@
+﻿---
+ID: "d12de8b0-48df-481e-b513-2c2399f4ae2d"
+Parent: "68654d49-ae54-4c83-b17e-e726e68464ef"
+Template: "76ed6158-d92e-4d82-b434-d7b0bbce1d67"
+Path: "/sitecore/content/transport-logistics/nationalpost/Data/FeaturedNews/Default"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250905T200638Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5338ae4e-9f65-4e5a-96ac-8581b380a031"
+      Hint: Title
+      Value: Featured News
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "49a6c04c-021b-4c33-8244-348b9b791689"
+    - ID: "b1fe3710-a397-4c50-8ab8-6d67ee8acaa3"
+      Hint: FeaturedNews
+      Value: |
+        {9DCA4EA5-72AF-4950-9244-7C4E9573A103}
+        {0F0C3160-9EB3-4F90-B807-398160F0C3CB}
+        {A476187A-8B75-49B4-B041-8BAFC9F43F21}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250905T202316Z

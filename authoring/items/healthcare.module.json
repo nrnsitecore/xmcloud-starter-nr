@@ -1,0 +1,32 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "healthcare",
+  "items": {
+    "includes": [
+      {
+        "name": "healthcare-templates",
+        "path": "/sitecore/templates/Project/healthcare",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "healthcare-layout",
+        "path": "/sitecore/layout/Renderings/Project/healthcare",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "healthcare-content",
+        "path": "/sitecore/content/healthcare",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "healthcare-media",
+        "path": "/sitecore/media library/Project/healthcare",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

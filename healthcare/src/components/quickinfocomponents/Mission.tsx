@@ -3,10 +3,10 @@ import { Card, CardContent } from "@/components/ui/card"
 import { ComponentProps } from 'lib/component-props'
 import { Target, Eye, Heart } from "lucide-react"
 
-export type quickactionsProps = ComponentProps & {
+export type missionProps = ComponentProps & {
 }
 
-const Mission = (props: quickactionsProps): JSX.Element => {
+const Mission = (props: missionProps): JSX.Element => {
     console.log(props);
   return (
     <section className="py-20 bg-muted/20">

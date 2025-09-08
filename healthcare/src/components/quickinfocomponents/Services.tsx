@@ -1,74 +1,76 @@
 import React, { JSX } from 'react'
+import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ComponentProps } from 'lib/component-props'
-import { Heart, Brain, Bone, Eye, Baby, Shield } from "lucide-react"
+import { Calendar, Stethoscope, FileText, Phone } from "lucide-react"
+import Link from "next/link"
 
-export type ServicesProps = ComponentProps & {
+export type quickactionsProps = ComponentProps & {
 }
 
-const Services = (props: ServicesProps): JSX.Element => {
+const quickactions = (props: quickactionsProps): JSX.Element => {
     console.log(props);
-  const services = [
+  const actions = [
     {
-      icon: Heart,
-      title: "Cardiology",
-      description: "Comprehensive heart and cardiovascular care with advanced diagnostic tools.",
+      icon: Calendar,
+      title: "Book Appointment",
+      description: "Schedule your visit online",
+      href: "/appointments",
+      primary: true,
     },
     {
-      icon: Brain,
-      title: "Neurology",
-      description: "Expert treatment for neurological conditions and brain health.",
+      icon: Stethoscope,
+      title: "Find a Doctor",
+      description: "Browse our specialists",
+      href: "/doctors",
+      primary: false,
     },
     {
-      icon: Bone,
-      title: "Orthopedics",
-      description: "Specialized care for bones, joints, and musculoskeletal system.",
+      icon: FileText,
+      title: "Patient Portal",
+      description: "Access your records",
+      href: "/patient-portal",
+      primary: false,
     },
     {
-      icon: Eye,
-      title: "Ophthalmology",
-      description: "Complete eye care services from routine exams to surgery.",
-    },
-    {
-      icon: Baby,
-      title: "Pediatrics",
-      description: "Dedicated healthcare for infants, children, and adolescents.",
-    },
-    {
-      icon: Shield,
-      title: "Preventive Care",
-      description: "Comprehensive wellness programs and preventive health services.",
+      icon: Phone,
+      title: "Contact Us",
+      description: "Get in touch today",
+      href: "/contact",
+      primary: false,
     },
   ]
 
   return (
-    <section className="py-20 bg-background">
+      <section className="py-16 bg-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4 text-balance">
-            Comprehensive Healthcare Services
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty">
-            From routine check-ups to specialized treatments, our expert medical team provides personalized care across
-            all major healthcare disciplines.
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-foreground mb-4 text-balance">Quick Access to Care</h2>
+          <p className="text-lg text-muted-foreground text-pretty">
+            Everything you need for your healthcare journey, just a click away
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service) => {
-            const Icon = service.icon
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {actions.map((action) => {
+            const Icon = action.icon
             return (
-              <Card key={service.title} className="group hover:shadow-lg transition-all duration-300">
-                <CardContent className="p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
-                      <Icon className="h-6 w-6 text-primary" />
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-semibold text-card-foreground mb-2">{service.title}</h3>
-                      <p className="text-muted-foreground leading-relaxed">{service.description}</p>
+              <Card key={action.title} className="group hover:shadow-lg transition-all duration-300 border-border/50">
+                <CardContent className="p-6 text-center">
+                  <div className="mb-4">
+                    <div
+                      className={`w-16 h-16 mx-auto rounded-full flex items-center justify-center ${
+                        action.primary ? "bg-primary text-primary-foreground" : "bg-accent text-accent-foreground"
+                      } group-hover:scale-110 transition-transform duration-300`}
+                    >
+                      <Icon className="h-8 w-8" />
                     </div>
                   </div>
+                  <h3 className="text-xl font-semibold text-card-foreground mb-2">{action.title}</h3>
+                  <p className="text-muted-foreground mb-4 text-sm">{action.description}</p>
+                  <Button variant={action.primary ? "default" : "outline"} className="w-full" asChild>
+                    <Link href={action.href}>Get Started</Link>
+                  </Button>
                 </CardContent>
               </Card>
             )
@@ -79,4 +81,4 @@ const Services = (props: ServicesProps): JSX.Element => {
   )
 }
 
-export const Default = Services;
+export const Default = quickactions;

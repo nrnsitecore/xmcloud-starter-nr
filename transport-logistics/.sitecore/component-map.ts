@@ -19,6 +19,7 @@ import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-
 import * as Testimonials from 'src/components/pagecontent/Testimonials';
 import * as NewsBanner from 'src/components/news/NewsBanner';
 import * as FeaturedNews from 'src/components/news/FeaturedNews';
+import * as AllNews from 'src/components/news/AllNews';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as ProductLister from 'src/components/listers/ProductLister';
@@ -46,6 +47,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Testimonials', Testimonials],
   ['NewsBanner', NewsBanner],
   ['FeaturedNews', FeaturedNews],
+  ['AllNews', AllNews],
   ['Header', Header],
   ['Footer', Footer],
   ['ProductLister', ProductLister],

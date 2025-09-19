@@ -1,0 +1,32 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "energy-utilities",
+  "items": {
+    "includes": [
+      {
+        "name": "eu-templates",
+        "path": "/sitecore/templates/Project/energy-utilities",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "eu-layout",
+        "path": "/sitecore/layout/Renderings/Project/energy-utilities",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "eu-content",
+        "path": "/sitecore/content/energy-utilities",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "eu-media",
+        "path": "/sitecore/media library/Project/energy-utilities",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

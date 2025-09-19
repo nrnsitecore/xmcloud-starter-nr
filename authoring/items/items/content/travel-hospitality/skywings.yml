@@ -32,9 +32,12 @@ SharedFields:
 - ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
   Hint: Name
   Value: skywings
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: "<image mediaid='f612f5dc-1265-47b4-a79f-1f71c64b1ec0' />"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0fafca9f-be8c-47e5-8944-32920a9622b0"
+  Value: "07c4a2dc-c694-4f1f-83b8-5c01a472a5b4"
 - ID: "e2bf3c8d-a12e-45f4-98d6-a37f13bcf375"
   Hint: SiteTemplate
   Value: "{2867D289-8951-458A-AF19-CE93A67BB494}"
@@ -59,11 +62,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6e785513-7ecc-459d-8646-b0d05fbeac51"
+      Value: "64d88971-53a0-4d2c-b17d-0b6a1267cfb6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Anonymous
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250728T140924Z
+      Value: 20250919T190614Z

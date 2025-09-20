@@ -6,7 +6,6 @@ import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { AlertTriangle, Zap, Thermometer, Activity, TrendingUp, TrendingDown } from "lucide-react"
 import { ComponentProps } from 'lib/component-props';
-import { withDatasourceCheck, Text, Field, Image, ImageField, LinkField, Link } from '@sitecore-content-sdk/nextjs';
 
 export type GridProps = ComponentProps & {
 }

@@ -7,22 +7,31 @@ BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "1ee576af-ba8e-4312-9fbd-2ccf8395baa1"
   Hint: StartItem
-  Value: "{38533092-C1B4-42D1-945F-9F48ABA9B831}"
+  Value: 38533092c1b442d1945f9f48aba9b831
 - ID: "301e719a-6f65-4874-b565-a953a7b5ac83"
   Hint: OtherProperties
   Value: isSiteThumbnailSource=true
 - ID: "475031d8-724d-463c-80b2-90839dd1ad98"
   Hint: VirtualFolder
   Value: 
+- ID: "4e9e2ae5-36db-4955-9af1-5a1934a27c7d"
+  Hint: Language Embedding
+  Value: 0
 - ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
   Hint: ThumbnailsRootPath
   Value: "{D1F834DA-E2ED-4282-8149-BBCB3F340C61}"
+- ID: "6e6da5b0-8d01-4514-b7dd-1940aff3e8cd"
+  Hint: FieldLanguageFallback
+  Value: 0
 - ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
   Hint: Name
   Value: Gridwell
 - ID: "89cecf4f-e545-44f2-813d-272c08661d14"
   Hint: Description
   Value: Energy
+- ID: "8c436235-b85d-4097-89cf-d5a4fa70cc0a"
+  Hint: ItemLanguageFallback
+  Value: 0
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
   Value: *
@@ -37,10 +46,10 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8b9c5d82-f71c-4c6e-b0da-8dedd24f89ed"
+  Value: "b85d36e3-4eed-4cf3-afde-ab024bc1a0d2"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
-  Value: Default
+  Value: "energy-utilities"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{23E42340-77BE-49FC-A7C4-77D3CB545223}"
@@ -62,11 +71,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cd357d40-369f-4e1d-bc28-3305f4051809"
+      Value: "d7aeee57-f0dc-4e1c-97f0-334fe420f0d0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250919T193436Z
+      Value: 20250920T201023Z

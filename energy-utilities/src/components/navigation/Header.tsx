@@ -39,51 +39,22 @@ export const Header = (props: HeaderProps): JSX.Element => {
             <span className="text-xl font-bold text-foreground">Gridwell</span>
           </Link>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link
-              href="/"
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Home
-            </Link>
-            <Link
-              href="/articles"
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Articles
-            </Link>
-            <Link
-              href="/grid-status"
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Grid Status
-            </Link>
-            <Link
-              href="/alerts"
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Alerts
-            </Link>
+            {props.fields?.items?.map((item, index) => (
+              <Link key={index} href={item.fields?.Link?.value?.href ?? '#'} prefetch={false} className="text-gray-700 hover:text-blue-600 font-medium">
+                {item.displayName}
+              </Link>
+            ))}
+
           </nav>
 
-          {/* Search Box */}
           <div className="relative flex-1 max-w-md mx-4">
             <div className="relative">
-              {/* <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-              <Input
+              <input
                 type="text"
-                placeholder="Search grid information..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter") {
-                    handleSearchSubmit(searchQuery)
-                  }
-                }}
+                placeholder="Search..."
                 className="pl-10 pr-4"
-              /> */}
-              SEARCHBOX HERE
+              /> 
             </div>
 
             {/* Search Suggestions */}
@@ -112,30 +83,11 @@ export const Header = (props: HeaderProps): JSX.Element => {
         {mobileMenuOpen && (
           <div className="md:hidden border-t py-4">
             <nav className="flex flex-col space-y-4">
-              <Link
-                href="/"
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Home
-              </Link>
-              <Link
-                href="/articles"
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Articles
-              </Link>
-              <Link
-                href="/grid-status"
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Grid Status
-              </Link>
-              <Link
-                href="/alerts"
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Alerts
-              </Link>
+              {props.fields?.items?.map((item, index) => (
+                <Link key={index} href={item.fields?.Link?.value?.href ?? '#'} prefetch={false} className="text-gray-700 hover:text-blue-600 font-medium">
+                  {item.displayName}
+                </Link>
+              ))}
             </nav>
           </div>
         )}

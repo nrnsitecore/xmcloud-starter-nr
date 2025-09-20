@@ -1,19 +1,15 @@
 ﻿---
-ID: "e6cc5e83-e111-4eb4-a819-15fb5036eb77"
-Parent: "82488847-87ce-4737-9f75-804b406f5401"
-Template: "26f122fb-57bf-44e8-ad36-4a38caf1d6ae"
-Path: "/sitecore/content/energy-utilities/gridwell/Presentation/Page Designs"
-BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+ID: "cf1b8bf4-f879-4afa-b6bc-3fa1c9e4e913"
+Parent: "e912d649-d5bc-433a-aeba-330060a0e010"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/content/energy-utilities/gridwell/Data/Banners"
 SharedFields:
-- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
-  Hint: TemplatesMapping
-  Value: "%7bE43ADD4C-EEA3-47A1-8271-E64A9FD0A209%7d%3d%257BC5E344D7-91B2-483E-8C37-F9147E7643EB%257D"
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{B8B8C334-D73D-4AED-BCBD-BE3DD4BCE045}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "c8ed3a45-1cd3-4d0d-97bd-06b450f9428e"
-- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
-  Hint: __Originator
-  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+  Value: "8a3b1d15-35a8-44af-8654-a9ffd06b7667"
 Languages:
 - Language: en
   Versions:
@@ -21,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250919T193402Z
+      Value: 20250920T215023Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -32,11 +28,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c0a8aab1-ab1f-48d7-8f00-f91347373d1e"
+      Value: "4659727f-929f-4d5c-be29-b2c55c434d83"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250920T213236Z
+      Value: 20250920T215045Z

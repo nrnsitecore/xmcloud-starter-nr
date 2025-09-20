@@ -1,7 +1,7 @@
 import React, { JSX } from 'react'
 import Link from "next/link"
-import { GraduationCap, Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react"
-import { Field, Text } from '@sitecore-content-sdk/nextjs';
+import { Zap, Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react"
+import { Field, Text, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 
 export type FooterProps = ComponentProps & {
@@ -63,7 +63,7 @@ const Footer = (props: FooterProps): JSX.Element => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <GraduationCap className="h-8 w-8 text-emerald-400" />
+              <Zap className="h-8 w-8 text-emerald-400" />
               <span className="text-xl font-bold"><Text field={props.fields.data.links.Title.jsonValue} /></span>
             </div>
             <p className="text-gray-300">
@@ -95,7 +95,7 @@ const Footer = (props: FooterProps): JSX.Element => {
         </div>
         <div className="border-t border-gray-800 mt-12 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
-              <div className="text-gray-400 text-sm">© 2024 Learnwell. All rights reserved.</div>
+              <div className="text-gray-400 text-sm">© 2024 Gridwell. All rights reserved.</div>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <Link href="/privacy" className="text-gray-400 hover:text-emerald-400 text-sm">
                   Privacy Policy
@@ -117,4 +117,4 @@ const Footer = (props: FooterProps): JSX.Element => {
   );
 };
 
-export const Default = Footer;
+export const Default = withDatasourceCheck()<FooterProps>(Footer);

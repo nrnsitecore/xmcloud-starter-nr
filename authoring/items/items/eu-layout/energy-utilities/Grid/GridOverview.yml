@@ -1,33 +1,23 @@
 ﻿---
-ID: "2017af40-88a3-47ab-80e8-54e6e4739dd8"
-Parent: "b6511bab-bf9c-40eb-bceb-1528eadfe4ec"
+ID: "b4b074a4-67cb-4994-bc75-b77b227052d7"
+Parent: "68948865-3786-434e-a88e-999b53767a45"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: "/sitecore/layout/Renderings/Project/energy-utilities/HeroBanner"
+Path: "/sitecore/layout/Renderings/Project/energy-utilities/Grid/GridOverview"
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: HeroBanner
-- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
-  Hint: Datasource Template
-  Value: "/sitecore/templates/Project/energy-utilities/datasources/HeroBanner"
-- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
-  Hint: Datasource Location
-  Value: "/sitecore/content/energy-utilities/gridwell/Data/Banners"
+  Value: GridOverview
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d365b3a5-c282-41ab-bd57-2394b2aa3c91"
+  Value: "80c4a71f-b990-4749-a72b-eba78218718a"
 Languages:
 - Language: en
-  Fields:
-  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
-    Hint: __Unversioned revision
-    Value: "75caeafb-64ac-42d0-9f94-e566999967bc"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250920T214856Z
+      Value: 20250920T222013Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -38,11 +28,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c78a9011-c9d5-4b9c-ae13-ef23dc891456"
+      Value: "f82ff9e0-3b85-4a26-a132-294e89251a15"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250920T215522Z
+      Value: 20250920T222013Z

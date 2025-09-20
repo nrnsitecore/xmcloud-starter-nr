@@ -17,7 +17,7 @@ const HeroBanner = (props: HeroBannerProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
 
   return (
-    <section className={`text-center py-12 mb-12 ${sxaStyles}`}>
+    <section className={`text-center py-12 ${sxaStyles}`}>
       <div className="absolute m-auto w-full mt-[100px]">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance text-primary">
           <Text field={props.fields.Title} />

@@ -29,8 +29,15 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{FAD4D947-202A-4533-831C-9FE720CBD786}"
+              p:before="*"
               s:ds="e83a9610-786d-4385-8788-ea85795a0ad1"
               s:id="{2017AF40-88A3-47AB-80E8-54E6E4739DD8}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{2163BE0E-6D05-4483-8E19-C95E4AAAEAFA}"
+              p:after="*[1=2]"
+              s:id="{B4B074A4-67CB-4994-BC75-B77B227052D7}"
               s:par="CSSStyles"
               s:ph="headless-main" />
           </d>
@@ -51,14 +58,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7604d60e-3966-4ed3-8869-abb9c2858b77"
+      Value: "b82dc441-1ef9-4b81-90b1-6a3d6a217b33"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250920T215624Z
+      Value: 20250920T222141Z
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: gridwell

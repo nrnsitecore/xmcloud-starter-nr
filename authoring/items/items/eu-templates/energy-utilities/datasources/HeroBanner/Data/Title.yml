@@ -2,7 +2,7 @@
 ID: "20d63af7-2f8c-4fd9-bce9-96ef7505b3c0"
 Parent: "6e572fd5-39bf-4681-ab26-db5089147938"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/energy-utilities/datasources/HeroBanner/Data/Title"
+Path: "/sitecore/templates/Project/energy-utilities/Datasources/HeroBanner/Data/Title"
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type

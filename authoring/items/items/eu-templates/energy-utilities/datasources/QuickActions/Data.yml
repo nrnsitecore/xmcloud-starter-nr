@@ -2,7 +2,7 @@
 ID: "c2cad749-e612-4e2d-a16f-c6aef92671fd"
 Parent: "d0bc3fd5-a0a7-4ccf-8e48-a4e4013f159a"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: "/sitecore/templates/Project/energy-utilities/datasources/QuickActions/Data"
+Path: "/sitecore/templates/Project/energy-utilities/Datasources/QuickActions/Data"
 Languages:
 - Language: en
   Versions:

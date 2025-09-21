@@ -2,7 +2,7 @@
 ID: "6e572fd5-39bf-4681-ab26-db5089147938"
 Parent: "b8b8c334-d73d-4aed-bcbd-be3dd4bce045"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: "/sitecore/templates/Project/energy-utilities/datasources/HeroBanner/Data"
+Path: "/sitecore/templates/Project/energy-utilities/Datasources/HeroBanner/Data"
 Languages:
 - Language: en
   Versions:

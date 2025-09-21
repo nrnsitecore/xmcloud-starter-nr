@@ -2,7 +2,7 @@
 ID: "d0bc3fd5-a0a7-4ccf-8e48-a4e4013f159a"
 Parent: "79805f41-3d46-4267-86eb-43e75059cc9a"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: "/sitecore/templates/Project/energy-utilities/datasources/QuickActions"
+Path: "/sitecore/templates/Project/energy-utilities/Datasources/QuickActions"
 SharedFields:
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template

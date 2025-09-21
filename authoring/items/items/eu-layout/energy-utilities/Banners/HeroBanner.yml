@@ -9,13 +9,13 @@ SharedFields:
   Value: HeroBanner
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: "/sitecore/templates/Project/energy-utilities/datasources/HeroBanner"
+  Value: "/sitecore/templates/Project/energy-utilities/Datasources/HeroBanner"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: "/sitecore/content/energy-utilities/gridwell/Data/Banners"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d365b3a5-c282-41ab-bd57-2394b2aa3c91"
+  Value: "198bda57-42ac-41ba-a96e-84226f462337"
 Languages:
 - Language: en
   Fields:
@@ -38,11 +38,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c78a9011-c9d5-4b9c-ae13-ef23dc891456"
+      Value: "d4599f57-9c8b-4014-b0e3-d72e59b3aa1e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250920T215522Z
+      Value: 20250921T151403Z

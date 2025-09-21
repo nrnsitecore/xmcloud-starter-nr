@@ -36,8 +36,15 @@ Languages:
               s:ph="headless-main" />
             <r
               uid="{2163BE0E-6D05-4483-8E19-C95E4AAAEAFA}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{FAD4D947-202A-4533-831C-9FE720CBD786}']"
               s:id="{B4B074A4-67CB-4994-BC75-B77B227052D7}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{176A556E-03B6-4158-8F87-5730B418A992}"
+              p:after="*[1=2]"
+              s:ds="d2fc72e5-a1dd-4a8c-9d24-1b0439fe145d"
+              s:id="{A039E112-89EB-436D-94E7-33BA86807F25}"
               s:par="CSSStyles"
               s:ph="headless-main" />
           </d>
@@ -58,14 +65,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b82dc441-1ef9-4b81-90b1-6a3d6a217b33"
+      Value: "ee0cee99-d9af-4475-9e9c-16f85b7400ae"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250920T222141Z
+      Value: 20250920T233602Z
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: gridwell

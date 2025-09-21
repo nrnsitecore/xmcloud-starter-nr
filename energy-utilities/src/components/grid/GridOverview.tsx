@@ -60,7 +60,7 @@ const GridOverview = (props: GridProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
 
   return (
-    <section className={`mx-auto w-full ${sxaStyles}`}>
+    <section className={`mx-auto p-6 w-full ${sxaStyles}`}>
       <h2 className="text-3xl font-bold text-foreground mb-6">Live Grid Conditions</h2>
       <div className="space-y-6">
         {/* Alert Banner */}

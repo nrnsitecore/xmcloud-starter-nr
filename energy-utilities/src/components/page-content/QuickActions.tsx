@@ -22,7 +22,7 @@ const QuickActions = (props: QuickActionsProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
 
   return (
-    <section className={`mb-12 ${sxaStyles}`}>
+    <section className={`mb-12 p-6 ${sxaStyles}`}>
       <h2 className="text-3xl font-bold text-foreground mb-6"><Text field={props.fields.Title} /></h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {props.fields.QuickActions.map((action, index) => (

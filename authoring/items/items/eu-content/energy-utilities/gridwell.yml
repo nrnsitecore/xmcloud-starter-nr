@@ -35,9 +35,12 @@ SharedFields:
 - ID: "89cecf4f-e545-44f2-813d-272c08661d14"
   Hint: Description
   Value: Energy
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: "<image mediaid='40b1c2a5-2653-4db0-b589-1ea6e2566956' />"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4dea42d1-acb1-447e-9459-2a60e1214dfb"
+  Value: "f8b348b2-a5a4-4329-98c7-0e397b766d31"
 - ID: "e2bf3c8d-a12e-45f4-98d6-a37f13bcf375"
   Hint: SiteTemplate
   Value: "{2867D289-8951-458A-AF19-CE93A67BB494}"
@@ -62,11 +65,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a4965e8d-d5dd-4792-b60c-51f9962a4f49"
+      Value: "9bac22a0-a49d-4290-b1f7-e081a948f082"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Anonymous
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250919T193437Z
+      Value: 20250921T000422Z

@@ -1,4 +1,4 @@
-import { Snowflake, Clock, Lightbulb, Home, Zap } from "lucide-react";
+import { Snowflake, Clock, Lightbulb, Home, Zap, AlertTriangle, BarChart3, FileText, Bell } from "lucide-react";
 
 const icons = {
   Snowflake: Snowflake,
@@ -6,6 +6,10 @@ const icons = {
   Lightbulb: Lightbulb,
   Home: Home,
   Zap: Zap,
+  AlertTriangle: AlertTriangle,
+  BarChart3: BarChart3,
+  FileText: FileText,
+  Bell: Bell,
 };
 
 interface IconRendererProps {
@@ -13,7 +17,6 @@ interface IconRendererProps {
 }
 
 export default function IconRenderer({ iconName }: IconRendererProps) {
-  console.log(iconName);
   const IconComponent = icons[iconName as keyof typeof icons] || Zap;
   return <IconComponent className="h-12 w-12 mx-auto text-blue-600 mb-4" />;
 }

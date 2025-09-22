@@ -25,8 +25,16 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{2C79F648-637B-415F-A572-29CB8EAA59B1}"
+              p:before="*"
               s:ds="62abd601-8d7c-401b-a31a-910e198c05e6"
               s:id="{2017AF40-88A3-47AB-80E8-54E6E4739DD8}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{5E3128F2-9678-4951-9761-605BE37A28FF}"
+              p:after="*[1=2]"
+              s:ds="0d905ed2-c304-4e01-9a42-85d1f80282e6"
+              s:id="{4CAE9CF0-3AED-435E-BED5-F787D49CEA30}"
               s:par="CSSStyles"
               s:ph="headless-main" />
           </d>
@@ -39,14 +47,14 @@ Languages:
       Value: Articles
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "be569f49-8f67-4324-98f0-e9d6ac92334e"
+      Value: "7fd040d9-b26d-4c37-ae34-f691dec27b53"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T122236Z
+      Value: 20250922T151412Z
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: Articles

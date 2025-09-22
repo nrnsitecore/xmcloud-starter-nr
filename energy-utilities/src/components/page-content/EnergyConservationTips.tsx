@@ -21,7 +21,7 @@ export type EnergyConservationTipsProps = ComponentProps & {
 
 const EnergyConservationTips = (props: EnergyConservationTipsProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
-  console.log (props);
+
   return (
     <section className={`text-center p-12 ${sxaStyles}`}>
       <h2 className="text-3xl font-bold text-foreground mb-6"><Text field={props.fields.Title} /></h2>

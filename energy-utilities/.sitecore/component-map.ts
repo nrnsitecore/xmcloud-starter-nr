@@ -16,6 +16,7 @@ import * as Footer from 'src/components/navigation/Footer';
 import * as utils from 'src/components/lib/utils';
 import * as GridOverview from 'src/components/grid/GridOverview';
 import * as HeroBanner from 'src/components/banners/HeroBanner';
+import * as LatestArticles from 'src/components/articles/LatestArticles';
 import * as ArticleSearch from 'src/components/articles/ArticleSearch';
 
 
@@ -36,6 +37,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['utils', utils],
   ['GridOverview', GridOverview],
   ['HeroBanner', HeroBanner],
+  ['LatestArticles', LatestArticles],
   ['ArticleSearch', ArticleSearch],
 ]);
 

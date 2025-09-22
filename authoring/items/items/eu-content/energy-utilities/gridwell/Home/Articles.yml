@@ -4,10 +4,16 @@ Parent: "38533092-c1b4-42d1-945f-9f48aba9b831"
 Template: "e43add4c-eea3-47a1-8271-e64a9fd0a209"
 Path: "/sitecore/content/energy-utilities/gridwell/Home/Articles"
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{3B3034DF-1E66-45DD-AF2D-B3578D9095E9}"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{3E167582-2450-46BC-B0DB-C12E926275CD}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "54fc1fef-5535-465f-aaeb-ca82dadc81ab"
 Languages:
 - Language: en
   Versions:
@@ -47,14 +53,14 @@ Languages:
       Value: Articles
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7fd040d9-b26d-4c37-ae34-f691dec27b53"
+      Value: "c9c64207-414d-4464-9f1c-94e39a16d405"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T151412Z
+      Value: 20250922T154446Z
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: Articles

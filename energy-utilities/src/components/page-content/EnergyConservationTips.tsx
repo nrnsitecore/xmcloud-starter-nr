@@ -36,7 +36,7 @@ const EnergyConservationTips = (props: EnergyConservationTipsProps): JSX.Element
                 <div className="text-primary mt-1"><IconRenderer iconName={tip.fields.Icon.displayName} /></div>
                 <div>
                   <h4 className="font-medium text-sm"><Text field={tip.fields.Title} /></h4>
-                  <p className="text-sm text-muted-foreground mt-1"><Text field={tip.fields.Text} /></p>
+                  <p className="text-sm mt-1"><Text field={tip.fields.Text} /></p>
                 </div>
               </div>
             ))}

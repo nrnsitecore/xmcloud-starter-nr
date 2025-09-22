@@ -34,7 +34,7 @@ const HeroBanner = (props: HeroBannerProps): JSX.Element => {
           </Button>
         </div>
       </div>
-      <Image field={props.fields.Image} className="fill" />
+      <Image field={props.fields.Image} className="h-96" height="300" />
 
     </section>
   )

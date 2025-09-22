@@ -10,6 +10,7 @@ import * as button from 'src/components/ui/button';
 import * as badge from 'src/components/ui/badge';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as QuickActions from 'src/components/page-content/QuickActions';
+import * as Promo from 'src/components/page-content/Promo';
 import * as EnergyConservationTips from 'src/components/page-content/EnergyConservationTips';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
@@ -32,6 +33,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['badge', badge],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
   ['QuickActions', QuickActions],
+  ['Promo', Promo],
   ['EnergyConservationTips', EnergyConservationTips],
   ['Header', Header],
   ['Footer', Footer],

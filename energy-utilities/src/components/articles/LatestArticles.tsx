@@ -19,9 +19,7 @@ export type LatestArticlesProps = ComponentProps & {
         Excerpt: Field<string>;
         Content: Field<string>;
         Author: {
-          fields: {
-            Name: Field<string>;
-          }
+          value: string;
         }
         Category: {
           fields: {
@@ -79,7 +77,7 @@ const LatestArticles = (props: LatestArticlesProps): JSX.Element => {
                 <Badge variant="outline" className={`text-xs ${getStatusColor(article.fields.Category.fields.displayName)}`}>
                   {article.fields.Category.fields.displayName}
                 </Badge>
-                <div className="flex items-center space-x-4 text-xs text-muted-foreground">
+                <div className="flex items-center space-x-4 text-xs">
                   <div className="flex items-center space-x-1">
                     <Calendar className="h-3 w-3" />
                     <DateField
@@ -94,12 +92,12 @@ const LatestArticles = (props: LatestArticlesProps): JSX.Element => {
                 <Link href={article.url}><Text field={article.fields.Title} /></Link>
               </h3>
 
-              <p className="text-sm text-muted-foreground mb-4 leading-relaxed"><Text field={article.fields.Excerpt} /></p>
+              <p className="text-sm mb-4 leading-relaxed"><Text field={article.fields.Excerpt} /></p>
 
               <div className="flex items-center justify-between">
-                <div className="flex items-center space-x-1 text-xs text-muted-foreground">
+                <div className="flex items-center space-x-1 text-xs">
                   <User className="h-3 w-3" />
-                  <span><Text field={article.fields.Author.fields.Name} /></span>
+                  <span>{article.fields.Author.value}</span>
                 </div>
 
                 <Button variant="ghost" size="sm" asChild>

@@ -27,15 +27,15 @@ Languages:
       Value: TXANS Alerts
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "03f38d75-1536-49f9-b42b-0b2004312ade"
+      Value: "5a2dad9c-aca8-4920-bd18-f129a8217516"
     - ID: "a474b14e-5620-46f2-8fe1-85cdbd3f4e0f"
       Hint: Link
       Value: |
-        <link text="Sign Up" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{31E5D564-9285-4A17-A7B0-F12751715D7A}" />
+        <link class="" querystring="" id="{31E5D564-9285-4A17-A7B0-F12751715D7A}" anchor="" target="_blank" title="" linktype="internal" text="Sign Up" url="/energy-utilities/gridwell/Home/Alerts/TEXNS" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250920T232750Z
+      Value: 20250922T204151Z

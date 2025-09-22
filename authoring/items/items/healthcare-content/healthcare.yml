@@ -37,12 +37,15 @@ SharedFields:
 - ID: "b6953f8b-56d3-4c90-a6db-885786711e4a"
   Hint: SettingsFolder
   Value: "{7F4DDDD4-62CE-448C-AEFA-FCA9F81319FD}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 30
 - ID: "c5dbb136-3299-4835-a8ce-bca8b49ba3fa"
   Hint: BranchesFolder
   Value: "{C7C647C9-EC98-472B-BCCF-0BC7A7DEE1A9}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f8812881-8d76-4155-833a-73caa1d24a96"
+  Value: "b428bdba-ab83-4605-a74b-c332f5956156"
 - ID: "e90a4413-c111-4951-9b6a-00c4ce7fb289"
   Hint: MediaLibrary
   Value: "{AD82AA9F-8502-40F7-A1CE-F3D6BB980D9A}"
@@ -67,11 +70,11 @@ Languages:
         sitecore\brad.thomsen@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a9284731-8283-4d4b-92d0-0364f74da8f8"
+      Value: "05a91835-3939-4152-bb44-0555e8bb02b0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250919T190635Z
+      Value: 20250922T182034Z

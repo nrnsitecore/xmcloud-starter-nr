@@ -30,15 +30,15 @@ Languages:
       Value: Newsletter Signup
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d0cd0488-3636-40b0-9402-d0d0b7881fe9"
+      Value: "7b0e3526-0864-40d2-8f63-9d901a90b1bb"
     - ID: "a474b14e-5620-46f2-8fe1-85cdbd3f4e0f"
       Hint: Link
       Value: |
-        <link text="Sign Up" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{D7536171-C4E9-4D65-9890-AE989BF72576}" />
+        <link class="" querystring="" id="{D7536171-C4E9-4D65-9890-AE989BF72576}" anchor="" target="_blank" title="" linktype="internal" text="Sign Up" url="/energy-utilities/gridwell/Home/Alerts/Newsletter" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250920T235550Z
+      Value: 20250922T204151Z

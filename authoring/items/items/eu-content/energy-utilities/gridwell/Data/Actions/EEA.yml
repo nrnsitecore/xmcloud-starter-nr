@@ -27,15 +27,15 @@ Languages:
       Value: EEA Notifications
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "336d12b2-985b-4940-977d-9d23e5113237"
+      Value: "4e3defd5-1a30-4486-856b-b316777082b6"
     - ID: "a474b14e-5620-46f2-8fe1-85cdbd3f4e0f"
       Hint: Link
       Value: |
-        <link text="Sign Up" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{0887E18A-9D06-418C-BA38-E289EA9AB006}" />
+        <link class="" querystring="" id="{0887E18A-9D06-418C-BA38-E289EA9AB006}" anchor="" target="_blank" title="" linktype="internal" text="Sign Up" url="/energy-utilities/gridwell/Home/Alerts/EEA" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250920T232719Z
+      Value: 20250922T204151Z

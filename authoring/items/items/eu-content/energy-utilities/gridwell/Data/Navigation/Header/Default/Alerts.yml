@@ -25,18 +25,18 @@ Languages:
     - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{CF4453C8-8AFC-46E4-85FB-6B1F284A5EB7}" />
+        <link class="" querystring="" id="{CF4453C8-8AFC-46E4-85FB-6B1F284A5EB7}" anchor="" target="" title="" linktype="internal" text="" url="/energy-utilities/gridwell/Home/Alerts" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9b634346-2d4a-4eef-8986-f490931ea833"
+      Value: "d1c7672e-2fe7-46f1-84d7-b71f5de64a9c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250919T211255Z
+      Value: 20250922T204151Z

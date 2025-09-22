@@ -36,6 +36,7 @@ export type LatestArticlesProps = ComponentProps & {
 }
 
 const LatestArticles = (props: LatestArticlesProps): JSX.Element => {
+  console.log(props);
   const getStatusColor = (status: string) => {
     switch (status) {
       case "Zap":

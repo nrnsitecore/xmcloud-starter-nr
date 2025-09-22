@@ -30,7 +30,7 @@ const EnergyConservationTips = (props: EnergyConservationTipsProps): JSX.Element
           <CardTitle><Text field={props.fields.Title} /></CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
             {props.fields.Tips.map((tip, index) => (
               <div key={index} className="flex items-start space-x-3 p-3 border rounded-lg">
                 <div className="text-primary mt-1"><IconRenderer iconName={tip.fields.Icon.displayName} /></div>

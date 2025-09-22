@@ -13,12 +13,15 @@ SharedFields:
     <image mediaid="{CB133D3F-AC93-4A46-A446-A7F0DC990D29}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f9855a2a-8552-4256-91f4-06e06a54c8d4"
+  Value: "f6b0ddac-e71f-426d-a38e-b564aec96dc1"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
       Hint: Author
       Value: Sarah Thompson
@@ -34,6 +37,10 @@ Languages:
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Behind the Scenes How Gridwell Balances Supply and Demand
+    - ID: "510535d3-5db4-4d5b-b743-a2eadd190e1a"
+      Hint: Image
+      Value: |
+        <image mediaid="6b132b37-077e-4ddf-a801-675d3266dbb9" />
     - ID: "5741d8ad-1a09-42d0-863c-577815ea3fc5"
       Hint: Excerpt
       Value: "Every second, Texas’s electric grid is in constant motion, balancing the power that’s generated with the power that’s consumed. This delicate process requires advanced tools, real-time monitoring, and quick decision-making. While most Texans only notice when something goes wrong, the reality is that a vast amount of work happens behind the scenes to keep things running smoothly. This article takes you inside the control room."
@@ -48,7 +55,7 @@ Languages:
       Value: grid operations, Gridwell, supply and demand, reliability
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "084aacb8-62f5-4f56-bb90-32e1ecb31e97"
+      Value: "f67f2731-9da8-4c32-905e-105c2cb1a72a"
     - ID: "95339efa-558c-477c-8b88-0479e80d1d9e"
       Hint: MetaDescription
       Value: "A behind-the-scenes look at Gridwell’s real-time balancing of supply and demand across Texas."
@@ -61,7 +68,7 @@ Languages:
       Value: "{86DBA63C-586F-4760-BD9D-0FF42C8E9E6D}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T161100Z
+      Value: 20250922T181718Z
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: "Behind the Scenes: How Gridwell Balances Supply and Demand"

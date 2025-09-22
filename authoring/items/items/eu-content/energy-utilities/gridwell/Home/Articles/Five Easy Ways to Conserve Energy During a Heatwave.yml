@@ -13,6 +13,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
       Hint: Author
       Value: Lisa Park
@@ -28,6 +31,10 @@ Languages:
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Five Easy Ways to Conserve Energy During a Heatwave
+    - ID: "510535d3-5db4-4d5b-b743-a2eadd190e1a"
+      Hint: Image
+      Value: |
+        <image mediaid="cec9f8e9-20b3-4ba5-9495-7b54260d6d87" />
     - ID: "5741d8ad-1a09-42d0-863c-577815ea3fc5"
       Hint: Excerpt
       Value: Heatwaves put a tremendous strain on Texas’s power grid, especially during peak hours when demand is at its highest. Simple actions at home can help lower demand while also keeping utility bills in check. Many households are surprised to learn how small changes can have such a big impact when multiplied across millions of Texans. This article highlights five easy, practical tips you can use today.
@@ -42,7 +49,7 @@ Languages:
       Value: conserve energy, summer tips, peak demand, heatwave conservation
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "af5427e0-a6aa-4d7f-a9fc-6a2f39ce7b14"
+      Value: "03d9d261-f564-4cdf-87d0-680a14a5af31"
     - ID: "95339efa-558c-477c-8b88-0479e80d1d9e"
       Hint: MetaDescription
       Value: ractical advice for homeowners to reduce electricity use during extreme heat.
@@ -55,7 +62,7 @@ Languages:
       Value: "{76CB1752-C56D-4FC9-A929-B8D2195610B2}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T161051Z
+      Value: 20250922T181737Z
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: Five Easy Ways to Conserve Energy During a Heatwave

@@ -145,7 +145,7 @@ const SupplyAndDemandChart = (props: ChartProps): JSX.Element => {
         <section className={`mx-auto px-8 py-4 w-full ${sxaStyles} mt-8`}>
             <Card className="p-8">
                 <CardTitle className="text-3xl font-bold text-foreground">Supply and Demand</CardTitle>
-                <CardDescription className="text-gray-900">Supply and demand is a graphical representation of the ERCOT system's current power supply (capacity) and demand using Real-Time data, as well as projected power supply (capacity) and demand from hourly forecasts and seasonal forecasts. </CardDescription>
+                <CardDescription className="text-gray-900">Supply and demand is a graphical representation of the Gridwell systems current power supply (capacity) and demand using Real-Time data, as well as projected power supply (capacity) and demand from hourly forecasts and seasonal forecasts. </CardDescription>
                 <AreaChart
                 className="h-70"
                 data={demandChartData}

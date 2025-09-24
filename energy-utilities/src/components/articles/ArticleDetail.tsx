@@ -60,7 +60,6 @@ const ArticleDetail = (props: ArticleDetailProps): JSX.Element => {
   }
 
   const sxaStyles = `${props.params?.styles || ''}`;
-console.log(props);
   return (
     <>
       <div className={`max-w-4xl mx-auto ${sxaStyles}`}>
@@ -76,8 +75,8 @@ console.log(props);
           {/* Article Header */}
           <div className="space-y-6">
             <div className="flex items-center space-x-4">
-              <Badge variant="outline" className={getCategoryColor(props.fields.Category.fields.Title.value)}>
-                <Text field={props.fields.Category.fields.Title} />
+              <Badge variant="outline" className={getCategoryColor(props.fields?.Category?.fields?.Title?.value)}>
+                <Text field={props.fields?.Category?.fields?.Title} />
               </Badge>
               <div className="flex items-center space-x-4 text-sm">
                 <div className="flex items-center space-x-1">

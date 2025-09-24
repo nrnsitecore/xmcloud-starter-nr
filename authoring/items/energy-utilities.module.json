@@ -16,6 +16,12 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
+        "name": "eu-phsettings",
+        "path": "/sitecore/layout/Placeholder Settings/Project/energy-utilities",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
         "name": "eu-content",
         "path": "/sitecore/content/energy-utilities",
         "scope": "ItemAndDescendants",

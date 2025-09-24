@@ -7,12 +7,21 @@ SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
   Value: ArticleDetail
+- ID: "069a8361-b1cd-437c-8c32-a3be78941446"
+  Hint: Placeholders
+  Value: "{65F17CAD-4EA7-4CA3-9F44-87B29509C898}"
+- ID: "592a1ce7-abe0-4986-9783-0a34f3961dc0"
+  Hint: Placeholder
+  Value: 
 - ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
   Hint: Rendering Contents Resolver
   Value: "{6CCCBCDE-5E95-44E4-AE66-CFE7D3A0589E}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f2135d2f-4276-46cf-8995-4f5a2eb01229"
+  Value: "cccab7b6-ee8a-4504-819c-f0913e0a7a47"
+- ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
+  Hint: OtherProperties
+  Value: IsRenderingsWithDynamicPlaceholders=true
 Languages:
 - Language: en
   Versions:
@@ -31,11 +40,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c8abb581-a440-472a-abe0-085a39c7923d"
+      Value: "b43356ae-8c5d-49b0-80e1-e2f124ca1d80"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T175646Z
+      Value: 20250924T003350Z

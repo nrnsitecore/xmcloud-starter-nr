@@ -6,6 +6,7 @@ import {
   ImageField,
   Image,
   DateField,
+  Placeholder,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { Button } from "@/components/ui/button"
@@ -119,9 +120,11 @@ console.log(props);
             </div>
           </div>
 
+          <Placeholder name="article-detail" rendering={props.rendering} />
+
           {/* Tags */}
           <Card>
-            <CardContent className="pt-6">
+            <CardContent className="py-6">
               <h3 className="font-semibold text-foreground mb-4">Tags</h3>
               <div className="flex flex-wrap gap-2">
                 {props.fields.SxaTags.map((tag, index) => (

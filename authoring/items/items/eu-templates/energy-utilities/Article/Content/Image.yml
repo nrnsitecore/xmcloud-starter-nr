@@ -4,6 +4,9 @@ Parent: "478650f7-ed41-4ad7-bb31-ad7a5f4d154a"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: "/sitecore/templates/Project/energy-utilities/Article/Content/Image"
 SharedFields:
+- ID: "24cb32f0-e364-4f37-b400-0f2899097b5b"
+  Hint: Enable Shared Language Fallback
+  Value: 1
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Image
@@ -12,7 +15,7 @@ SharedFields:
   Value: 150
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "303edf4b-7faa-4438-9645-ac6a73a2f105"
+  Value: "ae45b48a-db97-40a7-b8b7-d646c970bce7"
 Languages:
 - Language: en
   Versions:
@@ -31,11 +34,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0643ae42-baec-4b52-a9e7-6e12192f2b30"
+      Value: "284881d5-7cc9-4080-9387-64fadb58d4a8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T180848Z
+      Value: 20250923T160611Z

@@ -18,20 +18,7 @@ Languages:
       Value: <r />
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
-      Value: |
-        <r xmlns:p="p" xmlns:s="s"
-          p:p="1">
-          <d
-            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r
-              uid="{9BC5CE2D-9E1D-4E68-90A8-53AF51E09ABA}"
-              p:after="*[1=2]"
-              s:ds="83208ca5-f444-4ed7-98f5-82b0349718f0"
-              s:id="{4177E24D-AFF1-4CFF-8E7C-B83DAFC978AE}"
-              s:par="CSSStyles&amp;FieldNames=%7B71102DC3-985B-4772-B3FB-4E455D6EF25B%7D"
-              s:ph="headless-main" />
-          </d>
-        </r>
+      Value: 
     - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
       Hint: Author
       Value: Lisa Park
@@ -65,7 +52,7 @@ Languages:
       Value: conserve energy, summer tips, peak demand, heatwave conservation
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3f13a956-cb02-4cf8-8d98-6de4edb88d4c"
+      Value: "be4af20c-dff4-4a0d-a53c-83fe8dc563b6"
     - ID: "95339efa-558c-477c-8b88-0479e80d1d9e"
       Hint: MetaDescription
       Value: ractical advice for homeowners to reduce electricity use during extreme heat.
@@ -78,7 +65,7 @@ Languages:
       Value: "{76CB1752-C56D-4FC9-A929-B8D2195610B2}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T210802Z
+      Value: 20250924T004808Z
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: Five Easy Ways to Conserve Energy During a Heatwave

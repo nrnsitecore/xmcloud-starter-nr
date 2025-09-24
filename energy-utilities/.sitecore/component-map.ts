@@ -15,7 +15,12 @@ import * as EnergyConservationTips from 'src/components/page-content/EnergyConse
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as utils from 'src/components/lib/utils';
+import * as chartUtils from 'src/components/lib/chartUtils';
+import * as SystemWideDemandChart from 'src/components/grid/SystemWideDemandChart';
+import * as SupplyAndDemandChart from 'src/components/grid/SupplyAndDemandChart'
 import * as GridOverview from 'src/components/grid/GridOverview';
+import * as GridConditions from 'src/components/grid/GridConditions';
+import * as AreaChart from 'src/components/charts/AreaChart';
 import * as HeroBanner from 'src/components/banners/HeroBanner';
 import * as LatestArticles from 'src/components/articles/LatestArticles';
 import * as ArticleSearch from 'src/components/articles/ArticleSearch';
@@ -38,7 +43,12 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Header', Header],
   ['Footer', Footer],
   ['utils', utils],
+  ['chartUtils', chartUtils],
+  ['SystemWideDemandChart', SystemWideDemandChart],
+  ['SupplyAndDemandChart', SupplyAndDemandChart],
   ['GridOverview', GridOverview],
+  ['GridConditions', GridConditions],
+  ['AreaChart', AreaChart],
   ['HeroBanner', HeroBanner],
   ['LatestArticles', LatestArticles],
   ['ArticleSearch', ArticleSearch],

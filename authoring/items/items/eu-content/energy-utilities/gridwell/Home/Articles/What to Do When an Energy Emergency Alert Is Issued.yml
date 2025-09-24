@@ -59,6 +59,7 @@ Languages:
                 </ruleset>
               </rls>
             </r>
+<<<<<<< HEAD
             <r
               uid="{17E2B523-5831-4FD2-87A4-8CBBA5C2AE5B}"
               p:after="*[1=2]"
@@ -97,6 +98,8 @@ Languages:
                 </ruleset>
               </rls>
             </r>
+=======
+>>>>>>> 216e453 (Created Interactive dashboard components)
           </d>
         </r>
     - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
@@ -132,7 +135,11 @@ Languages:
       Value: EEA, emergency alerts, rolling outages, grid emergencies
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
+<<<<<<< HEAD
       Value: "6916f325-d1b2-4fff-a9c7-d4ad1e73c8ba"
+=======
+      Value: "e36af75f-6a68-4043-beb6-c9be7d556e66"
+>>>>>>> 216e453 (Created Interactive dashboard components)
     - ID: "95339efa-558c-477c-8b88-0479e80d1d9e"
       Hint: MetaDescription
       Value: Guidance on how Texans should act during EEAs.
@@ -145,7 +152,11 @@ Languages:
       Value: "{1B6F5294-2AA1-4238-9D7B-7D42DB329371}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
+<<<<<<< HEAD
       Value: 20250923T152659Z
+=======
+      Value: 20250924T004822Z
+>>>>>>> 216e453 (Created Interactive dashboard components)
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: What to Do When an Energy Emergency Alert Is Issued

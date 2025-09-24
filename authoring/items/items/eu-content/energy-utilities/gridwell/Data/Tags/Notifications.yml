@@ -3,6 +3,13 @@ ID: "e7b50321-ebe3-45f5-bc99-2b7d489e7856"
 Parent: "a4e44de4-ddbc-4d8a-9064-fdb3ac65e1f4"
 Template: "6b40e84c-8785-49fc-8a10-6bca862ff7ea"
 Path: "/sitecore/content/energy-utilities/gridwell/Data/Tags/Notifications"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "638546cc-51bc-4b59-abd6-aec90639ce9f"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -21,7 +28,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a646fde9-f56c-48bc-a787-47a7c8f69ced"
+      Value: "bdab493b-0312-4e06-9d36-c8d8bd4bf63a"
     - ID: "b8a8b6c9-4757-496b-9aae-5f46ff381563"
       Hint: Title
       Value: Notifications
@@ -31,4 +38,4 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T155042Z
+      Value: 20250924T013711Z

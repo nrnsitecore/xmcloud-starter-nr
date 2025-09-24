@@ -3,6 +3,13 @@ ID: "1eacc4ba-24b5-4400-8f92-73e51d96a665"
 Parent: "e912d649-d5bc-433a-aeba-330060a0e010"
 Template: "b762d567-87f5-493c-bb48-0c455d834457"
 Path: "/sitecore/content/energy-utilities/gridwell/Data/Texts"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c109b32c-fde4-441b-b6ad-f394a0d07a9a"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -21,11 +28,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4e7744b4-a0fc-4c2b-ad74-ba63d417075d"
+      Value: "9c160928-060d-4cbd-be00-666b835214b1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250919T193430Z
+      Value: 20250924T013835Z

@@ -3,6 +3,13 @@ ID: "f3f8fd70-e361-41fc-91ff-adcd3349be07"
 Parent: "a4e44de4-ddbc-4d8a-9064-fdb3ac65e1f4"
 Template: "6b40e84c-8785-49fc-8a10-6bca862ff7ea"
 Path: "/sitecore/content/energy-utilities/gridwell/Data/Tags/Energy Balance"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6186aa8a-5b13-4bac-b3aa-e1b6e919f38a"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -21,7 +28,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "61bade8a-53ec-458a-bebd-8d5fe6f997bc"
+      Value: "b41a1b49-6ca9-474b-b9e1-3e639523d612"
     - ID: "b8a8b6c9-4757-496b-9aae-5f46ff381563"
       Hint: Title
       Value: Energy Balance
@@ -31,4 +38,4 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T160131Z
+      Value: 20250924T013647Z

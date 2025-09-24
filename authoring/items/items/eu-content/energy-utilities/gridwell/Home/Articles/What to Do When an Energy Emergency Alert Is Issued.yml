@@ -59,47 +59,6 @@ Languages:
                 </ruleset>
               </rls>
             </r>
-<<<<<<< HEAD
-            <r
-              uid="{17E2B523-5831-4FD2-87A4-8CBBA5C2AE5B}"
-              p:after="*[1=2]"
-              s:ds="a8112ff0-2888-475b-89e2-e5c2efda9384"
-              s:id="{4177E24D-AFF1-4CFF-8E7C-B83DAFC978AE}"
-              s:par="GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames=%7B71102DC3-985B-4772-B3FB-4E455D6EF25B%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
-              s:ph="headless-main">
-              <rls>
-                <ruleset
-                  s:pet="true">
-                  <rule
-                    uid="{5FEECD80-D65E-42CF-80C4-A2AA5E51D4C0}"
-                    s:name="a7add525594b4cdfbb571149cb4781c8">
-                    <conditions>
-                      <condition
-                        uid="4285C52F463E483CAC9D8566EF0FB4B8"
-                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
-                        s:VariantName="a7add525594b4cdfbb571149cb4781c8" />
-                    </conditions>
-                    <actions>
-                      <action
-                        uid="{2F908C1F-FBA4-4BC7-8F2B-522EC3944E29}"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="83208ca5-f444-4ed7-98f5-82b0349718f0" />
-                    </actions>
-                  </rule>
-                  <rule
-                    uid="{00000000-0000-0000-0000-000000000000}"
-                    s:name="Default">
-                    <conditions>
-                      <condition
-                        uid="65F5A92F584E4FA0BCBF81B743FE321B"
-                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
-                    </conditions>
-                  </rule>
-                </ruleset>
-              </rls>
-            </r>
-=======
->>>>>>> 216e453 (Created Interactive dashboard components)
           </d>
         </r>
     - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
@@ -135,11 +94,7 @@ Languages:
       Value: EEA, emergency alerts, rolling outages, grid emergencies
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-<<<<<<< HEAD
-      Value: "6916f325-d1b2-4fff-a9c7-d4ad1e73c8ba"
-=======
       Value: "e36af75f-6a68-4043-beb6-c9be7d556e66"
->>>>>>> 216e453 (Created Interactive dashboard components)
     - ID: "95339efa-558c-477c-8b88-0479e80d1d9e"
       Hint: MetaDescription
       Value: Guidance on how Texans should act during EEAs.
@@ -152,11 +107,7 @@ Languages:
       Value: "{1B6F5294-2AA1-4238-9D7B-7D42DB329371}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-<<<<<<< HEAD
-      Value: 20250923T152659Z
-=======
       Value: 20250924T004822Z
->>>>>>> 216e453 (Created Interactive dashboard components)
     - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
       Hint: Title
       Value: What to Do When an Energy Emergency Alert Is Issued

@@ -17,7 +17,7 @@ import * as Footer from 'src/components/navigation/Footer';
 import * as utils from 'src/components/lib/utils';
 import * as chartUtils from 'src/components/lib/chartUtils';
 import * as SystemWideDemandChart from 'src/components/grid/SystemWideDemandChart';
-import * as SupplyAndDemandChart from 'src/components/grid/SupplyAndDemandChart'
+import * as SupplyAndDemandChart from 'src/components/grid/SupplyAndDemandChart';
 import * as GridOverview from 'src/components/grid/GridOverview';
 import * as GridConditions from 'src/components/grid/GridConditions';
 import * as AreaChart from 'src/components/charts/AreaChart';

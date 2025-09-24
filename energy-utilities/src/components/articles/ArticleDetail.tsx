@@ -83,7 +83,7 @@ console.log(props);
                 <div className="flex items-center space-x-1">
                   <Calendar className="h-4 w-4" />
                   <DateField
-                    field={props.fields.PublishDate}
+                    field={props.fields?.PublishDate}
                     render={newsDateFormatter}
                   />
                 </div>

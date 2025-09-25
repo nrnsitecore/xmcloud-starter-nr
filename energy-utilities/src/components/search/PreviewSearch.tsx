@@ -47,7 +47,6 @@ export const PreviewSearchComponent = ({ defaultItemsPerPage = 6, isOpen, setIsS
       itemsPerPage: defaultItemsPerPage,
     },
     query: (query): any => {
-      query
         if (SEARCH_CONFIG.source !== '') {
           const sources = SEARCH_CONFIG.source.split('|');
           sources.forEach(source => {
@@ -121,7 +120,7 @@ export const PreviewSearchComponent = ({ defaultItemsPerPage = 6, isOpen, setIsS
                               <Image
                                 src={article.image_url}
                                 className="block w-auto max-w-full h-auto max-h-full"
-                                alt='alt'
+                                alt="alt"
                                 width={200}
                                 height={100}
                               />

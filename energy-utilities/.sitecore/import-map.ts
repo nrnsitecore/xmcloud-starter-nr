@@ -22,7 +22,6 @@ import { Bell, Zap, Facebook, Twitter, Instagram, Linkedin, Youtube, Thermometer
 import { Button } from '@/components/ui/button';
 import IconRenderer from '@/helpers/IconRenderer';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
-import PreviewSearch_4de1a796917131c02c1d8f23d3df1bc9d5bbcf97 from 'src/components/search/PreviewSearch';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 import { AreaChart } from '@/components/charts/AreaChart';
@@ -178,12 +177,6 @@ const importMap = [
     module: 'next/link',
     exports: [
       { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
-    ]
-  },
-  {
-    module: 'src/components/search/PreviewSearch',
-    exports: [
-      { name: 'default', value: PreviewSearch_4de1a796917131c02c1d8f23d3df1bc9d5bbcf97 },
     ]
   },
   {

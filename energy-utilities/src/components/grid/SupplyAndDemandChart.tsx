@@ -1,5 +1,3 @@
-"use client"
-
 import React, { JSX } from 'react'
 import { Card, CardDescription, CardTitle } from "@/components/ui/card"
 import { ComponentProps } from 'lib/component-props';

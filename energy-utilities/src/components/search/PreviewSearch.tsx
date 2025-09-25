@@ -48,10 +48,10 @@ export const PreviewSearchComponent = ({ defaultItemsPerPage = 6, isOpen, setIsS
     },
     query: (query): any => {
         if (SEARCH_CONFIG.source !== '') {
-          const sources = SEARCH_CONFIG.source.split('|');
-          sources.forEach(source => {
-              query.getRequest().addSource(source.trim());
-          });
+            const sources = SEARCH_CONFIG.source.split('|');
+            sources.forEach(source => {
+                query.getRequest().addSource(source.trim());
+            });
         }
     },
   });

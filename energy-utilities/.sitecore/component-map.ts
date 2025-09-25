@@ -8,6 +8,9 @@ import * as progress from 'src/components/ui/progress';
 import * as card from 'src/components/ui/card';
 import * as button from 'src/components/ui/button';
 import * as badge from 'src/components/ui/badge';
+import * as SuggestionBlock from 'src/components/search/SuggestionBlock';
+import * as Spinner from 'src/components/search/Spinner';
+import * as PreviewSearch from 'src/components/search/PreviewSearch';
 import * as PartialDesignDynamicPlaceholder from 'src/components/partial-design-dynamic-placeholder/PartialDesignDynamicPlaceholder';
 import * as QuickActions from 'src/components/page-content/QuickActions';
 import * as Promo from 'src/components/page-content/Promo';
@@ -36,6 +39,9 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['card', card],
   ['button', button],
   ['badge', badge],
+  ['SuggestionBlock', SuggestionBlock],
+  ['Spinner', Spinner],
+  ['PreviewSearch', PreviewSearch],
   ['PartialDesignDynamicPlaceholder', PartialDesignDynamicPlaceholder],
   ['QuickActions', QuickActions],
   ['Promo', Promo],

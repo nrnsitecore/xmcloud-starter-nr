@@ -38,7 +38,12 @@ const nextConfig = {
         hostname: 'xmc-*.**',
         port: '',
       },
+      {
+        protocol: "https",
+        hostname: "**",
+      }
     ],
+    dangerouslyAllowSVG: true,
   },
 
   async rewrites() {

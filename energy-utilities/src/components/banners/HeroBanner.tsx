@@ -1,3 +1,5 @@
+"use server"
+
 import React, { JSX } from 'react'
 import { Button } from "@/components/ui/button"
 import { ComponentProps } from 'lib/component-props';

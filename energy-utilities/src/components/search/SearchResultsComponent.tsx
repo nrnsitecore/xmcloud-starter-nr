@@ -65,7 +65,6 @@ export const SearchResultsComponent = ({
       keyphrase: defaultKeyphrase,
     },
     query: (query): any => {
-      query
       if (SEARCH_CONFIG.source !== '') {
         const sources = SEARCH_CONFIG.source.split('|');
         sources.forEach(source => {

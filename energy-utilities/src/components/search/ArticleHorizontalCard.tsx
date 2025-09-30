@@ -14,7 +14,7 @@ type ArticleCardItemCardProps = {
 
 const ArticleHorizontalItemCard = ({ className = '', article, onItemClick, index }: ArticleCardItemCardProps) => {
   const router = useRouter();
-  let validImageUrl = article.image_url?.trim() ? article.image_url : 'https://placehold.co/500x300?text=No Image';
+  let validImageUrl = article.image_url?.trim() ? article.image_url : "https://placehold.co/500x300?text=No Image";
   console.log(article)
 
   if (validImageUrl.includes('filters:no_upscale')) {
@@ -31,7 +31,7 @@ const ArticleHorizontalItemCard = ({ className = '', article, onItemClick, index
         <Image
           src={validImageUrl}
           className="h-full w-full object-cover object-center lg:h-full lg:w-full rounded"
-          alt='alt'
+          alt="alt"
           width={500}
           height={115}
         />

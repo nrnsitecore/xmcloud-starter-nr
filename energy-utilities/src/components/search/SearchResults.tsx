@@ -1,12 +1,12 @@
 import React, { JSX } from 'react'
 import { ComponentProps } from 'lib/component-props';
-import HomeHighlighted from './HighlightedArticles';
+import SearchResultsWidget from './SearchResultsComponent';
 
-export type ArticleRecommenderProps = ComponentProps & {
+export type SearchResultsProps = ComponentProps & {
   params: { [key: string]: string };
 }
 
-const ArticleRecommender = (props: ArticleRecommenderProps): JSX.Element => {
+const SearchResults = (props: SearchResultsProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
   const rfkId = props.params['RFKID'];
 
@@ -20,9 +20,9 @@ const ArticleRecommender = (props: ArticleRecommenderProps): JSX.Element => {
 
   return (
     <div className={`${sxaStyles}`}>
-      <HomeHighlighted rfkId={rfkId} />
+      <SearchResultsWidget rfkId={rfkId} />
     </div>
   )
 }
 
-export const Default = ArticleRecommender;
+export const Default = SearchResults;

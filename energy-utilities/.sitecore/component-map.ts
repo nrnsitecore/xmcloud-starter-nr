@@ -31,6 +31,8 @@ import * as HeroBanner from 'src/components/banners/HeroBanner';
 import * as LatestArticles from 'src/components/articles/LatestArticles';
 import * as ArticleSearch from 'src/components/articles/ArticleSearch';
 import * as ArticleDetail from 'src/components/articles/ArticleDetail';
+import * as SearchResults from 'src/components/search/SearchResults';
+
 
 
 // Components must be registered within the map to match the string key with component name in Sitecore
@@ -65,6 +67,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['LatestArticles', LatestArticles],
   ['ArticleSearch', ArticleSearch],
   ['ArticleDetail', ArticleDetail],
+  ['SearchResults', SearchResults],
 ]);
 
 export default componentMap;

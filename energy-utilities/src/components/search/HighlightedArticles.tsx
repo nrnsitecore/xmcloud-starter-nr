@@ -22,7 +22,6 @@ export const HomeHighlightedComponent = (): JSX.Element => {
       }
     },
   });
-  console.log(articles)
   const articlesToShow = articles.slice(0, 4);
   return (
     <>

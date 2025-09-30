@@ -15,16 +15,16 @@ SharedFields:
   Value: "{881869CA-7F58-45EA-8B34-AD1BFD3551A8}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "/sitecore/content/energy-utilities/gridwell/Data/Promos"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Promo Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Promo Folder']"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b2656cff-a7ae-4c1d-90fd-d26d3dc2414a"
+  Value: "a1159504-55b5-462e-9499-fea20b90f89c"
 Languages:
 - Language: en
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "2a24556a-cc83-44b9-be6b-527d275c8e10"
+    Value: "e96e40b0-1be4-4908-a408-848990ab579d"
   Versions:
   - Version: 1
     Fields:
@@ -41,11 +41,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8bda600d-ab39-4cd0-a265-6825cc7ce6d5"
+      Value: "86f3fdae-affa-488e-b050-0f0c22db8316"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\nick.robinett@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250922T210418Z
+      Value: 20250930T203957Z

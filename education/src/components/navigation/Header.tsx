@@ -1,4 +1,3 @@
-"use client"
 
 import React, { JSX, useState } from "react"
 import Link from "next/link"

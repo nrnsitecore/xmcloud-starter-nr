@@ -31,7 +31,7 @@ const ArticleItemCard = ({ className = '', article }: ArticleItemCardProps) => {
       <div className="m-4 flex-col justify-between relative">
         <Link
           className="focus:outline-indigo-500"
-          href={`/detail/${article.id}`}
+          href={article.url}
           aria-label={`View details for ${article.name || article.title}`}
         >
           <span aria-hidden="true" className="absolute inset-0"></span>

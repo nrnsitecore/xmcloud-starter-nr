@@ -43,4 +43,3 @@ export const HomeHighlightedComponent = (): JSX.Element => {
 };
 
 export default widget(HomeHighlightedComponent, WidgetDataType.SEARCH_RESULTS, 'content');
-//export const Default = HomeHighlightedComponent;

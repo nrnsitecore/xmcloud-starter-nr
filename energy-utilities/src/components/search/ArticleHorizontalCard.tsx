@@ -1,5 +1,3 @@
-import { useRouter } from 'next/navigation'
-
 import type { ActionProp, ItemClickedAction } from '@sitecore-search/react';
 import { ArticleCard } from '@sitecore-search/ui';
 import Image from 'next/image'
@@ -13,9 +11,7 @@ type ArticleCardItemCardProps = {
 };
 
 const ArticleHorizontalItemCard = ({ className = '', article, onItemClick, index }: ArticleCardItemCardProps) => {
-  const router = useRouter();
   let validImageUrl = article.image_url?.trim() ? article.image_url : "https://placehold.co/500x300?text=No Image";
-  console.log(article)
 
   if (validImageUrl.includes('filters:no_upscale')) {
     validImageUrl = undefined
@@ -40,15 +36,6 @@ const ArticleHorizontalItemCard = ({ className = '', article, onItemClick, index
         <a
           className="focus:outline-indigo-500"
           href={article.url}
-          onClick={(event) => {
-            event.preventDefault();
-            onItemClick({
-              id: article.id,
-              index,
-              sourceId: article.source_id,
-            });
-            router.push(`/detail/${article.id}`);
-          }}
         >
           <span aria-hidden="true" className="absolute inset-0"></span>
           <ArticleCard.Title className="text-lg font-semibold text-gray-900 mb-2">{article.name || article.title}</ArticleCard.Title>

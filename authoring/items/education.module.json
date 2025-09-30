@@ -10,11 +10,6 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name": "EducationRenderingHost",
-        "path": "/sitecore/system/Settings/Services/Rendering Hosts/education",
-        "scope": "singleItem"
-      },
-      {
         "name": "education-layout",
         "path": "/sitecore/layout/Renderings/Project/education",
         "scope": "ItemAndDescendants",

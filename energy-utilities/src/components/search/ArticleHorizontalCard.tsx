@@ -10,7 +10,7 @@ type ArticleCardItemCardProps = {
   index: number;
 };
 
-const ArticleHorizontalItemCard = ({ className = '', article, onItemClick, index }: ArticleCardItemCardProps) => {
+const ArticleHorizontalItemCard = ({ className = '', article, }: ArticleCardItemCardProps) => {
   let validImageUrl = article.image_url?.trim() ? article.image_url : "https://placehold.co/500x300?text=No Image";
 
   if (validImageUrl.includes('filters:no_upscale')) {

@@ -1,15 +1,14 @@
-
-import React, { JSX, useState } from "react"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Menu, X, GraduationCap, ChevronDown } from "lucide-react"
-import { ComponentProps } from 'lib/component-props';
+import { useState } from "react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Menu, X, ChevronDown } from "lucide-react";
+import { ComponentProps } from "lib/component-props";
 
 export type HeaderProps = ComponentProps & {
   fields: {
-    items: [{
+    items: Array<{
       displayName: string;
-      fields:  {
+      fields: {
         Link: {
           value: {
             anchor: string;
@@ -20,22 +19,25 @@ export type HeaderProps = ComponentProps & {
           };
         };
       };
-    }];
+    }>;
   };
 };
 
-export const Header = (props: HeaderProps): JSX.Element => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const sxaStyles = `${props.params?.styles || ''}`;
-  
+export const Header = (props: HeaderProps) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const sxaStyles = `${props.params?.styles || ""}`;
+
   return (
     <header className={`bg-white shadow-sm border-b sticky top-0 z-50 ${sxaStyles}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <GraduationCap className="h-8 w-8 text-emerald-600" />
-              <span className="text-xl font-bold text-gray-900">Learnwell</span>
+            <Link href="/" className="flex items-center" aria-label="Home">
+              <img
+                src="https://www.neurocrine.com/media/images/neurocrine-logo_u5cN3KL.original.svg"
+                alt="Neurocrine"
+                className="h-8 w-auto"
+              />
             </Link>
           </div>
 
@@ -95,33 +97,33 @@ export const Header = (props: HeaderProps): JSX.Element => {
         </div>
 
         {/* Mobile Navigation */}
-        {isMenuOpen && (
-          <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
-              <Link href="/academics" className="block px-3 py-2 text-gray-700 hover:text-emerald-600">
-                Academics
-              </Link>
-              <Link href="/admissions" className="block px-3 py-2 text-gray-700 hover:text-emerald-600">
-                Admissions
-              </Link>
-              <Link href="/campus-life" className="block px-3 py-2 text-gray-700 hover:text-emerald-600">
-                Campus Life
-              </Link>
-              <Link href="/research" className="block px-3 py-2 text-gray-700 hover:text-emerald-600">
-                Research
-              </Link>
-              <Link href="/about" className="block px-3 py-2 text-gray-700 hover:text-emerald-600">
-                About
-              </Link>
-              <div className="px-3 py-2">
-                <Button className="w-full bg-emerald-600 hover:bg-emerald-700">Apply Now</Button>
-              </div>
-            </div>
+    {isMenuOpen && (
+      <div className="md:hidden">
+        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
+          <Link href="/academics" className="block px-3 py-2 text-gray-700 hover:text-emerald-600">
+            Academics
+          </Link>
+          <Link href="/admissions" className="block px-3 py-2 text-gray-700 hover:text-emerald-600">
+            Admissions
+          </Link>
+          <Link href="/campus-life" className="block px-3 py-2 text-gray-700 hover:text-emerald-600">
+            Campus Life
+          </Link>
+          <Link href="/research" className="block px-3 py-2 text-gray-700 hover:text-emerald-600">
+            Research
+          </Link>
+          <Link href="/about" className="block px-3 py-2 text-gray-700 hover:text-emerald-600">
+            About
+          </Link>
+          <div className="px-3 py-2">
+            <Button className="w-full bg-emerald-600 hover:bg-emerald-700">Apply Now</Button>
           </div>
-        )}
+        </div>
       </div>
-    </header>
-  )
-}
+    )}
+  </div>
+</header>
+);
+};
 
 export const Default = Header;
